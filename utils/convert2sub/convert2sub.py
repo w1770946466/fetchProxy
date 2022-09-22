@@ -85,7 +85,7 @@ def eternity_convert(file, config, output, provider_file_enabled=True):
             'jp': jp_provider,
             'sg': sg_provider,
             'us': us_provider,
-            'other': us_provider
+            'other': other_provider
         }
         """
         #备份providers_files,需要先打开上面 providers_files数据组
@@ -164,10 +164,9 @@ def eternity_convert(file, config, output, provider_file_enabled=True):
                     rule.update({'proxies': sg_name})
                 elif '美国' in rule_name:
                     rule.update({'proxies': us_name})
-                elif '其他节点' in rule_name:
+                elif '其他' in rule_name:
                     rule.update({'proxies': other_name})
-                else:
-                    rule.update({'proxies': all_name})
+                    
     config.update(all_provider_dic)
     config.update({'proxy-groups': proxy_groups})
 
