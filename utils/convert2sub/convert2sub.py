@@ -124,7 +124,7 @@ def eternity_convert(file, config, output, provider_file_enabled=True):
         provider_dic[key].update(provider_load)
 
     # 创建节点名列表
-   # all_name = []   
+    all_name = []   
     cn_name = [] 
     jp_name = [] 
     sg_name = []
@@ -132,7 +132,7 @@ def eternity_convert(file, config, output, provider_file_enabled=True):
     other_name = []
     
     name_dict = {
-        #'all': all_name,
+        'all': all_name,
         'cn': cn_name,
         'jp': jp_name,
         'sg': sg_name,
@@ -154,9 +154,9 @@ def eternity_convert(file, config, output, provider_file_enabled=True):
     for rule_name in proxy_group_fill:
         for rule in proxy_groups:
             if rule['name'] == rule_name:
-                #rule.update({'proxies': all_name})
+                rule.update({'proxies': all_name})
                 
-                if '香港' in rule_name or  '中国' in rule_name or '台湾' in rule_name:
+                if '香港' in rule_name or '中国' in rule_name or '台湾' in rule_name:
                     rule.update({'proxies': cn_name})
                 elif '日本' in rule_name:
                     rule.update({'proxies': jp_name})
