@@ -137,7 +137,7 @@ def eternity_convert(file, config, output, provider_file_enabled=True):
         'jp': jp_name,
         'sg': sg_name,
         'us': us_name,
-        'other': us_name
+        'other': other_name
     }
     for key in provider_dic.keys():
         if not provider_dic[key]['proxies'] is None:
