@@ -18,11 +18,6 @@
 
 ### 已测速节点
 已测速节点数量: `198`
-<details>
-  <summary>展开复制节点</summary>
-  trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr05.wangxd.life:3052?allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20KR%2023
-
-</details>
 
 ### 所有节点
 合并节点总数: `2664`
@@ -59,6 +54,9 @@
 - [1808.ga](https://1808.ga/), 节点数量: `6`
 
 ## 仓库文档
+<details>
+  <summary>展开查看仓库文档</summary>
+
 ```
 fetchPorxy.main
 ├── .github──workflows──fetchProxy.yml(actions Deploy)
@@ -110,6 +108,7 @@ fetchPorxy.main
 │   └── requirements.txt(依赖库)
 └── README.md
 ```
+</details>
 ### 使用注意
 >转码功能用到的`subconverter工具`
 >
