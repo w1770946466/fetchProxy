@@ -22,7 +22,7 @@ def output(list,num):
         proxy = list[index]['Link']
         output_list.append(proxy)
         content = '\n'.join(output_list)
-    #content = base64.b64encode('\n'.join(output_list).encode('utf-8')).decode('ascii')
+    content = base64.b64encode('\n'.join(output_list).encode('utf-8')).decode('ascii')
     with open(output_file_path, 'w+', encoding='utf-8') as f:
         f.write(content)
         print('Write Success!')
