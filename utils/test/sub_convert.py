@@ -12,6 +12,16 @@ countrymmdb_file = './Country.mmdb'
 #默认转clash配置文件.ini地址
 config_url = 'https://raw.githubusercontent.com/rxsweet/fetchProxy/main/config/provider/rxconfig.ini'
 
+#host备用网络地址 - 可用不用安装subconverter,直接使用这些网站
+#https://sub.id9.cc/
+#https://sub.xeton.dev/
+#https://api.dler.io/
+#https://sub.maoxiongnet.com/
+#https://api.wcc.best/
+#https://pub-api-1.bianyuan.xyz/
+#https://api.tsutsu.one/
+#https://api.sublink.dev/
+
 
 class sub_convert():
 
