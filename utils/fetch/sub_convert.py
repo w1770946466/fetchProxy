@@ -6,7 +6,22 @@ from requests.adapters import HTTPAdapter
 
 import geoip2.database
 
+#默认mmdb位置
 countrymmdb_file = './Country.mmdb'
+
+#默认转clash配置文件.ini地址
+config_url = 'https://raw.githubusercontent.com/rxsweet/fetchProxy/main/config/provider/rxconfig.ini'
+
+#host备用网络地址 - 可用不用安装subconverter,直接使用这些网站
+#https://sub.id9.cc/
+#https://sub.xeton.dev/
+#https://api.dler.io/
+#https://sub.maoxiongnet.com/
+#https://api.wcc.best/
+#https://pub-api-1.bianyuan.xyz/
+#https://api.tsutsu.one/
+#https://api.sublink.dev/
+
 
 class sub_convert():
 
@@ -611,13 +626,16 @@ class sub_convert():
             base64_content = base64.b64decode(url_content)
             base64_content_format = base64_content
             return str(base64_content)
-
-    def convert_remote(url='', output_type='clash', host='http://127.0.0.1:25500'): #{url='订阅链接', output_type={'clash': 输出 Clash 配置, 'base64': 输出 Base64 配置, 'url': 输出 url 配置}, host='远程订阅转化服务地址'}
-        # 使用远程订阅转换服务，输出相应配置。
+            
+    # 使用远程订阅转换服务，输出相应配置,默认输出clash订阅格式
+    def convert_remote(url='', output_type='clash', host='http://127.0.0.1:25500',configUrl = config_url):
+        #url='订阅链接', 
+        #output_type={'clash': 输出可以订阅的Clash配置, 'base64': 输出 Base64 配置, 'url': 输出 url 配置, 'YAML': 输出 YAML 配置}, 
+        #host='远程订阅转化服务地址',configUrl转clash订阅时用
         sever_host = host
         url = urllib.parse.quote(url, safe='') # https://docs.python.org/zh-cn/3/library/urllib.parse.html
         if output_type == 'clash':
-            converted_url = sever_host+'/sub?target=clash&url='+url+'&insert=false&emoji=true&list=true'
+            converted_url = sever_host+'/sub?target=clash&url='+url+'&insert=false&config='+configUrl+'&emoji=true'
             try:
                 resp = requests.get(converted_url)
             except Exception as err:
@@ -626,7 +644,8 @@ class sub_convert():
             if resp.text == 'No nodes were found!':
                 sub_content = 'Url 解析错误'
             else:
-                sub_content = sub_convert.makeup(sub_convert.format(resp.text), dup_rm_enabled=False, format_name_enabled=True)
+                sub_content = resp.text
+                print(sub_content)
         elif output_type == 'base64':
             converted_url = sever_host+'/sub?target=mixed&url='+url+'&insert=false&emoji=true&list=true'
             try:
@@ -649,17 +668,28 @@ class sub_convert():
                 sub_content = 'Url 解析错误'
             else:
                 sub_content = resp.text
+        elif output_type == 'YAML':
+            converted_url = sever_host+'/sub?target=clash&url='+url+'&insert=false&emoji=true&list=true'
+            try:
+                resp = requests.get(converted_url)
+            except Exception as err:
+                print(err)
+                return 'Url 解析错误'
+            if resp.text == 'No nodes were found!':
+                sub_content = 'Url 解析错误'
+            else:
+                sub_content = sub_convert.makeup(sub_convert.format(resp.text), dup_rm_enabled=False, format_name_enabled=True)
 
         return sub_content
 
 
 if __name__ == '__main__':
-    subscribe = 'https://fastly.jsdelivr.net/gh/alanbobs999/TopFreeProxies@master/sub/sub_merge.txt'
-    output_path = './output.txt'
+    subscribe = 'https://raw.githubusercontent.com/rxsweet/fetchProxy/main/sub/rx64'
+    output_path = './output.yml'
 
-    content = sub_convert.main(subscribe, 'url', 'YAML')
+    content = sub_convert.convert_remote(subscribe,'clash')
 
     file = open(output_path, 'w', encoding= 'utf-8')
     file.write(content)
     file.close()
-    print(f'Writing content to output.txt\n')
+    print(f'Writing content to output.yml\n')
