@@ -13,14 +13,16 @@ countrymmdb_file = './Country.mmdb'
 config_url = 'https://raw.githubusercontent.com/rxsweet/fetchProxy/main/config/provider/rxconfig.ini'
 
 #host备用网络地址 - 可用不用安装subconverter,直接使用这些网站
-#https://sub.id9.cc/
-#https://sub.xeton.dev/
-#https://api.dler.io/
-#https://sub.maoxiongnet.com/
-#https://api.wcc.best/
-#https://pub-api-1.bianyuan.xyz/
-#https://api.tsutsu.one/
-#https://api.sublink.dev/
+url_host ={ https://sub.id9.cc/,
+            https://sub.xeton.dev/,
+            https://api.dler.io/,
+            https://sub.maoxiongnet.com/,
+            https://api.wcc.best/,
+            https://pub-api-1.bianyuan.xyz/,
+            https://api.tsutsu.one/,
+            https://api.sublink.dev/
+          }
+
 
 
 class sub_convert():
@@ -682,7 +684,26 @@ class sub_convert():
 
         return sub_content
 
+    # 检测网站是否可用
 
+
+    def use_urlhost(url=url_host):                                   # 判断远程远程链接是否已经更新
+        s = requests.Session()                              # 用requests.session()创建session对象，相当于创建了一个空的会话框，准备保持cookies。
+        s.mount('http://', HTTPAdapter(max_retries=2))      # 重试次数为2
+        s.mount('https://', HTTPAdapter(max_retries=2))     # 重试次数为2
+        for index in url:
+            try:
+                resp = s.get(url, timeout=2)                    # 超时时间为2s
+                status = resp.status_code                       # 状态码赋值200？
+            except Exception:
+                status = 404
+            if status == 200:
+                return url[index]
+            else:
+                print('url host is bad,please use new url!...')
+            
+        print('oh,my god ,all url host are bad,sorry no work!...')
+        return 'bad url Host'
 if __name__ == '__main__':
     subscribe = 'https://raw.githubusercontent.com/rxsweet/fetchProxy/main/sub/rx64'
     output_path = './output.yml'
