@@ -696,6 +696,7 @@ class sub_convert():
             except Exception:
                 status = 404
             if status == 200:
+                print('url host use =='+url[index])
                 return url[index]
             else:
                 print('url host is bad,please use new url!...')
