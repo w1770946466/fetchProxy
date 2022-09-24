@@ -635,6 +635,7 @@ class sub_convert():
         #host='远程订阅转化服务地址',configUrl转clash订阅时用
         sever_host = host
         url = urllib.parse.quote(url, safe='') # https://docs.python.org/zh-cn/3/library/urllib.parse.html
+        print('\n'+url+'\n')
         if output_type == 'clash':
             converted_url = sever_host+'/sub?target=clash&url='+url+'&insert=false&config='+configUrl+'&emoji=true'
             try:
@@ -644,9 +645,9 @@ class sub_convert():
                 return 'Url 解析错误'
             if resp.text == 'No nodes were found!':
                 sub_content = 'Url 解析错误'
+                print('Url 解析错误: No nodes were found!\n')
             else:
                 sub_content = resp.text
-                print(sub_content)
         elif output_type == 'base64':
             converted_url = sever_host+'/sub?target=mixed&url='+url+'&insert=false&emoji=true&list=true'
             try:
@@ -656,6 +657,7 @@ class sub_convert():
                 return 'Url 解析错误'
             if resp.text == 'No nodes were found!':
                 sub_content = 'Url 解析错误'
+                print('Url 解析错误: No nodes were found!\n')
             else:
                 sub_content = sub_convert.base64_encode(resp.text)
         elif output_type == 'url':
@@ -667,6 +669,7 @@ class sub_convert():
                 return 'Url 解析错误'
             if resp.text == 'No nodes were found!':
                 sub_content = 'Url 解析错误'
+                print('Url 解析错误: No nodes were found!\n')
             else:
                 sub_content = resp.text
         elif output_type == 'YAML':
@@ -678,6 +681,7 @@ class sub_convert():
                 return 'Url 解析错误'
             if resp.text == 'No nodes were found!':
                 sub_content = 'Url 解析错误'
+                print('Url 解析错误: No nodes were found!\n')
             else:
                 sub_content = sub_convert.makeup(sub_convert.format(resp.text), dup_rm_enabled=False, format_name_enabled=True)
 
@@ -700,7 +704,7 @@ class sub_convert():
                 print('url host use =='+index+'\n')
                 return index
             else:
-                print('\n'+index+'url host is bad,please use new url!...\n')
+                print('\n'+index+'  :url host is bad,please use new url!...\n')
             
         print('oh,my god ,all url host are bad,sorry no work!...\n')
         return 'bad url Host'
