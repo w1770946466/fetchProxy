@@ -10,6 +10,8 @@
 >借鉴了这个大哥的好多代码 [/yu-steven/openit](https://github.com/yu-steven/openit)
 >
 >大佬的测速工具[xxf098/LiteSpeedTest](https://github.com/xxf098/LiteSpeedTest)
+>
+>ACL4SSR转换规则借鉴[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)
 
 虽然是测速筛选过后的节点，但仍然会出现部分节点不可用的情况，遇到这种情况
 建议选择`Clash`, `Shadowrocket`之类能自动切换低延迟节点的客户端。
@@ -64,7 +66,9 @@
 fetchPorxy.main
 ├── .github──workflows──fetchProxy.yml(actions Deploy)
 ├── config
-│   ├── provider──config.yml(转clash订阅用的配置)
+│   ├── provider
+│   │   ├── config.yml(转clash订阅用的配置)
+│   │   └── rxconfig.ini(转clash订阅用的ACL4SSR配置)
 │   └── sub_list.json(订阅列表)   
 ├── sub
 │   ├── source(收集到的源节点文件)
