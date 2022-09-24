@@ -11,7 +11,7 @@
 >
 >大佬的测速工具[xxf098/LiteSpeedTest](https://github.com/xxf098/LiteSpeedTest)
 >
->ACL4SSR转换规则借鉴[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)
+>ACL4SSR转换规则[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)
 
 虽然是测速筛选过后的节点，但仍然会出现部分节点不可用的情况，遇到这种情况
 建议选择`Clash`, `Shadowrocket`之类能自动切换低延迟节点的客户端。
