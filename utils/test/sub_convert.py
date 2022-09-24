@@ -690,17 +690,17 @@ class sub_convert():
         s.mount('http://', HTTPAdapter(max_retries=2))      # 重试次数为2
         s.mount('https://', HTTPAdapter(max_retries=2))     # 重试次数为2
         for index in url:
-            print('urlhost use ='+url[index])
+            print('urlhost use ='+index)
             try:
-                resp = s.get(url[index], timeout=2)                    # 超时时间为2s
+                resp = s.get(index, timeout=2)                    # 超时时间为2s
                 status = resp.status_code                       # 状态码赋值200？
             except Exception:
                 status = 404
             if status == 200:
-                print('url host use =='+url[index]+'\n')
-                return url[index]
+                print('url host use =='+index+'\n')
+                return index
             else:
-                print('\n'+url[index]+'url host is bad,please use new url!...\n')
+                print('\n'+index+'url host is bad,please use new url!...\n')
             
         print('oh,my god ,all url host are bad,sorry no work!...\n')
         return 'bad url Host'
