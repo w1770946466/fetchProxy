@@ -16,9 +16,9 @@ output_clash_path = './sub/rxClash.yml'
 
 # 写入文件模块
 def write_file(file,content):
-    file = open(output_file, 'w', encoding= 'utf-8')
-    file.write(content)
-    file.close()
+    f = open(file, 'w', encoding= 'utf-8')
+    f.write(content)
+    f.close()
 
 if __name__ == '__main__':
     ## 将未测速的节点内容转成clash订阅
