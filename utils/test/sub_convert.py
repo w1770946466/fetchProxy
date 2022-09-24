@@ -696,12 +696,12 @@ class sub_convert():
             except Exception:
                 status = 404
             if status == 200:
-                print('url host use =='+url[index])
+                print('url host use =='+url[index]+'\n')
                 return url[index]
             else:
-                print('url host is bad,please use new url!...')
+                print(url[index]+'url host is bad,please use new url!...\n')
             
-        print('oh,my god ,all url host are bad,sorry no work!...')
+        print('oh,my god ,all url host are bad,sorry no work!...\n')
         return 'bad url Host'
 if __name__ == '__main__':
     subscribe = 'https://raw.githubusercontent.com/rxsweet/fetchProxy/main/sub/rx64'
