@@ -688,8 +688,8 @@ class sub_convert():
 
         return sub_content
 
-    # 检测URLhost是否可用
-    # 要转换的地址必须是网络订阅才可用使用网络URLhost，本地订阅文件获取不到数据
+    # 读取可用的URLhost(在线订阅转换地址)
+    # 要转换的订阅地址必须是网络订阅才可用使用网络URLhost，本地订阅文件获取不到数据
     def use_urlhost(url=url_host):
         s = requests.Session()                              # 用requests.session()创建session对象，相当于创建了一个空的会话框，准备保持cookies。
         s.mount('http://', HTTPAdapter(max_retries=2))      # 重试次数为2
