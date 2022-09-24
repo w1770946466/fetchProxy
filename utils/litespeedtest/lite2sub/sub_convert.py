@@ -637,9 +637,10 @@ class sub_convert():
         url = urllib.parse.quote(url, safe='') # https://docs.python.org/zh-cn/3/library/urllib.parse.html
         print('\n'+url+'\n')
         if output_type == 'clash':
-            converted_url = sever_host+'/sub?target=clash&url='+url+'&insert=false&config='+configUrl+'&emoji=true'
+            converted_url = sever_host+'/sub?target=clash&url=/'+url+'&insert=false&config='+configUrl+'&emoji=true'
             try:
                 resp = requests.get(converted_url)
+                print(resp)
             except Exception as err:
                 print(err)
                 return 'Url 解析错误'
