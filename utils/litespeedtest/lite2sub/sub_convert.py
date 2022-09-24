@@ -703,7 +703,7 @@ class sub_convert():
                 print('url host use =='+index+'\n')
                 return index
             else:
-                print('\n'+index+'url host is bad,please use new url!...\n')
+                print('\n'+index+'  :url host is bad,please use new url!...\n')
             
         print('oh,my god ,all url host are bad,sorry no work!...\n')
         return 'bad url Host'
