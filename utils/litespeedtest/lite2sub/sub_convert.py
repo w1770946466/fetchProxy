@@ -635,9 +635,9 @@ class sub_convert():
         #host='远程订阅转化服务地址',configUrl转clash订阅时用
         sever_host = host
         url = urllib.parse.quote(url, safe='') # https://docs.python.org/zh-cn/3/library/urllib.parse.html
-        print('\n'+url+'\n')
         if output_type == 'clash':
             converted_url = sever_host+'/sub?target=clash&url=/'+url+'&insert=false&config='+configUrl+'&emoji=true'
+            print('\n'+converted_url+'\n')
             try:
                 resp = requests.get(converted_url)
                 print(resp)
