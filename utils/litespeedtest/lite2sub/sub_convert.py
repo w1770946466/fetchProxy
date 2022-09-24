@@ -636,7 +636,7 @@ class sub_convert():
         sever_host = host
         url = urllib.parse.quote(url, safe='') # https://docs.python.org/zh-cn/3/library/urllib.parse.html
         if output_type == 'clash':
-            converted_url = sever_host+'/sub?target=clash&url=/'+url+'&insert=false&config='+configUrl+'&emoji=true'
+            converted_url = sever_host+'/sub?target=clash&url='+url+'&insert=false&config='+configUrl+'&emoji=true'
             print('\n'+converted_url+'\n')
             try:
                 resp = requests.get(converted_url)
@@ -688,10 +688,9 @@ class sub_convert():
 
         return sub_content
 
-    # 检测网站是否可用
-
-
-    def use_urlhost(url=url_host):                                   # 判断远程远程链接是否已经更新
+    # 检测URLhost是否可用
+    # 要转换的地址必须是网络订阅才可用使用网络URLhost，本地订阅文件获取不到数据
+    def use_urlhost(url=url_host):
         s = requests.Session()                              # 用requests.session()创建session对象，相当于创建了一个空的会话框，准备保持cookies。
         s.mount('http://', HTTPAdapter(max_retries=2))      # 重试次数为2
         s.mount('https://', HTTPAdapter(max_retries=2))     # 重试次数为2
