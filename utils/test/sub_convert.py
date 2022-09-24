@@ -13,7 +13,8 @@ countrymmdb_file = './Country.mmdb'
 config_url = 'https://raw.githubusercontent.com/rxsweet/fetchProxy/main/config/provider/rxconfig.ini'
 
 #host备用网络地址 - 可用不用安装subconverter,直接使用这些网站
-url_host ={ 'https://sub.id9.cc/',
+url_host ={
+            'https://sub.id9.cc/',
             'https://sub.xeton.dev/',
             'https://api.dler.io/',
             'https://sub.maoxiongnet.com/',
@@ -690,7 +691,6 @@ class sub_convert():
         s.mount('http://', HTTPAdapter(max_retries=2))      # 重试次数为2
         s.mount('https://', HTTPAdapter(max_retries=2))     # 重试次数为2
         for index in url:
-            print('urlhost use ='+index)
             try:
                 resp = s.get(index, timeout=2)                    # 超时时间为2s
                 status = resp.status_code                       # 状态码赋值200？
