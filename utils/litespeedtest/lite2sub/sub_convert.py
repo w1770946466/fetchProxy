@@ -644,9 +644,9 @@ class sub_convert():
                 return 'Url 解析错误'
             if resp.text == 'No nodes were found!':
                 sub_content = 'Url 解析错误'
+                print('Url 解析错误: No nodes were found!\n')
             else:
                 sub_content = resp.text
-                print(sub_content)
         elif output_type == 'base64':
             converted_url = sever_host+'/sub?target=mixed&url='+url+'&insert=false&emoji=true&list=true'
             try:
@@ -656,6 +656,7 @@ class sub_convert():
                 return 'Url 解析错误'
             if resp.text == 'No nodes were found!':
                 sub_content = 'Url 解析错误'
+                print('Url 解析错误: No nodes were found!\n')
             else:
                 sub_content = sub_convert.base64_encode(resp.text)
         elif output_type == 'url':
@@ -667,6 +668,7 @@ class sub_convert():
                 return 'Url 解析错误'
             if resp.text == 'No nodes were found!':
                 sub_content = 'Url 解析错误'
+                print('Url 解析错误: No nodes were found!\n')
             else:
                 sub_content = resp.text
         elif output_type == 'YAML':
@@ -678,6 +680,7 @@ class sub_convert():
                 return 'Url 解析错误'
             if resp.text == 'No nodes were found!':
                 sub_content = 'Url 解析错误'
+                print('Url 解析错误: No nodes were found!\n')
             else:
                 sub_content = sub_convert.makeup(sub_convert.format(resp.text), dup_rm_enabled=False, format_name_enabled=True)
 
