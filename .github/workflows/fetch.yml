@@ -48,9 +48,6 @@ jobs:
         
     - name: 执行任务 - 1.list_merge
       run: |
-        wget -O subconverter.tar.gz https://github.com/tindy2013/subconverter/releases/latest/download/subconverter_linux64.tar.gz
-        tar -zxvf subconverter.tar.gz -C ./
-        chmod +x ./subconverter/subconverter && nohup ./subconverter/subconverter >./subconverter.log 2>&1 &
         python ./utils/fetch/list_merge.py    
         
     - name: 执行任务 - 2.clashcheck 
