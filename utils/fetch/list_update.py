@@ -100,6 +100,16 @@ class update_url():
                     return current_url
             else:
                 return current_url
+        if id == 3:
+            try:
+                res_json = requests.get('https://api.github.com/repos/mianfeifq/share/contents/').json()
+                for file in res_json:
+                    if file['name'].startswith('data'):
+                        return file['download_url'] 
+                else:
+                    return current_url
+            except Exception:
+                return current_url
 
 if __name__ == '__main__':
     update_url.update_main()
