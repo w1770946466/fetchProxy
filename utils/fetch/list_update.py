@@ -65,13 +65,13 @@ class update_url():
             file.close()
 
     def change_date(id,current_url):    # update_method:change_date 变化地址返回最新地址的功能模块
-        if id == 2:    #根据ID确定网站
+        if id == 2: #根据ID确定网站
             today = datetime.today().strftime('%Y%m%d')
             this_month = datetime.today().strftime('%Y%m')
             url_front = 'https://nodefree.org/dy/'
             url_end = '.txt'
             new_url = url_front + this_month + '/' + today + url_end
-        if id == 1:     #根据ID确定网站
+        if id == 1: #根据ID确定网站
             today = datetime.today().strftime('%m%d')
             url_front = 'https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/'
             url_end = '.txt'
