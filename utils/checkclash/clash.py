@@ -18,7 +18,7 @@ def push(list, outfile):
              'interval': 300}, {'name': '🌐 Proxy', 'type': 'select', 'proxies': ['automatic']}],
              'rules': ['MATCH,🌐 Proxy']}
     with maxminddb.open_database(Country_mmdb_path) as countrify:
-        for i in tqdm(range(int(len(list))), desc="Parse"):
+        for i in tqdm(range(int(len(list))), desc="output list Parse"):
             x = list[i]
             try:
                 float(x['password'])
@@ -118,7 +118,7 @@ def filter(config):
              'interval': 300}, {'name': '🌐 Proxy', 'type': 'select', 'proxies': ['automatic']}],
              'rules': ['MATCH,🌐 Proxy']}
     with maxminddb.open_database(Country_mmdb_path) as countrify:
-        for i in tqdm(range(int(len(list))), desc="Parse"):
+        for i in tqdm(range(int(len(list))), desc="proxy Parse"):
             try:
                 x = list[i]
                 authentication = ''
