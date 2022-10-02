@@ -3,9 +3,9 @@ name: liteSpeedtest
 # 触发条件
 on:
   workflow_dispatch:
-#  workflow_run:
-#    workflows: ["fetch proxy && check"]
-#    types: [completed]
+  workflow_run:
+    workflows: ["fetch proxy && check"]
+    types: [completed]
 #  schedule:
 # 表达式生成  https://crontab.guru/ 
 #    - cron: '10 0,6,12,18 * * *'
