@@ -13,21 +13,22 @@ if __name__ == '__main__':
         alive = manager.list()
         http_port, api_port, threads, source, timeout, outfile, proxyconfig, apiurl, testurl, config= init()
         clashname, operating_system = checkenv()
-        print('Running on '+ operating_system)
-        clash = subprocess.Popen([clashname, '-f', './temp/working.yaml'])
+        print('Clash is Running on '+ operating_system)
+        clash = subprocess.Popen([clashname, '-f', './temp/working.yaml', '-d', '.'])
         processes =[]
         sema = Semaphore(threads)
         time.sleep(5)
         for i in tqdm(range(int(len(config['proxies']))), desc="Testing"):
             sema.acquire()
             p = Process(target=check, args=(alive,config['proxies'][i],apiurl,sema,timeout,testurl))
-            # print('\n config proxies'+str(config['proxies'][i]))
-            p.start()
-            processes.append(p)
+            try:
+                p.start()
+                processes.append(p)
+            except:
+                continue
         for p in processes:
             p.join
         time.sleep(5)
-        print('alive = '+str(alive)+'\n')
         alive=list(alive)
         push(alive,outfile)
         cleanup(clash)
