@@ -32,4 +32,4 @@ def output(list,num):
 if __name__ == '__main__':
     print('output out_json begin!')
     outlistfile=read_json(out_json)
-    output(outlistfile,len(outlistfile))
+    output(outlistfile,200)
