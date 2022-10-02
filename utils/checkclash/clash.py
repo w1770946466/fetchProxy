@@ -59,7 +59,7 @@ def push(list, outfile):
 def checkenv():
     home = str(Path.home())
     mmdbfl = home + Country_mmdb_path
-    operating_system = str(platform.platform())
+    operating_system = str(platform.platform()) + ' with ' + platform.node())
     if operating_system.startswith('macOS'):
         if 'arm64' in operating_system:
             clashname='./clash-darwinarm64'
