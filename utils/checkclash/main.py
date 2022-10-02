@@ -21,7 +21,7 @@ if __name__ == '__main__':
         for i in tqdm(range(int(len(config['proxies']))), desc="Testing"):
             sema.acquire()
             p = Process(target=check, args=(alive,config['proxies'][i],apiurl,sema,timeout,testurl))
-            print('config['proxies'][i]'+str(config['proxies'][i]))
+            print('\n config proxies'+str(config['proxies'][i]))
             p.start()
             processes.append(p)
         for p in processes:
