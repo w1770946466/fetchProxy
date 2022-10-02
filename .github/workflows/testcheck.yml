@@ -45,7 +45,7 @@ jobs:
         chmod +x ./clash-linux-amd64 && ./clash-linux-amd64 &    
     - name: 执行任务 - 2.clashcheck 
       run:
-       sudo chmod 777 clash-linuxamd64 && python ./utils/checkclash/main.py
+       sudo chmod 777 clash-linux-amd64 && python ./utils/checkclash/main.py
 
 
 # 提交 
