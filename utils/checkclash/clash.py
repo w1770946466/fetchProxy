@@ -54,7 +54,7 @@ def push(list, outfile):
     print(clash)
     with open(outfile, 'w') as writer:
         yaml.dump(clash, writer, sort_keys=False)
-
+"""
 def checkenv():
     home = str(Path.home())
     mmdbfl = home + Country_mmdb_path
@@ -97,7 +97,7 @@ def checkenv():
     # print('Running on '+ operating_system)
 
     return clashname, operating_system
-"""
+
 def filter(config):
     list = config["proxies"]
     # print(list)
