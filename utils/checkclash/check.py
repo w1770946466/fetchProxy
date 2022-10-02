@@ -13,4 +13,5 @@ def check(alive, proxy, apiurl, sema, timeout, testurl):
             alive.append(proxy)
     except:
         pass
+    bar.update(1)
     sema.release()
