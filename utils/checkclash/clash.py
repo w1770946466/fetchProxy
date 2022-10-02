@@ -57,22 +57,25 @@ def push(list, outfile):
 
 
 def checkenv():
-    home = str(Path.home())
-    mmdbfl = home + Country_mmdb_path
-    operating_system = str(platform.platform()) + ' with ' + platform.node())
-    if operating_system.startswith('macOS'):
+    operating_system = str(platform.system() + '/' +  platform.machine() + ' with ' + platform.node())
+    if operating_system.startswith('Darwin'):
         if 'arm64' in operating_system:
-            clashname='./clash-darwinarm64'
+            clashname='./clash-darwin-arm64'
         else:
-            clashname='./clash-darwinamd64'
+            clashname='./clash-darwin-amd64'
     elif operating_system.startswith('Linux'):
-        clashname='./clash-linuxamd64'
+        if 'amd64' in operating_system:
+            clashname='./clash-linux-amd64'
+        elif 'x86_64' in operating_system:
+            clashname='./clash-linux-amd64'
+        else:
+            clashname='./clash-linux-arm64' #armv8
     elif operating_system.startswith('Windows'):
-        clashname='clash-windowsamd64.exe'
+        clashname='clash-windows-amd64.exe'
     else:
-        print('Unsupported Platform')
+        print('Never mind')
         exit(1)
-    print('Running on '+ operating_system)
+    # print('Running on '+ operating_system)
 
     return clashname, operating_system
 
