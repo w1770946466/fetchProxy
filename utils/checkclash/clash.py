@@ -55,7 +55,26 @@ def push(list, outfile):
     with open(outfile, 'w') as writer:
         yaml.dump(clash, writer, sort_keys=False)
 
+def checkenv():
+    home = str(Path.home())
+    mmdbfl = home + Country_mmdb_path
+    operating_system = str(platform.platform())
+    if operating_system.startswith('macOS'):
+        if 'arm64' in operating_system:
+            clashname='./clash-darwinarm64'
+        else:
+            clashname='./clash-darwinamd64'
+    elif operating_system.startswith('Linux'):
+        clashname='./clash-linuxamd64'
+    elif operating_system.startswith('Windows'):
+        clashname='clash-windowsamd64.exe'
+    else:
+        print('Unsupported Platform')
+        exit(1)
+    print('Running on '+ operating_system)
 
+    return clashname, operating_system
+"""
 def checkenv():
     operating_system = str(platform.system() + '/' +  platform.machine() + ' with ' + platform.node())
     if operating_system.startswith('Darwin'):
@@ -78,7 +97,7 @@ def checkenv():
     # print('Running on '+ operating_system)
 
     return clashname, operating_system
-
+"""
 def filter(config):
     list = config["proxies"]
     # print(list)
