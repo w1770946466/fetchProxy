@@ -26,6 +26,7 @@ if __name__ == '__main__':
         for p in processes:
             p.join
         time.sleep(5)
+        print('alive = 'alive+'\n')
         alive=list(alive)
         push(alive,outfile)
         cleanup(clash)
