@@ -48,15 +48,17 @@ jobs:
        sudo chmod 777 clash-linuxamd64 && python ./utils/checkclash/main.py
 
 
-# 提交           
+# 提交 
+#       git add ./sub
+#       git add ./temp
     - name: 提交更改
       run: |                 
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git pull origin main
-        git add ./sub
-        git add ./temp
+        git add ./
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 节点获取成功 "
+
     - name: 推送更改
       uses:  ad-m/github-push-action@master
       with:
