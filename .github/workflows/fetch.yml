@@ -50,9 +50,9 @@ jobs:
       run: |
         python ./utils/fetch/list_merge.py    
         
-    - name: 执行任务 - 2.clashcheck 
-      run:
-       sudo chmod 777 clash-linux-amd64 && python ./utils/checkclash/main.py
+#    - name: 执行任务 - 2.clashcheck 
+#      run:
+#       sudo chmod 777 clash-linux-amd64 && python ./utils/checkclash/main.py
        
     - name: 执行任务 - 3.convert to sub 
       run:
