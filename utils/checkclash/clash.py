@@ -51,7 +51,7 @@ def push(list, outfile):
             # except:
             # print(list[i])
             # pass
-
+    print(clash)
     with open(outfile, 'w') as writer:
         yaml.dump(clash, writer, sort_keys=False)
 
