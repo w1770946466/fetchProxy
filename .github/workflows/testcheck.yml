@@ -56,7 +56,6 @@ jobs:
         git config --local user.name "GitHub Actions"
         git pull origin main
         git add ./sub
-        git add ./temp
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 节点获取成功 "
 
     - name: 推送更改
