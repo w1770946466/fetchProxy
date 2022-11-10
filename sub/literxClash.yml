@@ -5,205 +5,206 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_964, server: 5.181.234.254, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_680, server: 5.181.234.254, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "🇯🇵 TG频道:@kxswa|日本\r", server: 54.196.222.243, port: 54158, type: trojan, password: f7e12f49-13f8-4a08-92f8-7f4e25021c9f, sni: tr9.tgcunzhang.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 058, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: 🇺🇸 美国 066, server: 198.41.212.144, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}, udp: true}
-  - {name: 白嫖-0349, server: 129.146.242.130, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: default_name_1, server: zhuyong.hucloud-dns.xyz, port: 443, type: vmess, uuid: 4ce21a11-44fe-4814-a639-4b7caf501031, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zhuyong.hucloud-dns.xyz}}, udp: true}
-  - {name: US_1098, server: 144.168.58.170, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
-  - {name: US_1011, server: 144.168.60.70, port: 252, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: US_1010, server: 93.179.112.70, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr06, udp: true}
-  - {name: US_1034, server: 97.64.26.63, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: 172.64.148.111, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}, udp: true}
-  - {name: US_120, server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: 🇧🇷 巴西 003, server: 188.114.97.7, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
-  - {name: 🇺🇸 0.78|US 美国youtube阿伟科技 33, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus4.0bad.com}}, udp: true}
-  - {name: US_1167, server: 65.49.204.125, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr01, udp: true}
+  - {name: US_718, server: 5.181.234.254, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1159, server: 3.82.24.191, port: 54661, type: trojan, password: f7e12f49-13f8-4a08-92f8-7f4e25021c9f, sni: tr5.tgcunzhang.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 24 TG:@airproxies, server: 54.196.222.243, port: 54158, type: trojan, password: f7e12f49-13f8-4a08-92f8-7f4e25021c9f, sni: tr9.tgcunzhang.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_881, server: 5.181.234.254, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 美国 055, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 🇺🇸 美国 060, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: US_1041, server: 97.64.26.63, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: 🇨🇦 加拿大 004, server: ca2.v2rayserv.com, port: 80, type: vmess, uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: ca2.v2rayserv.com}}, udp: true}
   - {name: US_147, server: 172.96.192.58, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: 🇺🇸 US 732, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 001, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: US_1169, server: 97.64.122.63, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
-  - {name: 🇫🇷 FR 1 → openitsub.com, server: ca2.v2rayserv.com, port: 80, type: vmess, uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: ca2.v2rayserv.com}}, udp: true}
-  - {name: US_1104, server: 198.181.56.163, port: 238, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
-  - {name: 🇬🇧 英国 003, server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇺🇸 美国 089, server: 172.64.154.222, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}, udp: true}
-  - {name: 🇺🇸 US 697, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL 6, server: nl2.v2rayserv.com, port: 80, type: vmess, uuid: 364cf68d-8821-4e57-8189-0d16bac31a58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: nl2.v2rayserv.com}}, udp: true}
-  - {name: 🇺🇸 美国 088, server: 198.41.203.3, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}, udp: true}
-  - {name: mianfeifq_110889d3-100, server: 51.77.71.134, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 _US_美国, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}, udp: true}
-  - {name: mianfeifq_111020221b25-1364, server: content-provider12.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 1.61|US 美国youtube阿伟科技 25, server: 198.41.212.100, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}, udp: true}
-  - {name: 白嫖-041, server: 129.146.133.157, port: 51009, type: vmess, uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: PL_70.34.252.176_11092022c3fc-245, server: 70.34.252.176, port: 8081, type: vmess, uuid: 984ff24e-2bbb-4461-a761-bf8ccb77b80d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 70.34.252.176}}, udp: true}
-  - {name: US_979, server: 162.251.61.221, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_710, server: 162.251.61.221, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: RS_89, server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: mianfeifq_1107430d-74, server: 94.102.54.65, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: 1.75|土库曼斯坦youtube阿伟科技, server: hardgum10.online, port: 443, type: vmess, uuid: c10b8bd6-3d5a-412f-9187-b98184b9e044, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ipuyvws, headers: {Host: hardgum10.online}}, udp: true}
-  - {name: US_1052, server: 162.251.61.221, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇨🇭 _CH_瑞士, server: www.liuyiyang19891222.tk, port: 443, type: vmess, uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.liuyiyang19891222.tk}}, udp: true}
-  - {name: 🇺🇸 美国 085, server: 129.159.41.233, port: 32586, type: vmess, uuid: 341a9182-c423-499c-c46e-d17838b29037, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: default_name, server: 198.41.212.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: US_973, server: 144.168.58.170, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
+  - {name: US_260, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 :美国-ss-107.182.177.136:256-被墙-直连-解锁美国地区NF非自制剧, server: 107.182.177.136, port: 256, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
-  - {name: US_682, server: 38.91.107.225, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_940, server: 38.91.107.225, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦, server: 9.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 9.72img.xyz}}, udp: true}
-  - {name: US_1068, server: 162.251.61.47, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_744, server: 38.91.107.225, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇺🇸 2.30|US 美国 油管阿伟科技 45, server: 172.64.153.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: US_976, server: 144.168.60.70, port: 252, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: US_120, server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: 未知_1110624, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
+  - {name: US_1084, server: 65.49.204.125, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr01, udp: true}
+  - {name: 🇺🇸 US 2 → openitsub.com, server: us-atl.tencent.cfd, port: 64913, type: vmess, uuid: 7a8a2158-ed62-4364-8ba9-937f0ab9d6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-atl.tencent.cfd}}, udp: true}
+  - {name: 🇺🇸 US 3 → openitsub.com, server: us.tencent.cfd, port: 60578, type: vmess, uuid: 7a8a2158-ed62-4364-8ba9-937f0ab9d6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.tencent.cfd}}, udp: true}
+  - {name: US_1090, server: 172.96.192.100, port: 246, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
+  - {name: US_671, server: 95.169.4.174, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr06, udp: true}
+  - {name: 🇺🇸 US 660, server: 129.146.133.157, port: 51009, type: vmess, uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 003, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: US_1067, server: 198.181.56.163, port: 238, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
+  - {name: 🇬🇧 英国(TG频道:@kxswa), server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vuk2.0bad.com}}, udp: true}
+  - {name: 🇺🇸 US 697, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_1057, server: 97.64.122.63, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
+  - {name: US_324🇺🇸US_308, server: 107.181.161.163, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL 6, server: nl2.v2rayserv.com, port: 80, type: vmess, uuid: 364cf68d-8821-4e57-8189-0d16bac31a58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: nl2.v2rayserv.com}}, udp: true}
+  - {name: 🇬🇧 英国 005, server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_129.159.41.233_11092022c3fc-244, server: 129.159.41.233, port: 32586, type: vmess, uuid: 341a9182-c423-499c-c46e-d17838b29037, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: mianfeifq_110566a7-322, server: youtube-bai-piao-wang-zhe-usa.98848.xyz, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇭 _CH_瑞士, server: www.liuyiyang19891222.tk, port: 443, type: vmess, uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.liuyiyang19891222.tk}}, udp: true}
+  - {name: 🇬🇧 GB 1 → openitsub.com, server: us.vmess2.xservs.xyz, port: 80, type: vmess, uuid: d0a66284-b09d-4df5-a790-bbbf3533d004, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: Vipmahsa}}, udp: true}
   - {name: 🇺🇸 2.08| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶12CDN, server: 141.101.115.121, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: 🇺🇸 2.31| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶13CDN, server: 141.101.115.160, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 079, server: youtube-bai-piao-wang-zhe-usa.98848.xyz, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, sni: youtube-bai-piao-wang-zhe-usa.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: mianfeifq_110566a7-131, server: 107.181.161.163, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 :美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧, server: 162.251.61.221, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: mianfeifq_1105032d-14, server: 188.40.251.19, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
-  - {name: US_884, server: 38.91.107.225, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇫🇷 法国(TG频道:@kxswa), server: 51.75.70.34, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}, udp: true}
-  - {name: 🇺🇸 1.63|US 美国youtube阿伟科技 12, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US_1012, server: 162.251.61.47, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_868, server: 5.188.0.151, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇺🇸 1.57| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶16CDN, server: 141.101.115.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US_1089, server: 38.91.107.225, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇺🇸 US 570, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
+  - {name: US_997, server: 162.251.61.221, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_827, server: 104.149.149.158, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: 1.59|土库曼斯坦youtube阿伟科技, server: hardgum10.online, port: 443, type: vmess, uuid: c10b8bd6-3d5a-412f-9187-b98184b9e044, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ipuyvws, headers: {Host: hardgum10.online}}, udp: true}
+  - {name: 🇺🇸 US 43 TG:@airproxies, server: us-gia.tencent.cfd, port: 63795, type: vmess, uuid: 7a8a2158-ed62-4364-8ba9-937f0ab9d6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-gia.tencent.cfd}}, udp: true}
+  - {name: US_720, server: 162.251.61.221, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 1.77| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶15CDN, server: 198.41.203.4, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}, udp: true}
+  - {name: 🇺🇸 1.61|US 美国youtube阿伟科技 25, server: 198.41.212.100, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}, udp: true}
+  - {name: 🇫🇷 FR 1 → openitsub.com, server: de.vmess2.xservs.xyz, port: 80, type: vmess, uuid: dc5e01f7-8238-4755-840b-adf45da456c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: Vipmahsa}}, udp: true}
+  - {name: 🇺🇸 2.36| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶17CDN, server: 141.101.114.17, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: US_1047, server: 162.251.61.47, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1002, server: 162.251.61.47, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇩🇪 德国 003, server: 51.75.70.34, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}, udp: true}
+  - {name: 🇬🇧 英国 005 2, server: nl1.v2rayserv.com, port: 80, type: vmess, uuid: e727f6e3-d206-4f04-80f8-30dafd52fbe2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: nl1.v2rayserv.com}}, udp: true}
+  - {name: 🇯🇵 JP 2 → openitsub.com, server: jp.tencent.cfd, port: 60115, type: vmess, uuid: 7a8a2158-ed62-4364-8ba9-937f0ab9d6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.tencent.cfd}}, udp: true}
+  - {name: 🇺🇸 _US_美国, server: 38.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 38.72img.xyz}}, udp: true}
+  - {name: 🇮🇷 伊朗_1110006, server: 185.143.234.120, port: 80, type: vmess, uuid: b831381d-6324-4d53-ad4f-8cda48b30811, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /graphql, headers: {Host: koochehpas.com}}, udp: true}
+  - {name: US_707, server: 38.91.107.225, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: DE_96🇩🇪DE_101, server: 188.40.251.19, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
+  - {name: US_838, server: 38.91.107.225, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇩🇪 DE 1 → openitsub.com, server: 192.145.44.206, port: 57517, type: vmess, uuid: 7a8a2158-ed62-4364-8ba9-937f0ab9d6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 192.145.44.206}}, udp: true}
+  - {name: US_1014, server: 38.91.107.225, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_824 | 7.86Mb, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 35 TG:@airproxies, server: 165.154.241.29, port: 48888, type: vmess, uuid: 5d07a7bd-3696-4bc2-ab37-e7082c86f5cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /daxun/us1, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 🇨🇦 CA 1 → openitsub.com, server: 165.154.241.29, port: 48888, type: vmess, uuid: 5d07a7bd-3696-4bc2-ab37-e7082c86f5cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /daxun/us2, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: US_285, server: 150.230.96.103, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 _US_美国_13, server: 43.201.24.66, port: 49517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 43.201.24.66}}, udp: true}
+  - {name: US_274, server: 150.230.217.213, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 :加拿大-ss-38.64.138.53:1035-被墙-直连-解锁美国地区NF非自制剧, server: 38.64.138.53, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg, udp: true}
-  - {name: 🇰🇷 韩国_1110201, server: 43.201.24.66, port: 49517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 43.201.24.66}}, udp: true}
-  - {name: 🇰🇷 -韩国-54.180.131.191, server: 54.180.131.191, port: 42517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 54.180.131.191}}, udp: true}
-  - {name: 🇩🇪 德国_1110124, server: 47.91.72.43, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: 🇺🇸 0.81|US 美国youtube阿伟科技 13, server: 198.244.148.214, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US_821, server: 104.149.149.158, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: 🇺🇸 1.81| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶15CDN, server: 198.41.203.4, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}, udp: true}
-  - {name: 🇺🇸 2.06|US 美国youtube阿伟科技 9, server: 141.101.114.133, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}, udp: true}
-  - {name: mianfeifq_111020221b25-1358, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 105, server: 146.56.155.70, port: 18050, type: vmess, uuid: f9771c19-c91c-41b5-9064-8768b51cec6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_1267, server: 138.2.113.248, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国 002, server: 152.67.218.38, port: 443, type: vmess, uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 152.67.218.38}}, udp: true}
-  - {name: 🇦🇺 澳大利亚(TG频道:@kxswa), server: 139.99.236.163, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US_29, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 _JP_日本, server: trs07.bolab.net, port: 443, type: trojan, password: 14bdba6dede262387ebdebaa706e1c90, sni: trs07.bolab.net, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港(TG频道:@kxswa), server: univstar.8.210.86.247.sslip.io, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: US_1242, server: 138.2.45.243, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港_1110533, server: 47.242.44.57, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: US_865, server: 38.91.107.225, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_803, server: 5.188.0.151, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:), server: 196.247.59.154, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1037, server: 38.91.107.225, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 US 6 → openitsub.com, server: au.tencent.cfd, port: 63154, type: vmess, uuid: 7a8a2158-ed62-4364-8ba9-937f0ab9d6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au.tencent.cfd}}, udp: true}
+  - {name: 🇺🇸 :美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧, server: 162.251.61.221, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_292, server: 138.2.113.248, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
+  - {name: US_156, server: 152.67.218.38, port: 443, type: vmess, uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 152.67.218.38}}, udp: true}
+  - {name: KR_154🇰🇷KR_171, server: 54.180.131.191, port: 42517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 54.180.131.191}}, udp: true}
+  - {name: 🇩🇪 DE 2 → openitsub.com, server: in.tencent.cfd, port: 62597, type: vmess, uuid: 7a8a2158-ed62-4364-8ba9-937f0ab9d6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in.tencent.cfd}}, udp: true}
+  - {name: US_925, server: 37.120.147.230, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇸🇬 新加坡_1110258, server: 15.235.163.180, port: 80, type: vmess, uuid: 78f936d1-8a72-4b7c-aafa-c8284e15ccaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: 15.235.163.180}}, udp: true}
+  - {name: 🇺🇸 美国 002, server: sgovh1.v2rayserv.com, port: 80, type: vmess, uuid: 78f936d1-8a72-4b7c-aafa-c8284e15ccaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: sgovh1.v2rayserv.com}}, udp: true}
+  - {name: 🇺🇸 US 1 → openitsub.com, server: hk-cmi.tencent.cfd, port: 51992, type: vmess, uuid: 7a8a2158-ed62-4364-8ba9-937f0ab9d6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-cmi.tencent.cfd}}, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1161, server: sg-01.tiktokcdn.top, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡(TG频道:@kxswa), server: univstar.188.166.186.249.sslip.io, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: HK_216, server: 43.229.153.148, port: 50418, type: trojan, password: 5d1b3b0a-de2a-4731-938d-4c7e15f034c1, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 140, server: 152.70.241.18, port: 26676, type: vmess, uuid: ecd274c0-175d-45f7-8276-a3da93786632, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_876, server: 185.77.217.217, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: qYAt85SFGV56, udp: true}
-  - {name: US_961, server: 37.120.219.218, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_743, server: 37.120.219.218, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇸🇬 新加坡_1108010, server: li.big234.com, port: 8443, type: vmess, uuid: 213e783a-2074-4aef-b6d9-2ac6d4d0dc04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港(油管:破解资源君2.0), server: 119.247.119.212, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, sni: sg-01.tiktokcdn.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 570, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
+  - {name: US_670, server: 37.120.147.230, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1008, server: 37.120.219.218, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1919, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国_1110124, server: 47.91.72.43, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: US_682, server: 37.120.147.230, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK_202, server: 43.229.153.148, port: 50418, type: trojan, password: 5d1b3b0a-de2a-4731-938d-4c7e15f034c1, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港_1110546, server: 8.210.86.247, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: 🇫🇷 0.92|FR 法国 油管阿伟科技 88, server: univstar1.198.244.148.214.sslip.io, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
+  - {name: 🇭🇰 香港_1110533, server: 47.242.44.57, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: US_1017, server: 37.120.147.230, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇨🇳 中国_1110615, server: 120.79.75.120, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国_11101029, server: s4.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:), server: 196.247.59.154, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇨🇳 中国_1110418, server: 119.23.45.18, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: mianfeifq_1108202273c7-141, server: 85.117.234.109, port: 29613, type: trojan, password: 5TnIlN8fgj, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 003, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: HK8, server: 104.18.247.150, port: 443, type: vmess, uuid: b2737260-b925-4434-9ca1-6116fa8ab83c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cw21sadd3, headers: {Host: node4.wblogw1.tk}}, udp: true}
+  - {name: AU_41, server: 152.67.98.30, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
+  - {name: JP_147, server: 168.138.44.176, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
+  - {name: KR_152.70.241.18_111020221b25-1515, server: 152.70.241.18, port: 26676, type: vmess, uuid: ecd274c0-175d-45f7-8276-a3da93786632, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 _AU_澳大利亚, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vau1.0bad.com}}, udp: true}
-  - {name: US_863, server: 37.120.147.230, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇨🇳 中国_1110598, server: 120.55.63.83, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 31 TG:@nodpai, server: 8.209.253.22, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: US_968, server: 37.120.219.218, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: mianfeifq_1108202273c7-141, server: 85.117.234.109, port: 29613, type: trojan, password: 5TnIlN8fgj, skip-cert-verify: true, udp: true}
+  - {name: US_293🇺🇸US_327, server: 152.67.160.174, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1153, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1157, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国_1110417, server: s2.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_951, server: 37.120.147.230, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇺🇸 US 3 → openitsub.com, server: 138.2.122.225, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US_933, server: 37.120.147.230, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_1263, server: 152.67.160.174, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
-  - {name: US_796, server: 37.120.147.230, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇸🇬 新加坡_1110283, server: 8.219.3.196, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
+  - {name: US_860, server: 185.77.217.217, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: qYAt85SFGV56, udp: true}
+  - {name: "🇮🇳 [09-26]|openrunner|印度(IN)India/Hyderabad_26", server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
   - {name: mianfeifq_11045e8f-12, server: 138.2.81.70, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
-  - {name: US_1015, server: 162.251.61.47, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: mianfeifq_1106980e-96, server: 38.9.140.218, port: 443, type: trojan, password: idc117okt, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇩 _ID_印度尼西亚_1, server: idc1.vpn-akcelluler.my.id, port: 443, type: trojan, password: idc117okt, sni: idc1.vpn-akcelluler.my.id, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 1 TG:@nodpai, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vsg1.0bad.com}}, udp: true}
-  - {name: 🇸🇬 新加坡_1110048, server: 00000000000000000000000000000000000000000000000000000000000005a.rui77.com, port: 80, type: vmess, uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_824, server: 37.120.147.230, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: mianfeifq 191, server: 31.72img.xyz, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 :美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧, server: 162.251.61.221, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇸🇬 新加坡_1110309, server: 8.219.173.2, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: 🇭🇰 香港_1110529, server: 47.243.92.11, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: 🇸🇬 新加坡_1110313, server: 8.219.173.108, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US_925, server: 172.245.218.162, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_924, server: 37.120.147.230, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_976, server: 172.245.218.162, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: mianfeifq 199, server: 32.72img.xyz, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_226, server: kr1.api-aws.com, port: 443, type: trojan, password: 23103894-eec7-4de1-a05a-c2e11e351287, skip-cert-verify: true, udp: true}
-  - {name: US_857, server: 172.245.218.162, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇸🇬 新加坡_1110284, server: 8.219.102.212, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: mianfeifq_11045e8f-14, server: 152.69.210.217, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 1.58| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶15CDN, server: 198.41.203.5, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_244, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
-  - {name: mianfeifq_11092022ffd3-259, server: 139.162.45.139, port: 443, type: trojan, password: FLpONjB2Lb, skip-cert-verify: true, udp: true}
-  - {name: US_768, server: 172.245.218.162, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_938, server: 172.245.218.162, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇸🇬 新加坡_1110258, server: 15.235.163.180, port: 80, type: vmess, uuid: 78f936d1-8a72-4b7c-aafa-c8284e15ccaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: 15.235.163.180}}, udp: true}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1268, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港_1110530, server: 8.210.119.159, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: 🇺🇸 1.94|US 美国youtube阿伟科技 6, server: 141.101.115.136, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}, udp: true}
-  - {name: SG_139.162.1.169_1105032d-15, server: 139.162.1.169, port: 8443, type: vmess, uuid: 213e783a-2074-4aef-b6d9-2ac6d4d0dc04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_905, server: 172.245.218.162, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇫🇷 0.92|FR 法国 油管阿伟科技 88, server: univstar1.198.244.148.214.sslip.io, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: mianfeifq_11092022ffd3-264, server: 38.6.224.86, port: 443, type: trojan, password: vwzGzEbZ6X, skip-cert-verify: true, udp: true}
-  - {name: 公益机场, server: nl1.v2rayserv.com, port: 80, type: vmess, uuid: e727f6e3-d206-4f04-80f8-30dafd52fbe2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: nl1.v2rayserv.com}}, udp: true}
-  - {name: 🇵🇱 PL 波兰(youtube科技) 2, server: 70.34.247.139, port: 8081, type: vmess, uuid: 4351659f-59be-4e8c-e4f8-7c0a57b42bdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 70.34.247.139}}, udp: true}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_233, server: kr1.api-aws.com, port: 443, type: trojan, password: f2239c58-4684-4747-8985-fbca693f352b, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 中国_1110416, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR 14 TG:@airproxies, server: 43.201.51.2, port: 49517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 43.201.51.2}}, udp: true}
-  - {name: 🇯🇵 日本_1110202, server: 47.91.23.182, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: 🇨🇳 中国_1110764, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 -日本-43.201.82.42, server: 43.201.82.42, port: 49517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 43.201.82.42}}, udp: true}
-  - {name: 🇪🇺 欧洲(油管:破解资源君2.0), server: univstar.51.195.140.208.sslip.io, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: 🇰🇷 -韩国-52.79.210.204, server: 52.79.210.204, port: 42517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 52.79.210.204}}, udp: true}
-  - {name: 🇰🇷 -韩国-13.124.228.70, server: 13.124.228.70, port: 42517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.124.228.70}}, udp: true}
-  - {name: 🇨🇳 中国_1110593, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: mianfeifq_1108202273c7-139, server: 146.56.176.239, port: 443, type: trojan, password: 96e08c45-762a-48d2-8b65-0088c3c5e3d4, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡_1110314, server: 8.219.85.227, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: KR_285, server: 54.180.150.171, port: 42517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 54.180.150.171}}, udp: true}
-  - {name: 🇨🇳 中国_11101057, server: 49.234.84.132, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 :美国-ss-162.251.61.221:812-被墙-直连-解锁美国地区NF非自制剧, server: 162.251.61.221, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇨🇳 中国_1110492, server: s1.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 _US_美国 2, server: 38.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 38.72img.xyz}}, udp: true}
-  - {name: KR_289, server: 13.125.24.153, port: 42517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.125.24.153}}, udp: true}
   - {name: 🇺🇸 :美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧, server: 162.251.61.221, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 2.03| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶14CDN, server: 141.101.115.136, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}, udp: true}
+  - {name: US_880, server: 37.120.147.230, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: mianfeifq_11092022c3fc-193, server: 159.223.89.239, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, skip-cert-verify: true, udp: true}
+  - {name: SG_139.162.1.169_1105032d-15, server: 139.162.1.169, port: 8443, type: vmess, uuid: 213e783a-2074-4aef-b6d9-2ac6d4d0dc04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 2 → openitsub.com, server: download2hkt.windowsupdate.lol, port: 443, type: trojan, password: 5d07a7bd-3696-4bc2-ab37-e7082c86f5cb, sni: dc3-download.windowsupdate1.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 1.83| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶15CDN, server: 198.41.203.5, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: 🇸🇬 新加坡_1108010, server: li.big234.com, port: 8443, type: vmess, uuid: 213e783a-2074-4aef-b6d9-2ac6d4d0dc04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_920, server: 37.120.147.230, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇸🇬 新加坡_1110314, server: 8.219.85.227, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: 🇸🇬 SG 127 TJN, server: 139.162.45.139, port: 443, type: trojan, password: FLpONjB2Lb, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡_1110284, server: 8.219.102.212, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: mianfeifq-011, server: 32.72img.xyz, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 1.44|US 美国youtube阿伟科技 14, server: 172.64.154.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: mianfeifq_11045e8f-14, server: 152.69.210.217, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1154, server: idc1.vpn-akcelluler.my.id, port: 443, type: trojan, password: idc117okt, sni: idc1.vpn-akcelluler.my.id, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 1.76| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶1CDN, server: 141.101.114.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: 🇯🇵 日本 012, server: 146.56.149.205, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: US_572, server: 162.251.61.221, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1024, server: 162.251.61.47, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 _US_美国 2, server: 36.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 36.72img.xyz}}, udp: true}
   - {name: 🇸🇬 新加坡 012, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 Relay_🇨🇦CA-🇺🇸US_55, server: 51.79.166.171, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: 🇨🇳 中国_1110592, server: 49.232.167.71, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 -韩国-54.180.152.188, server: 54.180.152.188, port: 42517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 54.180.152.188}}, udp: true}
-  - {name: 🇰🇷 -韩国-54.180.156.175, server: 54.180.156.175, port: 42517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 54.180.156.175}}, udp: true}
-  - {name: US_595 |19.29Mb, server: 167.88.61.175, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 美国_11101068, server: 16.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.72img.xyz}}, udp: true}
+  - {name: 🇺🇸 _US_美国_8, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde2.0bad.com}}, udp: true}
+  - {name: US_902, server: 172.245.218.162, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1085, server: 172.245.218.162, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_931, server: 172.245.218.162, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_889, server: 172.245.218.162, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇨🇳 中国_1110764, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_869, server: 172.245.218.162, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_945, server: 172.245.218.162, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇭🇰 HK 1 → openitsub.com, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: 66bee8fa-56a6-4108-92ec-d4a0900270cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/download, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 🇺🇸 2.06|US 美国youtube阿伟科技 9, server: 141.101.114.133, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}, udp: true}
+  - {name: "🇭🇰 [日本1|x2] 京港隧道-1000M", server: 52.196.123.28, port: 10083, type: vmess, uuid: e4e72651-6ff3-43ad-8f0c-51729991ff0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 52.196.123.28}}, udp: true}
+  - {name: 🇭🇰 香港_1110529, server: 47.243.92.11, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: mianfeifq-009, server: 31.72img.xyz, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1156, server: id3tr.jagoan.vip, port: 443, type: trojan, password: vvip-periantara, skip-cert-verify: true, udp: true}
+  - {name: US_290 | 3.68Mb, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
+  - {name: 白嫖-034, server: 129.154.57.134, port: 26282, type: vmess, uuid: cabbdf5d-3cca-4605-ba1c-c89a7d5b4c07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 003, server: 47.91.23.182, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
+  - {name: KR_159🇰🇷KR_178, server: 54.180.152.188, port: 42517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 54.180.152.188}}, udp: true}
+  - {name: 🇸🇬 新加坡_1110299, server: 8.219.58.58, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: 🇯🇵 日本(TG频道:@kxswa), server: 47.74.43.158, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
+  - {name: 🇦🇺 澳大利亚 004, server: 43.200.181.74, port: 42517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 43.200.181.74}}, udp: true}
+  - {name: 🇺🇸 _US_美国_9, server: 43.201.78.59, port: 49517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 43.201.78.59}}, udp: true}
+  - {name: 🇺🇸 US 148 TJN, server: 38.6.224.86, port: 443, type: trojan, password: vwzGzEbZ6X, skip-cert-verify: true, udp: true}
+  - {name: US_1029, server: 162.251.61.47, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇨🇳 中国_11101057, server: 49.234.84.132, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡_1110400, server: 8.219.170.170, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: mianfeifq_11092022c3fc-166, server: 176.31.83.90, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
-  - {name: US_1108, server: 142.202.48.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_701, server: 38.107.226.146, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_631, server: 38.107.226.49, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_740, server: 38.107.226.238, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_885, server: 38.107.226.238, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1154, server: 38.107.226.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_662, server: 38.107.226.146, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_962, server: 38.107.226.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_883, server: 38.86.135.27, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_873, server: 142.202.48.7, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_783, server: 142.202.48.7, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1114, server: 142.202.48.7, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_735, server: 142.202.48.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_875, server: 142.202.48.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_902, server: 38.107.226.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_909, server: 38.107.226.49, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1177, server: 38.107.226.146, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_625, server: 38.107.226.146, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_886, server: 38.107.226.146, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_939, server: 38.107.226.146, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_901, server: 38.86.135.169, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1017, server: 162.251.61.47, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_666, server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_918, server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_635, server: 38.86.135.27, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_727, server: 142.202.48.7, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_917, server: 142.202.48.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_982, server: 142.202.48.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_973, server: 142.202.48.7, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_890, server: 142.202.48.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_937, server: 142.202.48.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1036, server: 38.107.226.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇮🇱 :以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧, server: 31.133.100.49, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: US_841, server: 38.107.226.238, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_844, server: 38.107.226.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_888, server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1073, server: 142.202.48.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_874, server: 142.202.48.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_555, server: 142.202.48.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_660, server: 38.107.226.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_738, server: 38.107.226.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_696, server: 38.86.135.27, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_632, server: 38.107.226.238, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_724, server: 38.86.135.27, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_534, server: 38.107.226.146, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_652, server: 38.86.135.27, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_835, server: 38.107.226.146, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_806, server: 142.202.48.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_645, server: 142.202.48.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_655, server: 142.202.48.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_616, server: 38.107.226.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_626, server: 38.107.226.146, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_719, server: 38.107.226.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_879, server: 38.107.226.49, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_842, server: 38.107.226.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_836, server: 38.107.226.146, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_969, server: 38.86.135.27, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_876, server: 38.107.226.146, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1093, server: 167.88.63.79, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2, server: 134.195.196.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 美国 120, server: 134.195.198.106, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_631, server: 38.107.226.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_653, server: 167.88.63.82, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_636, server: 38.121.43.204, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_846, server: 38.107.226.146, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇯🇵 -日本-43.201.51.2, server: 43.201.51.2, port: 49517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 43.201.51.2}}, udp: true}
+  - {name: US_531, server: 38.121.43.204, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_1051, server: 167.88.63.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_901, server: 38.64.138.145, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_804, server: 167.88.63.79, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_702, server: 142.202.48.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_792, server: 167.88.63.79, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_864, server: 167.88.63.79, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_680, server: 38.121.43.65, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_734, server: 167.88.63.79, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_967, server: 38.64.138.145, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
 proxy-groups:
   - name: 规则选择
     type: select
@@ -213,567 +214,580 @@ proxy-groups:
   - name: 中国节点
     type: select
     proxies:
-      - 🇭🇰 香港(TG频道:@kxswa)
+      - HK_202
+      - 🇭🇰 香港_1110546
       - 🇭🇰 香港_1110533
-      - HK_216
-      - 🇭🇰 香港(油管:破解资源君2.0)
       - 🇨🇳 中国_1110615
       - 🇨🇳 中国_11101029
-      - 🇨🇳 中国_1110418
-      - 🇨🇳 中国_1110598
+      - HK8
       - 🇨🇳 中国_1110417
-      - 🇭🇰 香港_1110529
-      - 🇭🇰 香港_1110530
-      - 🇨🇳 中国_1110416
+      - 🇭🇰 HK 2 → openitsub.com
       - 🇨🇳 中国_1110764
-      - 🇨🇳 中国_1110593
+      - 🇭🇰 HK 1 → openitsub.com
+      - 🇭🇰 香港_1110529
       - 🇨🇳 中国_11101057
-      - 🇨🇳 中国_1110492
-      - 🇨🇳 中国_1110592
   - name: 日本节点
     type: select
     proxies:
-      - "🇯🇵 TG频道:@kxswa|日本\r"
+      - 🇯🇵 JP 2 → openitsub.com
       - 🇯🇵 JP 105
-      - 🇯🇵 _JP_日本
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_226
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_244
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_233
-      - 🇯🇵 日本_1110202
-      - 🇯🇵 -日本-43.201.82.42
+      - JP_147
+      - 🇯🇵 日本 012
+      - 🇭🇰 [日本1|x2] 京港隧道-1000M
+      - 🇯🇵 日本 003
+      - 🇯🇵 日本(TG频道:@kxswa)
+      - 🇯🇵 -日本-43.201.51.2
   - name: 新加坡节点
     type: select
     proxies:
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - 🇸🇬 新加坡_1108010
-      - 🇸🇬 新加坡_1110283
-      - 🇸🇬 SG 1 TG:@nodpai
-      - 🇸🇬 新加坡_1110048
-      - 🇸🇬 新加坡_1110309
-      - 🇸🇬 新加坡_1110313
-      - 🇸🇬 新加坡_1110284
       - 🇸🇬 新加坡_1110258
+      - 🇸🇬 新加坡(TG频道:@kxswa)
       - SG_139.162.1.169_1105032d-15
+      - 🇸🇬 新加坡_1108010
       - 🇸🇬 新加坡_1110314
+      - 🇸🇬 SG 127 TJN
+      - 🇸🇬 新加坡_1110284
       - 🇸🇬 新加坡 012
+      - 🇸🇬 新加坡_1110299
       - 🇸🇬 新加坡_1110400
   - name: 美国节点
     type: select
     proxies:
-      - US_964
-      - US_680
-      - 🇺🇸 美国 058
-      - 🇺🇸 美国 066
-      - US_1098
-      - US_1011
-      - US_1010
-      - US_1034
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - US_120
-      - 🇺🇸 0.78|US 美国youtube阿伟科技 33
-      - US_1167
+      - US_718
+      - US_1159
+      - 🇺🇸 US 24 TG:@airproxies
+      - US_881
+      - 🇺🇸 美国 055
+      - 🇺🇸 美国 060
+      - US_1041
       - US_147
-      - 🇺🇸 US 732
-      - US_1169
-      - US_1104
-      - 🇺🇸 美国 089
-      - 🇺🇸 US 697
-      - 🇺🇸 美国 088
-      - 🇺🇸 _US_美国
-      - 🇺🇸 1.61|US 美国youtube阿伟科技 25
-      - US_979
-      - US_710
-      - US_1052
-      - 🇺🇸 美国 085
-      - 🇺🇸 :美国-ss-107.182.177.136:256-被墙-直连-解锁美国地区NF非自制剧
-      - US_682
-      - US_940
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - US_1068
-      - US_744
-      - 🇺🇸 2.30|US 美国 油管阿伟科技 45
-      - 🇺🇸 美国 079
-      - 🇺🇸 :美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧
-      - US_884
-      - 🇺🇸 1.63|US 美国youtube阿伟科技 12
-      - US_1012
-      - US_868
-      - US_1089
-      - 🇺🇸 US 570
-      - 🇺🇸 :加拿大-ss-38.64.138.53:1035-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 0.81|US 美国youtube阿伟科技 13
-      - US_821
-      - 🇺🇸 2.06|US 美国youtube阿伟科技 9
-      - US_1267
-      - US_29
-      - US_1242
-      - 🇺🇸 美国 140
-      - US_876
-      - US_961
-      - US_743
-      - US_863
-      - 🇺🇸 US 31 TG:@nodpai
-      - US_951
-      - 🇺🇸 US 3 → openitsub.com
-      - US_933
-      - US_1263
-      - US_796
-      - US_1015
-      - US_824
-      - 🇺🇸 :美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧
-      - US_925
-      - US_924
-      - US_976
-      - US_857
-      - US_768
-      - US_938
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1268
-      - 🇺🇸 1.94|US 美国youtube阿伟科技 6
-      - US_905
-      - 🇺🇸 :美国-ss-162.251.61.221:812-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 :美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
-      - 🇨🇦 Relay_🇨🇦CA-🇺🇸US_55
-      - US_595 |19.29Mb
-      - US_1108
-      - US_701
-      - US_631
-      - US_740
-      - US_885
-      - US_1154
-      - US_662
-      - US_962
-      - US_883
-      - US_873
-      - US_783
-      - US_1114
-      - US_735
-      - US_875
-      - US_902
-      - US_909
-      - US_1177
-      - US_625
-      - US_886
-      - US_939
-      - US_901
-      - US_1017
-      - US_666
-      - US_918
-      - US_635
-      - US_727
-      - US_917
-      - US_982
       - US_973
-      - US_890
-      - US_937
-      - US_1036
+      - US_260
+      - 🇺🇸 :美国-ss-107.182.177.136:256-被墙-直连-解锁美国地区NF非自制剧
+      - US_976
+      - US_120
+      - US_1084
+      - 🇺🇸 US 2 → openitsub.com
+      - 🇺🇸 US 3 → openitsub.com
+      - US_1090
+      - US_671
+      - 🇺🇸 US 660
+      - US_1067
+      - 🇺🇸 US 697
+      - US_1057
+      - US_324🇺🇸US_308
+      - US_129.159.41.233_11092022c3fc-244
+      - US_997
+      - US_827
+      - 🇺🇸 US 43 TG:@airproxies
+      - US_720
+      - 🇺🇸 1.61|US 美国youtube阿伟科技 25
+      - US_1047
+      - US_1002
+      - 🇺🇸 _US_美国
+      - US_707
+      - US_838
+      - US_1014
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_824 | 7.86Mb
+      - 🇺🇸 US 35 TG:@airproxies
+      - US_285
+      - 🇺🇸 _US_美国_13
+      - US_274
+      - 🇺🇸 :加拿大-ss-38.64.138.53:1035-被墙-直连-解锁美国地区NF非自制剧
+      - US_865
+      - US_803
+      - US_1037
+      - 🇺🇸 US 6 → openitsub.com
+      - 🇺🇸 :美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧
+      - US_292
+      - US_156
+      - US_925
+      - 🇺🇸 美国 002
+      - 🇺🇸 US 1 → openitsub.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1161
+      - 🇺🇸 US 570
+      - US_670
+      - US_1008
+      - US_1919
+      - US_682
+      - US_1017
+      - US_968
+      - US_293🇺🇸US_327
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1153
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1157
+      - US_860
+      - 🇺🇸 :美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
+      - US_880
+      - US_920
+      - 🇺🇸 1.44|US 美国youtube阿伟科技 14
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1154
+      - US_572
+      - US_1024
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 美国_11101068
+      - 🇺🇸 _US_美国_8
+      - US_902
+      - US_1085
+      - US_931
+      - US_889
+      - US_869
+      - US_945
+      - 🇺🇸 2.06|US 美国youtube阿伟科技 9
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1156
+      - US_290 | 3.68Mb
+      - 🇺🇸 _US_美国_9
+      - 🇺🇸 US 148 TJN
+      - US_1029
+      - US_841
+      - US_844
+      - US_888
+      - US_1073
+      - US_874
+      - US_555
+      - US_660
+      - US_738
+      - US_696
+      - US_632
+      - US_724
+      - US_534
+      - US_652
+      - US_835
+      - US_806
+      - US_645
+      - US_655
+      - US_616
+      - US_626
+      - US_719
+      - US_879
+      - US_842
+      - US_836
+      - US_969
+      - US_876
+      - US_1093
+      - 🇺🇸 美国 120
+      - US_631
+      - US_653
+      - US_636
+      - US_846
+      - US_531
+      - US_1051
+      - US_901
+      - US_804
+      - US_702
+      - US_792
+      - US_864
+      - US_680
+      - US_734
+      - US_967
   - name: 手动切换
     type: select
     proxies:
-      - US_964
-      - US_680
-      - "🇯🇵 TG频道:@kxswa|日本\r"
-      - 🇺🇸 美国 058
-      - 🇺🇸 美国 066
-      - 白嫖-0349
-      - default_name_1
-      - US_1098
-      - US_1011
-      - US_1010
-      - US_1034
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - US_120
-      - 🇧🇷 巴西 003
-      - 🇺🇸 0.78|US 美国youtube阿伟科技 33
-      - US_1167
+      - US_718
+      - US_1159
+      - 🇺🇸 US 24 TG:@airproxies
+      - US_881
+      - 🇺🇸 美国 055
+      - 🇺🇸 美国 060
+      - US_1041
+      - 🇨🇦 加拿大 004
       - US_147
-      - 🇺🇸 US 732
-      - 🇬🇧 英国 001
-      - US_1169
-      - 🇫🇷 FR 1 → openitsub.com
-      - US_1104
-      - 🇬🇧 英国 003
-      - 🇺🇸 美国 089
-      - 🇺🇸 US 697
-      - 🇳🇱 NL 6
-      - 🇺🇸 美国 088
-      - mianfeifq_110889d3-100
-      - 🇺🇸 _US_美国
-      - mianfeifq_111020221b25-1364
-      - 🇺🇸 1.61|US 美国youtube阿伟科技 25
-      - 白嫖-041
-      - PL_70.34.252.176_11092022c3fc-245
-      - US_979
-      - US_710
-      - RS_89
-      - mianfeifq_1107430d-74
-      - 1.75|土库曼斯坦youtube阿伟科技
-      - US_1052
-      - 🇨🇭 _CH_瑞士
-      - 🇺🇸 美国 085
-      - default_name
+      - US_973
+      - US_260
       - 🇺🇸 :美国-ss-107.182.177.136:256-被墙-直连-解锁美国地区NF非自制剧
-      - US_682
-      - US_940
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - US_1068
-      - US_744
-      - 🇺🇸 2.30|US 美国 油管阿伟科技 45
+      - US_976
+      - US_120
+      - 未知_1110624
+      - US_1084
+      - 🇺🇸 US 2 → openitsub.com
+      - 🇺🇸 US 3 → openitsub.com
+      - US_1090
+      - US_671
+      - 🇺🇸 US 660
+      - 🇬🇧 英国 003
+      - US_1067
+      - 🇬🇧 英国(TG频道:@kxswa)
+      - 🇺🇸 US 697
+      - US_1057
+      - US_324🇺🇸US_308
+      - 🇳🇱 NL 6
+      - 🇬🇧 英国 005
+      - US_129.159.41.233_11092022c3fc-244
+      - mianfeifq_110566a7-322
+      - 🇨🇭 _CH_瑞士
+      - 🇬🇧 GB 1 → openitsub.com
       - 🇺🇸 2.08| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶12CDN
-      - 🇺🇸 2.31| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶13CDN
-      - 🇺🇸 美国 079
-      - mianfeifq_110566a7-131
-      - 🇺🇸 :美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧
-      - mianfeifq_1105032d-14
-      - US_884
-      - 🇫🇷 法国(TG频道:@kxswa)
-      - 🇺🇸 1.63|US 美国youtube阿伟科技 12
-      - US_1012
-      - US_868
-      - 🇺🇸 1.57| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶16CDN
-      - US_1089
-      - 🇺🇸 US 570
+      - US_997
+      - US_827
+      - 1.59|土库曼斯坦youtube阿伟科技
+      - 🇺🇸 US 43 TG:@airproxies
+      - US_720
+      - 🇺🇸 1.77| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶15CDN
+      - 🇺🇸 1.61|US 美国youtube阿伟科技 25
+      - 🇫🇷 FR 1 → openitsub.com
+      - 🇺🇸 2.36| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶17CDN
+      - US_1047
+      - US_1002
+      - 🇩🇪 德国 003
+      - 🇬🇧 英国 005 2
+      - 🇯🇵 JP 2 → openitsub.com
+      - 🇺🇸 _US_美国
+      - 🇮🇷 伊朗_1110006
+      - US_707
+      - DE_96🇩🇪DE_101
+      - US_838
+      - 🇩🇪 DE 1 → openitsub.com
+      - US_1014
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_824 | 7.86Mb
+      - 🇺🇸 US 35 TG:@airproxies
+      - 🇨🇦 CA 1 → openitsub.com
+      - US_285
+      - 🇺🇸 _US_美国_13
+      - US_274
       - 🇺🇸 :加拿大-ss-38.64.138.53:1035-被墙-直连-解锁美国地区NF非自制剧
-      - 🇰🇷 韩国_1110201
-      - 🇰🇷 -韩国-54.180.131.191
-      - 🇩🇪 德国_1110124
-      - 🇺🇸 0.81|US 美国youtube阿伟科技 13
-      - US_821
-      - 🇺🇸 1.81| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶15CDN
-      - 🇺🇸 2.06|US 美国youtube阿伟科技 9
-      - mianfeifq_111020221b25-1358
       - 🇯🇵 JP 105
-      - US_1267
-      - 🇰🇷 韩国 002
-      - 🇦🇺 澳大利亚(TG频道:@kxswa)
-      - US_29
-      - 🇯🇵 _JP_日本
-      - 🇭🇰 香港(TG频道:@kxswa)
-      - US_1242
-      - 🇭🇰 香港_1110533
+      - US_865
+      - US_803
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - US_1037
+      - 🇺🇸 US 6 → openitsub.com
+      - 🇺🇸 :美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧
+      - US_292
+      - US_156
+      - KR_154🇰🇷KR_171
+      - 🇩🇪 DE 2 → openitsub.com
+      - US_925
+      - 🇸🇬 新加坡_1110258
+      - 🇺🇸 美国 002
+      - 🇺🇸 US 1 → openitsub.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1161
       - 🇸🇬 新加坡(TG频道:@kxswa)
-      - HK_216
-      - 🇺🇸 美国 140
-      - US_876
-      - US_961
-      - US_743
-      - 🇸🇬 新加坡_1108010
-      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇺🇸 US 570
+      - US_670
+      - US_1008
+      - US_1919
+      - 🇩🇪 德国_1110124
+      - US_682
+      - HK_202
+      - 🇭🇰 香港_1110546
+      - 🇫🇷 0.92|FR 法国 油管阿伟科技 88
+      - 🇭🇰 香港_1110533
+      - US_1017
       - 🇨🇳 中国_1110615
       - 🇨🇳 中国_11101029
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - 🇨🇳 中国_1110418
-      - mianfeifq_1108202273c7-141
+      - 🇰🇷 韩国 003
+      - HK8
+      - AU_41
+      - JP_147
+      - KR_152.70.241.18_111020221b25-1515
       - 🇦🇺 _AU_澳大利亚
-      - US_863
-      - 🇨🇳 中国_1110598
-      - 🇺🇸 US 31 TG:@nodpai
+      - US_968
+      - mianfeifq_1108202273c7-141
+      - US_293🇺🇸US_327
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1153
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1157
       - 🇨🇳 中国_1110417
-      - US_951
-      - 🇺🇸 US 3 → openitsub.com
-      - US_933
-      - US_1263
-      - US_796
-      - 🇸🇬 新加坡_1110283
+      - US_860
+      - 🇮🇳 [09-26]|openrunner|印度(IN)India/Hyderabad_26
       - mianfeifq_11045e8f-12
-      - US_1015
-      - mianfeifq_1106980e-96
-      - 🇮🇩 _ID_印度尼西亚_1
-      - 🇸🇬 SG 1 TG:@nodpai
-      - 🇸🇬 新加坡_1110048
-      - US_824
-      - mianfeifq 191
-      - 🇺🇸 :美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧
-      - 🇸🇬 新加坡_1110309
-      - 🇭🇰 香港_1110529
-      - 🇸🇬 新加坡_1110313
-      - US_925
-      - US_924
-      - US_976
-      - mianfeifq 199
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_226
-      - US_857
-      - 🇸🇬 新加坡_1110284
-      - mianfeifq_11045e8f-14
-      - 🇺🇸 1.58| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶15CDN
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_244
-      - mianfeifq_11092022ffd3-259
-      - US_768
-      - US_938
-      - 🇸🇬 新加坡_1110258
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1268
-      - 🇭🇰 香港_1110530
-      - 🇺🇸 1.94|US 美国youtube阿伟科技 6
-      - SG_139.162.1.169_1105032d-15
-      - US_905
-      - 🇫🇷 0.92|FR 法国 油管阿伟科技 88
-      - mianfeifq_11092022ffd3-264
-      - 公益机场
-      - 🇵🇱 PL 波兰(youtube科技) 2
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_233
-      - 🇨🇳 中国_1110416
-      - 🇰🇷 KR 14 TG:@airproxies
-      - 🇯🇵 日本_1110202
-      - 🇨🇳 中国_1110764
-      - 🇯🇵 -日本-43.201.82.42
-      - 🇪🇺 欧洲(油管:破解资源君2.0)
-      - 🇰🇷 -韩国-52.79.210.204
-      - 🇰🇷 -韩国-13.124.228.70
-      - 🇨🇳 中国_1110593
-      - mianfeifq_1108202273c7-139
-      - 🇸🇬 新加坡_1110314
-      - KR_285
-      - 🇨🇳 中国_11101057
-      - 🇺🇸 :美国-ss-162.251.61.221:812-被墙-直连-解锁美国地区NF非自制剧
-      - 🇨🇳 中国_1110492
-      - 🇺🇸 _US_美国 2
-      - KR_289
       - 🇺🇸 :美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 2.03| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶14CDN
+      - US_880
+      - mianfeifq_11092022c3fc-193
+      - SG_139.162.1.169_1105032d-15
+      - 🇭🇰 HK 2 → openitsub.com
+      - 🇺🇸 1.83| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶15CDN
+      - 🇸🇬 新加坡_1108010
+      - US_920
+      - 🇸🇬 新加坡_1110314
+      - 🇸🇬 SG 127 TJN
+      - 🇸🇬 新加坡_1110284
+      - mianfeifq-011
+      - 🇺🇸 1.44|US 美国youtube阿伟科技 14
+      - mianfeifq_11045e8f-14
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1154
+      - 🇺🇸 1.76| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶1CDN
+      - 🇯🇵 日本 012
+      - US_572
+      - US_1024
+      - 🇺🇸 _US_美国 2
       - 🇸🇬 新加坡 012
-      - 🇨🇦 Relay_🇨🇦CA-🇺🇸US_55
-      - 🇨🇳 中国_1110592
-      - 🇰🇷 -韩国-54.180.152.188
-      - 🇰🇷 -韩国-54.180.156.175
-      - US_595 |19.29Mb
-      - 🇸🇬 新加坡_1110400
-      - mianfeifq_11092022c3fc-166
-      - US_1108
-      - US_701
-      - US_631
-      - US_740
-      - US_885
-      - US_1154
-      - US_662
-      - US_962
-      - US_883
-      - US_873
-      - US_783
-      - US_1114
-      - US_735
-      - US_875
+      - 🇺🇸 美国_11101068
+      - 🇺🇸 _US_美国_8
       - US_902
-      - US_909
-      - US_1177
-      - US_625
-      - US_886
-      - US_939
+      - US_1085
+      - US_931
+      - US_889
+      - 🇨🇳 中国_1110764
+      - US_869
+      - US_945
+      - 🇭🇰 HK 1 → openitsub.com
+      - 🇺🇸 2.06|US 美国youtube阿伟科技 9
+      - 🇭🇰 [日本1|x2] 京港隧道-1000M
+      - 🇭🇰 香港_1110529
+      - mianfeifq-009
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1156
+      - US_290 | 3.68Mb
+      - 白嫖-034
+      - 🇯🇵 日本 003
+      - KR_159🇰🇷KR_178
+      - 🇸🇬 新加坡_1110299
+      - 🇯🇵 日本(TG频道:@kxswa)
+      - 🇦🇺 澳大利亚 004
+      - 🇺🇸 _US_美国_9
+      - 🇺🇸 US 148 TJN
+      - US_1029
+      - 🇨🇳 中国_11101057
+      - 🇸🇬 新加坡_1110400
+      - 🇮🇱 :以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
+      - US_841
+      - US_844
+      - US_888
+      - US_1073
+      - US_874
+      - US_555
+      - US_660
+      - US_738
+      - US_696
+      - US_632
+      - US_724
+      - US_534
+      - US_652
+      - US_835
+      - US_806
+      - US_645
+      - US_655
+      - US_616
+      - US_626
+      - US_719
+      - US_879
+      - US_842
+      - US_836
+      - US_969
+      - US_876
+      - US_1093
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - 🇺🇸 美国 120
+      - US_631
+      - US_653
+      - US_636
+      - US_846
+      - 🇯🇵 -日本-43.201.51.2
+      - US_531
+      - US_1051
       - US_901
-      - US_1017
-      - US_666
-      - US_918
-      - US_635
-      - US_727
-      - US_917
-      - US_982
-      - US_973
-      - US_890
-      - US_937
-      - US_1036
+      - US_804
+      - US_702
+      - US_792
+      - US_864
+      - US_680
+      - US_734
+      - US_967
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US_964
-      - US_680
-      - "🇯🇵 TG频道:@kxswa|日本\r"
-      - 🇺🇸 美国 058
-      - 🇺🇸 美国 066
-      - 白嫖-0349
-      - default_name_1
-      - US_1098
-      - US_1011
-      - US_1010
-      - US_1034
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - US_120
-      - 🇧🇷 巴西 003
-      - 🇺🇸 0.78|US 美国youtube阿伟科技 33
-      - US_1167
+      - US_718
+      - US_1159
+      - 🇺🇸 US 24 TG:@airproxies
+      - US_881
+      - 🇺🇸 美国 055
+      - 🇺🇸 美国 060
+      - US_1041
+      - 🇨🇦 加拿大 004
       - US_147
-      - 🇺🇸 US 732
-      - 🇬🇧 英国 001
-      - US_1169
-      - 🇫🇷 FR 1 → openitsub.com
-      - US_1104
-      - 🇬🇧 英国 003
-      - 🇺🇸 美国 089
-      - 🇺🇸 US 697
-      - 🇳🇱 NL 6
-      - 🇺🇸 美国 088
-      - mianfeifq_110889d3-100
-      - 🇺🇸 _US_美国
-      - mianfeifq_111020221b25-1364
-      - 🇺🇸 1.61|US 美国youtube阿伟科技 25
-      - 白嫖-041
-      - PL_70.34.252.176_11092022c3fc-245
-      - US_979
-      - US_710
-      - RS_89
-      - mianfeifq_1107430d-74
-      - 1.75|土库曼斯坦youtube阿伟科技
-      - US_1052
-      - 🇨🇭 _CH_瑞士
-      - 🇺🇸 美国 085
-      - default_name
+      - US_973
+      - US_260
       - 🇺🇸 :美国-ss-107.182.177.136:256-被墙-直连-解锁美国地区NF非自制剧
-      - US_682
-      - US_940
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - US_1068
-      - US_744
-      - 🇺🇸 2.30|US 美国 油管阿伟科技 45
+      - US_976
+      - US_120
+      - 未知_1110624
+      - US_1084
+      - 🇺🇸 US 2 → openitsub.com
+      - 🇺🇸 US 3 → openitsub.com
+      - US_1090
+      - US_671
+      - 🇺🇸 US 660
+      - 🇬🇧 英国 003
+      - US_1067
+      - 🇬🇧 英国(TG频道:@kxswa)
+      - 🇺🇸 US 697
+      - US_1057
+      - US_324🇺🇸US_308
+      - 🇳🇱 NL 6
+      - 🇬🇧 英国 005
+      - US_129.159.41.233_11092022c3fc-244
+      - mianfeifq_110566a7-322
+      - 🇨🇭 _CH_瑞士
+      - 🇬🇧 GB 1 → openitsub.com
       - 🇺🇸 2.08| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶12CDN
-      - 🇺🇸 2.31| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶13CDN
-      - 🇺🇸 美国 079
-      - mianfeifq_110566a7-131
-      - 🇺🇸 :美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧
-      - mianfeifq_1105032d-14
-      - US_884
-      - 🇫🇷 法国(TG频道:@kxswa)
-      - 🇺🇸 1.63|US 美国youtube阿伟科技 12
-      - US_1012
-      - US_868
-      - 🇺🇸 1.57| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶16CDN
-      - US_1089
-      - 🇺🇸 US 570
+      - US_997
+      - US_827
+      - 1.59|土库曼斯坦youtube阿伟科技
+      - 🇺🇸 US 43 TG:@airproxies
+      - US_720
+      - 🇺🇸 1.77| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶15CDN
+      - 🇺🇸 1.61|US 美国youtube阿伟科技 25
+      - 🇫🇷 FR 1 → openitsub.com
+      - 🇺🇸 2.36| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶17CDN
+      - US_1047
+      - US_1002
+      - 🇩🇪 德国 003
+      - 🇬🇧 英国 005 2
+      - 🇯🇵 JP 2 → openitsub.com
+      - 🇺🇸 _US_美国
+      - 🇮🇷 伊朗_1110006
+      - US_707
+      - DE_96🇩🇪DE_101
+      - US_838
+      - 🇩🇪 DE 1 → openitsub.com
+      - US_1014
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_824 | 7.86Mb
+      - 🇺🇸 US 35 TG:@airproxies
+      - 🇨🇦 CA 1 → openitsub.com
+      - US_285
+      - 🇺🇸 _US_美国_13
+      - US_274
       - 🇺🇸 :加拿大-ss-38.64.138.53:1035-被墙-直连-解锁美国地区NF非自制剧
-      - 🇰🇷 韩国_1110201
-      - 🇰🇷 -韩国-54.180.131.191
-      - 🇩🇪 德国_1110124
-      - 🇺🇸 0.81|US 美国youtube阿伟科技 13
-      - US_821
-      - 🇺🇸 1.81| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶15CDN
-      - 🇺🇸 2.06|US 美国youtube阿伟科技 9
-      - mianfeifq_111020221b25-1358
       - 🇯🇵 JP 105
-      - US_1267
-      - 🇰🇷 韩国 002
-      - 🇦🇺 澳大利亚(TG频道:@kxswa)
-      - US_29
-      - 🇯🇵 _JP_日本
-      - 🇭🇰 香港(TG频道:@kxswa)
-      - US_1242
-      - 🇭🇰 香港_1110533
+      - US_865
+      - US_803
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - US_1037
+      - 🇺🇸 US 6 → openitsub.com
+      - 🇺🇸 :美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧
+      - US_292
+      - US_156
+      - KR_154🇰🇷KR_171
+      - 🇩🇪 DE 2 → openitsub.com
+      - US_925
+      - 🇸🇬 新加坡_1110258
+      - 🇺🇸 美国 002
+      - 🇺🇸 US 1 → openitsub.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1161
       - 🇸🇬 新加坡(TG频道:@kxswa)
-      - HK_216
-      - 🇺🇸 美国 140
-      - US_876
-      - US_961
-      - US_743
-      - 🇸🇬 新加坡_1108010
-      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇺🇸 US 570
+      - US_670
+      - US_1008
+      - US_1919
+      - 🇩🇪 德国_1110124
+      - US_682
+      - HK_202
+      - 🇭🇰 香港_1110546
+      - 🇫🇷 0.92|FR 法国 油管阿伟科技 88
+      - 🇭🇰 香港_1110533
+      - US_1017
       - 🇨🇳 中国_1110615
       - 🇨🇳 中国_11101029
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - 🇨🇳 中国_1110418
-      - mianfeifq_1108202273c7-141
+      - 🇰🇷 韩国 003
+      - HK8
+      - AU_41
+      - JP_147
+      - KR_152.70.241.18_111020221b25-1515
       - 🇦🇺 _AU_澳大利亚
-      - US_863
-      - 🇨🇳 中国_1110598
-      - 🇺🇸 US 31 TG:@nodpai
+      - US_968
+      - mianfeifq_1108202273c7-141
+      - US_293🇺🇸US_327
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1153
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1157
       - 🇨🇳 中国_1110417
-      - US_951
-      - 🇺🇸 US 3 → openitsub.com
-      - US_933
-      - US_1263
-      - US_796
-      - 🇸🇬 新加坡_1110283
+      - US_860
+      - 🇮🇳 [09-26]|openrunner|印度(IN)India/Hyderabad_26
       - mianfeifq_11045e8f-12
-      - US_1015
-      - mianfeifq_1106980e-96
-      - 🇮🇩 _ID_印度尼西亚_1
-      - 🇸🇬 SG 1 TG:@nodpai
-      - 🇸🇬 新加坡_1110048
-      - US_824
-      - mianfeifq 191
-      - 🇺🇸 :美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧
-      - 🇸🇬 新加坡_1110309
-      - 🇭🇰 香港_1110529
-      - 🇸🇬 新加坡_1110313
-      - US_925
-      - US_924
-      - US_976
-      - mianfeifq 199
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_226
-      - US_857
-      - 🇸🇬 新加坡_1110284
-      - mianfeifq_11045e8f-14
-      - 🇺🇸 1.58| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶15CDN
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_244
-      - mianfeifq_11092022ffd3-259
-      - US_768
-      - US_938
-      - 🇸🇬 新加坡_1110258
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1268
-      - 🇭🇰 香港_1110530
-      - 🇺🇸 1.94|US 美国youtube阿伟科技 6
-      - SG_139.162.1.169_1105032d-15
-      - US_905
-      - 🇫🇷 0.92|FR 法国 油管阿伟科技 88
-      - mianfeifq_11092022ffd3-264
-      - 公益机场
-      - 🇵🇱 PL 波兰(youtube科技) 2
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_233
-      - 🇨🇳 中国_1110416
-      - 🇰🇷 KR 14 TG:@airproxies
-      - 🇯🇵 日本_1110202
-      - 🇨🇳 中国_1110764
-      - 🇯🇵 -日本-43.201.82.42
-      - 🇪🇺 欧洲(油管:破解资源君2.0)
-      - 🇰🇷 -韩国-52.79.210.204
-      - 🇰🇷 -韩国-13.124.228.70
-      - 🇨🇳 中国_1110593
-      - mianfeifq_1108202273c7-139
-      - 🇸🇬 新加坡_1110314
-      - KR_285
-      - 🇨🇳 中国_11101057
-      - 🇺🇸 :美国-ss-162.251.61.221:812-被墙-直连-解锁美国地区NF非自制剧
-      - 🇨🇳 中国_1110492
-      - 🇺🇸 _US_美国 2
-      - KR_289
       - 🇺🇸 :美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 2.03| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶14CDN
+      - US_880
+      - mianfeifq_11092022c3fc-193
+      - SG_139.162.1.169_1105032d-15
+      - 🇭🇰 HK 2 → openitsub.com
+      - 🇺🇸 1.83| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶15CDN
+      - 🇸🇬 新加坡_1108010
+      - US_920
+      - 🇸🇬 新加坡_1110314
+      - 🇸🇬 SG 127 TJN
+      - 🇸🇬 新加坡_1110284
+      - mianfeifq-011
+      - 🇺🇸 1.44|US 美国youtube阿伟科技 14
+      - mianfeifq_11045e8f-14
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1154
+      - 🇺🇸 1.76| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶1CDN
+      - 🇯🇵 日本 012
+      - US_572
+      - US_1024
+      - 🇺🇸 _US_美国 2
       - 🇸🇬 新加坡 012
-      - 🇨🇦 Relay_🇨🇦CA-🇺🇸US_55
-      - 🇨🇳 中国_1110592
-      - 🇰🇷 -韩国-54.180.152.188
-      - 🇰🇷 -韩国-54.180.156.175
-      - US_595 |19.29Mb
-      - 🇸🇬 新加坡_1110400
-      - mianfeifq_11092022c3fc-166
-      - US_1108
-      - US_701
-      - US_631
-      - US_740
-      - US_885
-      - US_1154
-      - US_662
-      - US_962
-      - US_883
-      - US_873
-      - US_783
-      - US_1114
-      - US_735
-      - US_875
+      - 🇺🇸 美国_11101068
+      - 🇺🇸 _US_美国_8
       - US_902
-      - US_909
-      - US_1177
-      - US_625
-      - US_886
-      - US_939
+      - US_1085
+      - US_931
+      - US_889
+      - 🇨🇳 中国_1110764
+      - US_869
+      - US_945
+      - 🇭🇰 HK 1 → openitsub.com
+      - 🇺🇸 2.06|US 美国youtube阿伟科技 9
+      - 🇭🇰 [日本1|x2] 京港隧道-1000M
+      - 🇭🇰 香港_1110529
+      - mianfeifq-009
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1156
+      - US_290 | 3.68Mb
+      - 白嫖-034
+      - 🇯🇵 日本 003
+      - KR_159🇰🇷KR_178
+      - 🇸🇬 新加坡_1110299
+      - 🇯🇵 日本(TG频道:@kxswa)
+      - 🇦🇺 澳大利亚 004
+      - 🇺🇸 _US_美国_9
+      - 🇺🇸 US 148 TJN
+      - US_1029
+      - 🇨🇳 中国_11101057
+      - 🇸🇬 新加坡_1110400
+      - 🇮🇱 :以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
+      - US_841
+      - US_844
+      - US_888
+      - US_1073
+      - US_874
+      - US_555
+      - US_660
+      - US_738
+      - US_696
+      - US_632
+      - US_724
+      - US_534
+      - US_652
+      - US_835
+      - US_806
+      - US_645
+      - US_655
+      - US_616
+      - US_626
+      - US_719
+      - US_879
+      - US_842
+      - US_836
+      - US_969
+      - US_876
+      - US_1093
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - 🇺🇸 美国 120
+      - US_631
+      - US_653
+      - US_636
+      - US_846
+      - 🇯🇵 -日本-43.201.51.2
+      - US_531
+      - US_1051
       - US_901
-      - US_1017
-      - US_666
-      - US_918
-      - US_635
-      - US_727
-      - US_917
-      - US_982
-      - US_973
-      - US_890
-      - US_937
-      - US_1036
+      - US_804
+      - US_702
+      - US_792
+      - US_864
+      - US_680
+      - US_734
+      - US_967
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -781,204 +795,205 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - US_964
-      - US_680
-      - "🇯🇵 TG频道:@kxswa|日本\r"
-      - 🇺🇸 美国 058
-      - 🇺🇸 美国 066
-      - 白嫖-0349
-      - default_name_1
-      - US_1098
-      - US_1011
-      - US_1010
-      - US_1034
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - US_120
-      - 🇧🇷 巴西 003
-      - 🇺🇸 0.78|US 美国youtube阿伟科技 33
-      - US_1167
+      - US_718
+      - US_1159
+      - 🇺🇸 US 24 TG:@airproxies
+      - US_881
+      - 🇺🇸 美国 055
+      - 🇺🇸 美国 060
+      - US_1041
+      - 🇨🇦 加拿大 004
       - US_147
-      - 🇺🇸 US 732
-      - 🇬🇧 英国 001
-      - US_1169
-      - 🇫🇷 FR 1 → openitsub.com
-      - US_1104
-      - 🇬🇧 英国 003
-      - 🇺🇸 美国 089
-      - 🇺🇸 US 697
-      - 🇳🇱 NL 6
-      - 🇺🇸 美国 088
-      - mianfeifq_110889d3-100
-      - 🇺🇸 _US_美国
-      - mianfeifq_111020221b25-1364
-      - 🇺🇸 1.61|US 美国youtube阿伟科技 25
-      - 白嫖-041
-      - PL_70.34.252.176_11092022c3fc-245
-      - US_979
-      - US_710
-      - RS_89
-      - mianfeifq_1107430d-74
-      - 1.75|土库曼斯坦youtube阿伟科技
-      - US_1052
-      - 🇨🇭 _CH_瑞士
-      - 🇺🇸 美国 085
-      - default_name
+      - US_973
+      - US_260
       - 🇺🇸 :美国-ss-107.182.177.136:256-被墙-直连-解锁美国地区NF非自制剧
-      - US_682
-      - US_940
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - US_1068
-      - US_744
-      - 🇺🇸 2.30|US 美国 油管阿伟科技 45
+      - US_976
+      - US_120
+      - 未知_1110624
+      - US_1084
+      - 🇺🇸 US 2 → openitsub.com
+      - 🇺🇸 US 3 → openitsub.com
+      - US_1090
+      - US_671
+      - 🇺🇸 US 660
+      - 🇬🇧 英国 003
+      - US_1067
+      - 🇬🇧 英国(TG频道:@kxswa)
+      - 🇺🇸 US 697
+      - US_1057
+      - US_324🇺🇸US_308
+      - 🇳🇱 NL 6
+      - 🇬🇧 英国 005
+      - US_129.159.41.233_11092022c3fc-244
+      - mianfeifq_110566a7-322
+      - 🇨🇭 _CH_瑞士
+      - 🇬🇧 GB 1 → openitsub.com
       - 🇺🇸 2.08| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶12CDN
-      - 🇺🇸 2.31| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶13CDN
-      - 🇺🇸 美国 079
-      - mianfeifq_110566a7-131
-      - 🇺🇸 :美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧
-      - mianfeifq_1105032d-14
-      - US_884
-      - 🇫🇷 法国(TG频道:@kxswa)
-      - 🇺🇸 1.63|US 美国youtube阿伟科技 12
-      - US_1012
-      - US_868
-      - 🇺🇸 1.57| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶16CDN
-      - US_1089
-      - 🇺🇸 US 570
+      - US_997
+      - US_827
+      - 1.59|土库曼斯坦youtube阿伟科技
+      - 🇺🇸 US 43 TG:@airproxies
+      - US_720
+      - 🇺🇸 1.77| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶15CDN
+      - 🇺🇸 1.61|US 美国youtube阿伟科技 25
+      - 🇫🇷 FR 1 → openitsub.com
+      - 🇺🇸 2.36| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶17CDN
+      - US_1047
+      - US_1002
+      - 🇩🇪 德国 003
+      - 🇬🇧 英国 005 2
+      - 🇯🇵 JP 2 → openitsub.com
+      - 🇺🇸 _US_美国
+      - 🇮🇷 伊朗_1110006
+      - US_707
+      - DE_96🇩🇪DE_101
+      - US_838
+      - 🇩🇪 DE 1 → openitsub.com
+      - US_1014
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_824 | 7.86Mb
+      - 🇺🇸 US 35 TG:@airproxies
+      - 🇨🇦 CA 1 → openitsub.com
+      - US_285
+      - 🇺🇸 _US_美国_13
+      - US_274
       - 🇺🇸 :加拿大-ss-38.64.138.53:1035-被墙-直连-解锁美国地区NF非自制剧
-      - 🇰🇷 韩国_1110201
-      - 🇰🇷 -韩国-54.180.131.191
-      - 🇩🇪 德国_1110124
-      - 🇺🇸 0.81|US 美国youtube阿伟科技 13
-      - US_821
-      - 🇺🇸 1.81| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶15CDN
-      - 🇺🇸 2.06|US 美国youtube阿伟科技 9
-      - mianfeifq_111020221b25-1358
       - 🇯🇵 JP 105
-      - US_1267
-      - 🇰🇷 韩国 002
-      - 🇦🇺 澳大利亚(TG频道:@kxswa)
-      - US_29
-      - 🇯🇵 _JP_日本
-      - 🇭🇰 香港(TG频道:@kxswa)
-      - US_1242
-      - 🇭🇰 香港_1110533
+      - US_865
+      - US_803
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - US_1037
+      - 🇺🇸 US 6 → openitsub.com
+      - 🇺🇸 :美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧
+      - US_292
+      - US_156
+      - KR_154🇰🇷KR_171
+      - 🇩🇪 DE 2 → openitsub.com
+      - US_925
+      - 🇸🇬 新加坡_1110258
+      - 🇺🇸 美国 002
+      - 🇺🇸 US 1 → openitsub.com
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1161
       - 🇸🇬 新加坡(TG频道:@kxswa)
-      - HK_216
-      - 🇺🇸 美国 140
-      - US_876
-      - US_961
-      - US_743
-      - 🇸🇬 新加坡_1108010
-      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇺🇸 US 570
+      - US_670
+      - US_1008
+      - US_1919
+      - 🇩🇪 德国_1110124
+      - US_682
+      - HK_202
+      - 🇭🇰 香港_1110546
+      - 🇫🇷 0.92|FR 法国 油管阿伟科技 88
+      - 🇭🇰 香港_1110533
+      - US_1017
       - 🇨🇳 中国_1110615
       - 🇨🇳 中国_11101029
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
-      - 🇨🇳 中国_1110418
-      - mianfeifq_1108202273c7-141
+      - 🇰🇷 韩国 003
+      - HK8
+      - AU_41
+      - JP_147
+      - KR_152.70.241.18_111020221b25-1515
       - 🇦🇺 _AU_澳大利亚
-      - US_863
-      - 🇨🇳 中国_1110598
-      - 🇺🇸 US 31 TG:@nodpai
+      - US_968
+      - mianfeifq_1108202273c7-141
+      - US_293🇺🇸US_327
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1153
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1157
       - 🇨🇳 中国_1110417
-      - US_951
-      - 🇺🇸 US 3 → openitsub.com
-      - US_933
-      - US_1263
-      - US_796
-      - 🇸🇬 新加坡_1110283
+      - US_860
+      - 🇮🇳 [09-26]|openrunner|印度(IN)India/Hyderabad_26
       - mianfeifq_11045e8f-12
-      - US_1015
-      - mianfeifq_1106980e-96
-      - 🇮🇩 _ID_印度尼西亚_1
-      - 🇸🇬 SG 1 TG:@nodpai
-      - 🇸🇬 新加坡_1110048
-      - US_824
-      - mianfeifq 191
-      - 🇺🇸 :美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧
-      - 🇸🇬 新加坡_1110309
-      - 🇭🇰 香港_1110529
-      - 🇸🇬 新加坡_1110313
-      - US_925
-      - US_924
-      - US_976
-      - mianfeifq 199
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_226
-      - US_857
-      - 🇸🇬 新加坡_1110284
-      - mianfeifq_11045e8f-14
-      - 🇺🇸 1.58| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶15CDN
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_244
-      - mianfeifq_11092022ffd3-259
-      - US_768
-      - US_938
-      - 🇸🇬 新加坡_1110258
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1268
-      - 🇭🇰 香港_1110530
-      - 🇺🇸 1.94|US 美国youtube阿伟科技 6
-      - SG_139.162.1.169_1105032d-15
-      - US_905
-      - 🇫🇷 0.92|FR 法国 油管阿伟科技 88
-      - mianfeifq_11092022ffd3-264
-      - 公益机场
-      - 🇵🇱 PL 波兰(youtube科技) 2
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_233
-      - 🇨🇳 中国_1110416
-      - 🇰🇷 KR 14 TG:@airproxies
-      - 🇯🇵 日本_1110202
-      - 🇨🇳 中国_1110764
-      - 🇯🇵 -日本-43.201.82.42
-      - 🇪🇺 欧洲(油管:破解资源君2.0)
-      - 🇰🇷 -韩国-52.79.210.204
-      - 🇰🇷 -韩国-13.124.228.70
-      - 🇨🇳 中国_1110593
-      - mianfeifq_1108202273c7-139
-      - 🇸🇬 新加坡_1110314
-      - KR_285
-      - 🇨🇳 中国_11101057
-      - 🇺🇸 :美国-ss-162.251.61.221:812-被墙-直连-解锁美国地区NF非自制剧
-      - 🇨🇳 中国_1110492
-      - 🇺🇸 _US_美国 2
-      - KR_289
       - 🇺🇸 :美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 2.03| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶14CDN
+      - US_880
+      - mianfeifq_11092022c3fc-193
+      - SG_139.162.1.169_1105032d-15
+      - 🇭🇰 HK 2 → openitsub.com
+      - 🇺🇸 1.83| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶15CDN
+      - 🇸🇬 新加坡_1108010
+      - US_920
+      - 🇸🇬 新加坡_1110314
+      - 🇸🇬 SG 127 TJN
+      - 🇸🇬 新加坡_1110284
+      - mianfeifq-011
+      - 🇺🇸 1.44|US 美国youtube阿伟科技 14
+      - mianfeifq_11045e8f-14
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1154
+      - 🇺🇸 1.76| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶1CDN
+      - 🇯🇵 日本 012
+      - US_572
+      - US_1024
+      - 🇺🇸 _US_美国 2
       - 🇸🇬 新加坡 012
-      - 🇨🇦 Relay_🇨🇦CA-🇺🇸US_55
-      - 🇨🇳 中国_1110592
-      - 🇰🇷 -韩国-54.180.152.188
-      - 🇰🇷 -韩国-54.180.156.175
-      - US_595 |19.29Mb
-      - 🇸🇬 新加坡_1110400
-      - mianfeifq_11092022c3fc-166
-      - US_1108
-      - US_701
-      - US_631
-      - US_740
-      - US_885
-      - US_1154
-      - US_662
-      - US_962
-      - US_883
-      - US_873
-      - US_783
-      - US_1114
-      - US_735
-      - US_875
+      - 🇺🇸 美国_11101068
+      - 🇺🇸 _US_美国_8
       - US_902
-      - US_909
-      - US_1177
-      - US_625
-      - US_886
-      - US_939
+      - US_1085
+      - US_931
+      - US_889
+      - 🇨🇳 中国_1110764
+      - US_869
+      - US_945
+      - 🇭🇰 HK 1 → openitsub.com
+      - 🇺🇸 2.06|US 美国youtube阿伟科技 9
+      - 🇭🇰 [日本1|x2] 京港隧道-1000M
+      - 🇭🇰 香港_1110529
+      - mianfeifq-009
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1156
+      - US_290 | 3.68Mb
+      - 白嫖-034
+      - 🇯🇵 日本 003
+      - KR_159🇰🇷KR_178
+      - 🇸🇬 新加坡_1110299
+      - 🇯🇵 日本(TG频道:@kxswa)
+      - 🇦🇺 澳大利亚 004
+      - 🇺🇸 _US_美国_9
+      - 🇺🇸 US 148 TJN
+      - US_1029
+      - 🇨🇳 中国_11101057
+      - 🇸🇬 新加坡_1110400
+      - 🇮🇱 :以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
+      - US_841
+      - US_844
+      - US_888
+      - US_1073
+      - US_874
+      - US_555
+      - US_660
+      - US_738
+      - US_696
+      - US_632
+      - US_724
+      - US_534
+      - US_652
+      - US_835
+      - US_806
+      - US_645
+      - US_655
+      - US_616
+      - US_626
+      - US_719
+      - US_879
+      - US_842
+      - US_836
+      - US_969
+      - US_876
+      - US_1093
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - 🇺🇸 美国 120
+      - US_631
+      - US_653
+      - US_636
+      - US_846
+      - 🇯🇵 -日本-43.201.51.2
+      - US_531
+      - US_1051
       - US_901
-      - US_1017
-      - US_666
-      - US_918
-      - US_635
-      - US_727
-      - US_917
-      - US_982
-      - US_973
-      - US_890
-      - US_937
-      - US_1036
+      - US_804
+      - US_702
+      - US_792
+      - US_864
+      - US_680
+      - US_734
+      - US_967
 rules:
  - MATCH,规则选择
