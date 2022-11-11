@@ -6,7 +6,7 @@ from ip_update import geoip_update  # 更新ip库Country.mmdb
 from sub_convert import sub_convert
 
 #源文件
-urllistfile = './config/goodurllist'
+urllistfile = './utils/goodtest/urllist'
 #输出订阅文件位置
 outputUrlSub_path = './sub/test'
 outputBase64Sub_path =  './sub/test64'
