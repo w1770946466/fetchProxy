@@ -73,16 +73,16 @@ def urlListToSub(urllistfile):  #将url订阅列表内容转换成url,base64,cla
 
     #开始写入文件
     # 写入url 订阅文件
-    print('write goodtestUrl content!')
+    print('write goodUrl content!')
     write_file(outputUrlSub_path,ownallProxy)
 
     # 写入base64 订阅文件
-    print('write goodtestUrl64 content!')
+    print('write goodUrl64 content!')
     subContent = sub_convert.base64_encode(ownallProxy)
     write_file(outputBase64Sub_path,subContent)
 
     # 写入Clash 订阅文件
-    print('write goodtestClash begin!')
+    print('write goodClash content!')
     good_file_path = os.path.abspath(outputBase64Sub_path)
     print('good_file_path =' + good_file_path)
     content = sub_convert.convert_remote(good_file_path,'clash')
