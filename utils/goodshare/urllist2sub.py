@@ -8,9 +8,9 @@ from sub_convert import sub_convert
 #源文件
 urllistfile = './utils/goodtest/urllist'
 #输出订阅文件位置
-outputUrlSub_path = './sub/test'
-outputBase64Sub_path =  './sub/test64'
-outputClashSub_path = './sub/testClash.yml'
+outputUrlSub_path = './sub/good'
+outputBase64Sub_path =  './sub/good64'
+outputClashSub_path = './sub/goodClash.yml'
 
 
 #code begin
