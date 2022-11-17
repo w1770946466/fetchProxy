@@ -1,5 +1,16 @@
 #!/usr/bin/env python3
 
+# 此转换功能需要安装订阅转换工具-subconverter
+#--------------------------------------------------
+#    - name: 安装订阅转换工具-subconverter
+#      run: |
+#        wget -O subconverter.tar.gz https://github.com/tindy2013/subconverter/releases/latest/download/subconverter_linux64.tar.gz
+#        tar -zxvf subconverter.tar.gz -C ./
+#        chmod +x ./subconverter/subconverter && nohup ./subconverter/subconverter >./subconverter.log 2>&1 &
+#--------------------------------------------------
+#安装subconverter，调用本模块，默认地址: host = 'http://127.0.0.1:25500',可以不设置host
+#使用网络host：调用sub_convert功能类里的use_urlhost()  列如：sub_convert.use_urlhost()
+
 import re, yaml, json, base64
 import requests, socket, urllib.parse
 from requests.adapters import HTTPAdapter
