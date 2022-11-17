@@ -1,4 +1,4 @@
-name: goodtest
+name: goodshare
 
 # 触发条件
 on:
@@ -42,7 +42,7 @@ jobs:
 # 执行任务        
     - name: 执行任务 - urllist2sub.py
       run: |
-        python ./utils/goodtest/urllist2sub.py    
+        python ./utils/goodshare/urllist2sub.py    
 # 提交           
     - name: 提交更改
       run: |                 
@@ -50,7 +50,7 @@ jobs:
         git config --local user.name "GitHub Actions"
         git pull origin main
         git add ./sub
-        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') goodtest节点获取成功 "
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') goodshare节点获取成功 "
     - name: 推送更改
       uses:  ad-m/github-push-action@master
       with:
