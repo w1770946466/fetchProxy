@@ -83,7 +83,7 @@ def urlListToSub(urllistfile):  #将url订阅列表内容转换成url,base64,cla
 
     # 写入Clash 订阅文件
     print('write goodtestClash begin!')
-    good_file_path = os.path.abspath(outputUrlSub_path)
+    good_file_path = os.path.abspath(outputBase64Sub_path)
     print('good_file_path =' + good_file_path)
     content = sub_convert.convert_remote(good_file_path,'clash')
     write_file(outputClashSub_path,content)
