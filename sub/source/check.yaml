@@ -1,126 +1,15 @@
 proxies:
 - name: "\U0001F1FA\U0001F1F8 US 1"
-  server: 5.161.150.87
-  port: 8081
-  type: vmess
-  uuid: 2b2f1e82-057d-420f-e404-43e403f2437d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 5.161.150.87
-- name: "\U0001F1ED\U0001F1FA HU 2"
-  server: 185.225.69.134
-  port: 45081
-  type: vmess
-  uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
-  alterId: 64
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 185.225.69.134
-- name: "\U0001F1FA\U0001F1F8 US 3"
-  server: 23.105.199.160
-  port: 27317
-  type: vmess
-  uuid: 01832c71-50ac-4891-ae37-1dea8f42ae2d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: ah.yd01.paopaocloud.cyou
-- name: "\U0001F1EC\U0001F1E7 GB 4"
-  "\u514D\u8D39\u8BA2\u9605 \u5C3D\u5728 https://t.me/go4sharing": null
-  server: uk3.v2rayserv.com
-  port: 80
-  type: vmess
-  uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /sshocean
-    headers:
-      Host: uk3.v2rayserv.com
-- name: "\U0001F1EC\U0001F1E7 GB 5"
-  server: 146.19.230.241
+  server: fhcamd2.gaox.ml
   port: 443
   type: trojan
-  password: xxoo
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   skip-cert-verify: true
-- name: "\U0001F1EB\U0001F1F7 FR 6"
-  server: cdn2.soft98.download
-  port: 8443
+- name: "\U0001F1E8\U0001F1F3 CN 2"
+  server: 120.233.11.136
+  port: 9043
   type: vmess
-  uuid: 41e41e46-9bdb-4666-ae89-754c4cc8255b
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn2.soft98.download
-- name: "\U0001F1EC\U0001F1E7 GB 7"
-  server: 185.16.206.209
-  port: 443
-  type: trojan
-  password: shefelnak
-  skip-cert-verify: true
-- name: "\U0001F1E9\U0001F1EA DE 8"
-  server: 150.230.149.55
-  port: 6374
-  type: vmess
-  uuid: 80f25361-877d-46d4-8404-f0dce1faf84f
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 150.230.149.55
-- name: "\U0001F1F0\U0001F1F7 KR 9"
-  server: m4.40010010.xyz
-  port: 37121
-  type: vmess
-  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: m4.40010010.xyz
-- name: "\U0001F1FA\U0001F1F8 US 10"
-  server: 212.103.62.53
-  port: 27691
-  type: trojan
-  password: K1tCefW7IF
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 11"
-  server: 129.146.133.157
-  port: 51009
-  type: vmess
-  uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
@@ -129,47 +18,12 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 129.146.133.157
-- name: "\U0001F1E8\U0001F1E6 CA 12"
-  server: ca2.v2rayserv.com
-  port: 80
+      Host: us2.guolicheng.cyou
+- name: "\U0001F1E8\U0001F1F3 CN 3"
+  server: 111.45.22.139
+  port: 11920
   type: vmess
-  uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: ca2.v2rayserv.com
-- name: "\U0001F1F8\U0001F1EC SG 13"
-  "\u514D\u8D39\u8BA2\u9605 \u5C3D\u5728 https://t.me/go4sharing": null
-  server: sg5.v2rayserv.com
-  port: 80
-  type: vmess
-  uuid: 02c99c32-0058-4b87-b51a-8f5d6a59bddd
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /sshocean
-    headers:
-      Host: sg5.v2rayserv.com
-- name: "\U0001F1FA\U0001F1F8 US 14"
-  server: 23.175.144.181
-  port: 8443
-  type: trojan
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 15"
-  server: 150.230.41.9
-  port: 23292
-  type: vmess
-  uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
@@ -178,243 +32,76 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 150.230.41.9
-- name: "\U0001F1F0\U0001F1F7 KR 16"
-  server: 52.79.182.230
-  port: 42517
+      Host: us2.guolicheng.cyou
+- name: "\U0001F1E8\U0001F1F3 CN 4"
+  server: 120.233.11.136
+  port: 9045
   type: vmess
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
-  network: ws
+  network: tcp
   tls: false
   ws-opts:
     path: /
     headers:
-      Host: 52.79.182.230
-- name: "\U0001F1F0\U0001F1F7 KR 17"
-  server: 13.209.68.219
-  port: 42517
+      Host: us2.guolicheng.cyou
+- name: "\U0001F1E8\U0001F1F3 CN 5"
+  server: 120.233.11.136
+  port: 9044
   type: vmess
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
-  network: ws
+  network: tcp
   tls: false
   ws-opts:
     path: /
     headers:
-      Host: 13.209.68.219
-- name: "\U0001F1FA\U0001F1F8 US 18"
-  server: 129.213.117.66
-  port: 41106
-  type: trojan
-  password: Yaib2g1jy3
-  sni: 1sj.fengcj.xyz
-  skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 19"
-  server: 140.227.12.89
-  port: 443
-  type: trojan
-  password: 40c89b10235c40321e7a3cef82b53a03
-  skip-cert-verify: true
-- name: "\U0001F1EC\U0001F1E7 GB 20"
-  server: 94.102.54.65
+      Host: us2.guolicheng.cyou
+- name: "\U0001F1E8\U0001F1F3 CN 6"
+  server: 111.45.22.139
+  port: 9039
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: us2.guolicheng.cyou
+- name: "\U0001F1E8\U0001F1F3 CN 7"
+  server: 116.129.254.184
+  port: 9028
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 116.129.254.184
+- name: "\U0001F1EC\U0001F1E7 GB 8"
+  server: content-provider13.cdn-delivery.akamaicd.com
   port: 443
   type: trojan
   password: Sp3eDVp
   skip-cert-verify: true
-- name: "\U0001F1F3\U0001F1F1 NL 21"
-  server: 185.212.200.75
-  port: 443
-  type: trojan
-  password: Sp3eDVp
-  skip-cert-verify: true
-- name: "\U0001F1F8\U0001F1EC SG 22"
-  server: 138.2.81.70
-  port: 443
-  type: trojan
-  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  skip-cert-verify: true
-- name: "\U0001F1E9\U0001F1EA DE 23"
-  server: 45.146.252.141
-  port: 80
-  type: vmess
-  uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: 45.146.252.141
-- name: "\U0001F1F8\U0001F1EC SG 24"
-  server: 139.99.91.95
-  port: 443
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 139.99.91.95
-- name: "\U0001F1FA\U0001F1F8 US 25"
-  server: 138.124.183.216
-  port: 443
-  type: trojan
-  password: xxoo
-  skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 26"
-  server: jp1.sanfen001.pics
-  port: 443
-  type: trojan
-  password: 82ece5db-34f5-4b86-a469-01df94d15bbb
-  skip-cert-verify: true
-- name: "\U0001F1E9\U0001F1EA DE 27"
-  server: 3.76.75.61
-  port: 8081
-  type: vmess
-  uuid: 7948980d-98d6-44ef-8b36-b44ed1135940
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 3.76.75.61
-- name: "\U0001F1E8\U0001F1E6 CA 28"
-  server: 148.113.141.99
-  port: 443
-  type: trojan
-  password: HdsUZmsHQW
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 29"
-  server: 43.154.34.49
-  port: 23183
-  type: vmess
-  uuid: b402a4af-285a-463e-c3a7-53f91efdec78
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: 43.154.34.49
-- name: "\U0001F1FA\U0001F1F8 US 30"
-  server: 129.159.41.233
-  port: 32586
-  type: vmess
-  uuid: 341a9182-c423-499c-c46e-d17838b29037
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: ah.yd01.paopaocloud.cyou
-- name: "\U0001F1E9\U0001F1EA DE 31"
-  server: 164.92.193.65
-  port: 8081
-  type: vmess
-  uuid: 0f9c108d-b0d6-4795-a331-0e27d05fb9df
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 164.92.193.65
-- name: "\U0001F1FA\U0001F1F8 US 32"
-  server: 5.161.114.91
-  port: 26613
-  type: vmess
-  uuid: 2c10a354-ca2d-4db3-d8f6-6f89f5117c9f
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 5.161.114.91
-- name: "\U0001F1EB\U0001F1F7 FR 33"
-  server: content-provider26.cdn-delivery.akamaicd.com
+- name: "\U0001F1EC\U0001F1E7 GB 9"
+  server: 94.102.54.66
   port: 443
   type: trojan
   password: origin
-  sni: content-provider26.cdn-delivery.akamaicd.com
   skip-cert-verify: true
-- name: "\U0001F1E9\U0001F1EA DE 34"
-  server: bdvasxmahl.injafarvpnwebelieve.gq
-  port: 443
-  type: trojan
-  password: TvBypqQJ9b
-  skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 35"
-  server: 138.2.44.211
-  port: 20081
-  type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 138.2.44.211
-- name: "\U0001F1EB\U0001F1F7 FR 36"
-  server: 51.77.71.131
-  port: 443
-  type: trojan
-  password: Sp3eDVp
-  skip-cert-verify: true
-- name: "\U0001F1F3\U0001F1F1 NL 37"
-  server: content-provider23.cdn-delivery.akamaicd.com
-  port: 443
-  type: trojan
-  password: Sp3eDVp
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 MO 38"
-  server: 45.64.22.55
-  port: 443
-  type: trojan
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-  sni: tenderly.meijireform.com
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 39"
-  server: 23.105.199.160
-  port: 23166
-  type: vmess
-  uuid: f1cda9da-c859-4f26-f609-a2e8837cc9b8
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 23.105.199.160
-- name: "\U0001F1FA\U0001F1F8 US 40"
+- name: "\U0001F1FA\U0001F1F8 US 10"
   server: huclouds.ml
   port: 5505
   type: vmess
@@ -428,208 +115,33 @@ proxies:
     path: /
     headers:
       Host: huclouds.ml
-- name: "\U0001F1FA\U0001F1F8 US 41"
-  server: 23.105.199.160
-  port: 37584
-  type: vmess
-  uuid: 61914893-393a-4685-fc2d-13328bd8e491
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 23.105.199.160
-- name: "\U0001F1F8\U0001F1EC SG 42"
-  server: 18.143.123.35
+- name: "\U0001F1EF\U0001F1F5 JP 11"
+  server: 150.230.97.186
+  port: 33378
+  type: trojan
+  password: Ff3MZ1I0wc
+  skip-cert-verify: true
+- name: "\U0001F1E9\U0001F1EA DE 12"
+  server: 5.249.160.226
   port: 80
   type: vmess
-  uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
+  uuid: c721b258-e101-41e1-9574-ad171e502ab8
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
   network: ws
   tls: false
   ws-opts:
-    path: /
+    path: /vmess
     headers:
-      Host: 18.143.123.35
-- name: "\U0001F1E8\U0001F1F3 HK 43"
-  server: 23.91.100.243
-  port: 30862
-  type: vmess
-  uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /je5x3pBN1vez3NQudNkB
-    headers:
-      Host: node.inforun.work
-- name: "\U0001F3F4\U000E0067\U000E006F\U000E006F\U000E0067\U000E006C\U000E0065\U000E007F\
-    \ GOOGLE 44"
-  server: gcp2.goodcc.fun
-  port: 23442
-  type: trojan
-  password: cQfwTIN1SC
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 45"
-  server: 23.105.199.160
-  port: 25078
-  type: vmess
-  uuid: 964f9b2b-7ff1-4026-d4a9-41b824f4b3bb
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /v2ray
-    headers:
-      Host: ssru.v2.jp01.2yun.win
-- name: "\U0001F1FA\U0001F1F8 US 46"
-  server: 5.161.125.97
-  port: 8081
-  type: vmess
-  uuid: 24d2dcb8-9670-4905-f35b-61df65bdfe84
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 5.161.125.97
-- name: "\U0001F1EC\U0001F1E7 GB 47"
-  server: 161.35.47.70
-  port: 13472
-  type: vmess
-  uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 161.35.47.70
-- name: "\U0001F1EF\U0001F1F5 JP 48"
-  server: trs16.bolab.net
-  port: 22
-  type: trojan
-  password: 40c89b10235c40321e7a3cef82b53a03
-  sni: trs16.bolab.net
-  skip-cert-verify: true
-- name: "\U0001F3F4\U000E0067\U000E006F\U000E006F\U000E0067\U000E006C\U000E0065\U000E007F\
-    \ GOOGLE 49"
-  server: 34.96.143.229
-  port: 23444
-  type: trojan
-  password: KshsCdgYST
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 50"
-  server: 120.233.11.136
-  port: 9007
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1FA\U0001F1F8 US 51"
-  server: 5.161.123.231
-  port: 8081
-  type: vmess
-  uuid: 0a4da98b-7d4a-4c35-ce23-b6dc6d9bdb64
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 5.161.123.231
-- name: "\U0001F1FA\U0001F1F3 UN 52"
-  server: 194.156.99.39
+      Host: 5.249.160.226
+- name: "\U0001F1EB\U0001F1F7 FR 13"
+  server: 51.77.71.134
   port: 443
   type: trojan
-  password: xxoo
+  password: origin
   skip-cert-verify: true
-- name: "\U0001F1F3\U0001F1F1 NL 53"
-  server: nl2.v2rayserv.com
-  port: 80
-  type: vmess
-  uuid: 364cf68d-8821-4e57-8189-0d16bac31a58
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /sshocean
-    headers:
-      Host: nl2.v2rayserv.com
-- name: "\U0001F1F8\U0001F1EC SG 54"
-  server: lll.277428.xyz
-  port: 40771
-  type: vmess
-  uuid: 61194810-5193-48bc-eb0a-7978a059d681
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: lll.277428.xyz
-- name: "\U0001F1FB\U0001F1F3 VN 55"
-  server: 103.98.151.144
-  port: 80
-  type: vmess
-  uuid: 7fd77cee-282f-4f59-8e78-27146725ba89
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 103.98.151.144
-- name: "\U0001F1E9\U0001F1EA DE 56"
-  server: cdn4.qd2is.com
-  port: 58303
-  type: trojan
-  password: RTXXHzp1GI
-  skip-cert-verify: true
-- name: "\U0001F1F0\U0001F1F7 KR 57"
-  server: 152.69.230.170
-  port: 80
-  type: vmess
-  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 152.69.230.170
-- name: "\U0001F1E9\U0001F1EA DE 58"
+- name: "\U0001F1E9\U0001F1EA DE 14"
   server: 162.55.214.110
   port: 51549
   type: vmess
@@ -643,27 +155,9 @@ proxies:
     path: /
     headers:
       Host: 162.55.214.110
-- name: "\U0001F1FA\U0001F1F8 US 59"
-  server: 138.124.183.226
-  port: 443
-  type: trojan
-  password: xxoo
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 60"
-  server: 138.124.183.222
-  port: 443
-  type: trojan
-  password: xxoo
-  skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 61"
-  server: 168.138.44.176
-  port: 443
-  type: trojan
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 62"
+- name: "\U0001F1E8\U0001F1F3 CN 15"
   server: 120.233.11.136
-  port: 9010
+  port: 9000
   type: vmess
   uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
   alterId: 0
@@ -674,8 +168,249 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 120.233.11.136
-- name: "\U0001F1EC\U0001F1E7 GB 63"
+      Host: us2.guolicheng.cyou
+- name: "\U0001F1E8\U0001F1F3 CN 16"
+  server: 116.129.254.184
+  port: 9029
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 14.72img.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 17"
+  server: 111.45.22.139
+  port: 11907
+  type: vmess
+  uuid: 2bb31413-7b35-3eb7-b59a-3f5b11a4e385
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 111.45.22.139
+- name: "\U0001F1FA\U0001F1F8 US 18"
+  server: 212.103.62.53
+  port: 27691
+  type: trojan
+  password: K1tCefW7IF
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 19"
+  server: 116.129.254.184
+  port: 9019
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: hkhgc.guolicheng.cyou
+- name: "\U0001F1FA\U0001F1F8 US 20"
+  server: 150.136.57.125
+  port: 41106
+  type: trojan
+  password: kSZddpnUKy
+  skip-cert-verify: true
+- name: "\U0001F1E9\U0001F1EA DE 21"
+  server: 164.92.193.65
+  port: 8081
+  type: vmess
+  uuid: 0f9c108d-b0d6-4795-a331-0e27d05fb9df
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 164.92.193.65
+- name: "\U0001F1EF\U0001F1F5 JP 22"
+  server: 168.138.201.208
+  port: 10328
+  type: vmess
+  uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 147.139.7.71
+- name: "\U0001F1EF\U0001F1F5 JP 23"
+  server: trs03.bolab.net
+  port: 443
+  type: trojan
+  password: 40c89b10235c40321e7a3cef82b53a03
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 24"
+  server: 120.233.11.136
+  port: 11925
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: us2.guolicheng.cyou
+- name: "\U0001F1FA\U0001F1F8 US 25"
+  server: 5.161.150.87
+  port: 8081
+  type: vmess
+  uuid: 2b2f1e82-057d-420f-e404-43e403f2437d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 5.161.150.87
+- name: "\U0001F3F4\U000E0067\U000E006F\U000E006F\U000E0067\U000E006C\U000E0065\U000E007F\
+    \ GOOGLE 26"
+  server: 34.96.143.229
+  port: 23442
+  type: trojan
+  password: cQfwTIN1SC
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 27"
+  server: 5.161.123.231
+  port: 8081
+  type: vmess
+  uuid: 0a4da98b-7d4a-4c35-ce23-b6dc6d9bdb64
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 5.161.123.231
+- name: "\U0001F1EB\U0001F1F7 FR 28"
+  server: cdn2.soft98.download
+  port: 8443
+  type: vmess
+  uuid: 41e41e46-9bdb-4666-ae89-754c4cc8255b
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn2.soft98.download
+- name: "\U0001F1EC\U0001F1E7 GB 29"
+  server: uk3.v2rayserv.com
+  port: 80
+  type: vmess
+  uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: uk3.v2rayserv.com
+- name: "\U0001F3F4\U000E0067\U000E006F\U000E006F\U000E0067\U000E006C\U000E0065\U000E007F\
+    \ GOOGLE 30"
+  server: 34.96.143.229
+  port: 23444
+  type: trojan
+  password: KshsCdgYST
+  sni: gcp2.goodcc.fun
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 31"
+  server: 129.146.255.158
+  port: 443
+  type: trojan
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1E6 CA 32"
+  server: ca2.v2rayserv.com
+  port: 80
+  type: vmess
+  uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: ca2.v2rayserv.com
+- name: "\U0001F1EF\U0001F1F5 JP 33"
+  server: 168.138.207.66
+  port: 21365
+  type: vmess
+  uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 168.138.207.66
+- name: "\U0001F1EB\U0001F1F7 FR 34"
+  server: content-provider26.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: origin
+  skip-cert-verify: true
+- name: "\U0001F1EC\U0001F1E7 GB 35"
+  server: 161.35.47.70
+  port: 13472
+  type: vmess
+  uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 161.35.47.70
+- name: "\U0001F1FA\U0001F1F8 US 36"
+  server: 23.105.199.160
+  port: 23166
+  type: vmess
+  uuid: f1cda9da-c859-4f26-f609-a2e8837cc9b8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: ah.yd01.paopaocloud.cyou
+- name: "\U0001F1EC\U0001F1E7 GB 37"
   server: 161.35.47.70
   port: 29210
   type: vmess
@@ -689,11 +424,17 @@ proxies:
     path: /
     headers:
       Host: 161.35.47.70
-- name: "\U0001F1FA\U0001F1F8 US 64"
-  server: 23.230.146.254
-  port: 1258
+- name: "\U0001F1E8\U0001F1E6 CA 38"
+  server: 148.113.141.99
+  port: 443
+  type: trojan
+  password: HdsUZmsHQW
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 39"
+  server: 120.233.11.136
+  port: 9005
   type: vmess
-  uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
@@ -702,153 +443,32 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 23.230.146.254
-- name: "\U0001F1EB\U0001F1F7 FR 65"
-  server: content-provider12.cdn-delivery.akamaicd.com
-  port: 443
-  type: trojan
-  password: origin
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 66"
-  server: 129.146.255.158
-  port: 443
-  type: trojan
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 67"
-  server: apulnion.com
-  port: 47185
-  type: trojan
-  password: C3U0I9sHEW
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 HK 68"
-  server: 165.154.5.235
-  port: 14444
-  type: vmess
-  uuid: 0eb9d2fa-17d1-4276-af80-15323dc1dca5
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 165.154.5.235
-- name: "\U0001F1E8\U0001F1F3 HK 69"
-  server: 128.1.134.126
-  port: 6666
-  type: vmess
-  uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /je5x3pBN1vez3NQudNkB
-    headers:
-      Host: node.inforun.work
-- name: "\U0001F1EC\U0001F1E7 GB 70"
-  server: 94.102.54.66
-  port: 443
-  type: trojan
-  password: origin
-  skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 71"
-  server: trs12.bolab.net
-  port: 22
-  type: trojan
-  password: 40c89b10235c40321e7a3cef82b53a03
-  sni: trs12.bolab.net
-  skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 72"
-  server: 150.230.96.103
-  port: 443
-  type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 73"
-  server: 152.69.197.60
-  port: 1069
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /home
-    headers:
-      Host: ca.0112233.xyz
-- name: "\U0001F1F8\U0001F1EC SG 74"
-  server: sg80-2.sanfen001.pics
-  port: 80
-  type: vmess
-  uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /zh-cn/download
-    headers:
-      Host: sg80-2.sanfen001.pics
-- name: "\U0001F1EC\U0001F1E7 GB 75"
+      Host: 120.233.11.136
+- name: "\U0001F1EC\U0001F1E7 GB 40"
   server: t1.samsung.bforward2.uk
   port: 443
   type: trojan
   password: 67e200f1-4ff5-42ca-8425-3f16f7986c29
   skip-cert-verify: true
-- name: "\U0001F1F8\U0001F1EC SG 76"
-  server: v1.emovpn.buzz
-  port: 80
-  type: vmess
-  uuid: 6aee4e26-9e52-4f59-b710-05992d067d56
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pull.free.video.10010.com
-- name: "\U0001F1FA\U0001F1F8 US 77"
-  server: aop.ssfree.ru
+- name: "\U0001F1F8\U0001F1EC SG 41"
+  server: 139.99.91.95
   port: 443
   type: vmess
-  uuid: b7493ce8-6f35-11ed-9de8-000017022008
-  alterId: 64
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
   cipher: auto
   skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /getweather
-    headers:
-      Host: aop.ssfree.ru
-- name: "\U0001F1F0\U0001F1F7 KR 78"
-  server: 54.180.131.191
-  port: 42517
-  type: vmess
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
+  network: tcp
   tls: false
   ws-opts:
     path: /
     headers:
-      Host: 54.180.131.191
-- name: "\U0001F1F0\U0001F1FF KZ 79"
-  server: kz1.v2rayserv.com
+      Host: 139.99.91.95
+- name: "\U0001F1F3\U0001F1F1 NL 42"
+  server: nl2.v2rayserv.com
   port: 80
   type: vmess
-  uuid: 2e9b8445-2eed-48e6-89f2-f8b20cbb6e33
+  uuid: 364cf68d-8821-4e57-8189-0d16bac31a58
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
@@ -857,3001 +477,123 @@ proxies:
   ws-opts:
     path: /sshocean
     headers:
-      Host: kz1.v2rayserv.com
-- name: "\U0001F1E8\U0001F1F3 CN 80"
-  server: 120.233.11.136
-  port: 9009
+      Host: nl2.v2rayserv.com
+- name: "\U0001F1EF\U0001F1F5 JP 43"
+  server: apulnion.com
+  port: 53856
   type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  uuid: 71163d1e-89d9-488d-8f82-aee802f89b00
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
-  network: tcp
+  network: ws
   tls: false
   ws-opts:
-    path: /
+    path: /dldbn1h5d
     headers:
-      Host: 120.233.11.136
-- name: "\U0001F1E9\U0001F1EA DE 81"
-  server: 188.40.251.19
-  port: 443
+      Host: apulnion.com
+- name: "\U0001F1EF\U0001F1F5 JP 44"
+  server: 158.101.149.56
+  port: 31106
   type: trojan
-  password: origin
+  password: 5Yt33J27JP
+  sni: 11jin.fengcj.xyz
   skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 82"
-  server: 111.45.22.139
-  port: 9043
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: "\uFF20\uFF56\uFF50\uFF4E\uFF48\uFF41\uFF54"
-- name: "\U0001F1E8\U0001F1F3 HK 83"
-  server: 47.243.104.195
-  port: 58944
-  type: vmess
-  uuid: a0f25e25-9c5d-4d96-9051-5481c46e277d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: http
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 47.243.104.195
-- name: "\U0001F1EF\U0001F1F5 JP 84"
-  server: 141.147.151.129
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 14.72img.xyz
-- name: "\U0001F1F0\U0001F1F7 KR 85"
-  server: 144.24.88.101
-  port: 16833
-  type: vmess
-  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 144.24.88.101
-- name: "\U0001F1F0\U0001F1F7 KR 86"
-  server: 144.24.72.33
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 14.72img.xyz
-- name: "\U0001F1F0\U0001F1F7 KR 87"
-  server: 152.67.218.38
-  port: 443
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 152.67.218.38
-- name: "\U0001F1EF\U0001F1F5 JP 88"
-  server: jgwdb2.gaox.ml
-  port: 443
-  type: trojan
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  skip-cert-verify: true
-- name: "\U0001F1EE\U0001F1F3 IN 89"
-  server: jgwhdlb3.gaox.ml
-  port: 443
-  type: trojan
-  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 MO 90"
-  server: 45.64.22.41
-  port: 443
-  type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  sni: jgw2.gaox.ml
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 91"
-  server: 120.233.11.136
-  port: 9034
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1E8\U0001F1F3 CN 92"
-  server: 120.233.11.136
-  port: 9033
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1E8\U0001F1F3 CN 93"
-  server: 120.233.11.136
-  port: 9032
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-uk-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 94"
-  server: 116.129.254.184
-  port: 9033
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-uk-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 95"
-  server: 116.129.254.184
-  port: 9013
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 96"
-  server: 116.129.254.184
-  port: 9031
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 97"
-  server: 116.129.254.184
-  port: 9034
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-uk-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 98"
-  server: 116.129.254.184
-  port: 9004
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 99"
-  server: 116.129.254.184
-  port: 9036
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 116.129.254.184
-- name: "\U0001F1E8\U0001F1F3 CN 100"
-  server: 116.129.254.184
-  port: 9028
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 101"
-  server: 120.233.11.136
-  port: 9029
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 102"
-  server: 116.129.254.184
-  port: 9026
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 103"
-  server: 116.129.254.184
-  port: 9018
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 104"
-  server: 116.129.254.184
-  port: 9001
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 105"
-  server: 116.129.254.184
-  port: 9019
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 106"
-  server: 120.233.11.136
-  port: 9028
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 107"
-  server: 116.129.254.184
-  port: 9025
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 108"
-  server: 116.129.254.184
-  port: 9017
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 109"
-  server: 120.233.11.136
-  port: 11933
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 110"
-  server: 116.129.254.184
-  port: 9014
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 111"
-  server: 116.129.254.184
-  port: 9003
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 112"
-  server: 116.129.254.184
-  port: 9029
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 113"
-  server: 116.129.254.184
-  port: 9035
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-uk-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 114"
-  server: 116.129.254.184
-  port: 9023
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 115"
-  server: 120.233.11.136
-  port: 9027
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 116"
-  server: 116.129.254.184
-  port: 9016
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 117"
-  server: 116.129.254.184
-  port: 9027
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 118"
-  server: 116.129.254.184
-  port: 9030
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-uk-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 119"
-  server: 116.129.254.184
-  port: 9007
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 120"
-  server: 120.233.11.136
-  port: 9001
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 121"
-  server: 116.129.254.184
-  port: 9012
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 122"
-  server: 120.233.11.136
-  port: 9026
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 123"
-  server: 111.45.22.139
-  port: 9036
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 124"
-  server: 111.45.22.139
-  port: 9037
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 125"
-  server: 116.129.254.184
-  port: 11933
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 126"
-  server: 116.129.254.184
-  port: 9005
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 127"
-  server: 111.45.22.139
-  port: 9034
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 128"
-  server: 116.129.254.184
-  port: 9011
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 129"
-  server: 116.129.254.184
-  port: 9024
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 130"
-  server: 111.45.22.139
-  port: 9033
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 131"
-  server: 111.45.22.139
-  port: 9032
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 132"
-  server: 120.233.11.136
-  port: 11923
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 133"
-  server: 116.129.254.184
-  port: 11920
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 134"
-  server: 111.45.22.139
-  port: 9031
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 135"
-  server: 111.45.22.139
-  port: 9030
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 136"
-  server: 120.233.11.136
-  port: 11920
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 137"
-  server: 111.45.22.139
-  port: 9018
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 138"
-  server: 111.45.22.139
-  port: 9016
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 139"
-  server: 111.45.22.139
-  port: 9014
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 140"
-  server: 116.129.254.184
-  port: 11934
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 141"
-  server: 116.129.254.184
-  port: 9009
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 142"
-  server: 111.45.22.139
-  port: 9011
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 143"
-  server: 111.45.22.139
-  port: 9013
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 144"
-  server: 111.45.22.139
-  port: 9015
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 145"
-  server: 111.45.22.139
-  port: 9008
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 146"
-  server: 116.129.254.184
-  port: 11931
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 147"
-  server: 116.129.254.184
-  port: 11935
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 148"
-  server: 111.45.22.139
-  port: 9007
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 149"
-  server: 116.129.254.184
-  port: 11904
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 150"
-  server: 120.233.11.136
-  port: 11934
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 151"
-  server: 116.129.254.184
-  port: 11914
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 152"
-  server: 116.129.254.184
-  port: 11923
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 153"
-  server: 111.45.22.139
-  port: 9005
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 154"
-  server: 111.45.22.139
-  port: 9003
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 155"
-  server: 116.129.254.184
-  port: 11919
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 156"
-  server: 116.129.254.184
-  port: 11927
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 157"
-  server: 111.45.22.139
-  port: 9004
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 158"
-  server: 116.129.254.184
-  port: 11922
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 159"
-  server: 116.129.254.184
-  port: 11928
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 160"
-  server: 116.129.254.184
-  port: 11906
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 161"
-  server: 120.233.11.136
-  port: 9024
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 162"
-  server: 111.45.22.139
-  port: 9042
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-kr-2020712915.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 163"
-  server: 120.233.11.136
-  port: 11925
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 164"
-  server: 111.45.22.139
-  port: 9019
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 165"
-  server: 116.129.254.184
-  port: 11918
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 166"
-  server: 116.129.254.184
-  port: 11907
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 167"
-  server: 111.45.22.139
-  port: 9006
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 168"
-  server: 120.233.11.136
-  port: 9018
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 169"
-  server: 111.45.22.139
-  port: 9000
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 170"
-  server: 116.129.254.184
-  port: 9010
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 171"
-  server: 116.129.254.184
-  port: 11929
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 172"
-  server: 111.45.22.139
-  port: 9027
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 173"
-  server: 111.45.22.139
-  port: 9002
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 174"
-  server: 120.233.11.136
-  port: 9017
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 175"
-  server: 111.45.22.139
-  port: 9023
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 176"
-  server: 116.129.254.184
-  port: 11932
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-g1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 177"
-  server: 111.45.22.139
-  port: 9025
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 178"
-  server: 120.233.11.136
-  port: 9025
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 179"
-  server: 120.233.11.136
-  port: 9023
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 180"
-  server: 111.45.22.139
-  port: 9024
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 181"
-  server: 111.45.22.139
-  port: 9026
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 182"
-  server: 111.45.22.139
-  port: 9001
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 183"
-  server: 120.233.11.136
-  port: 9016
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 184"
-  server: 111.45.22.139
-  port: 9029
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 185"
-  server: 111.45.22.139
-  port: 11920
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 186"
-  server: 111.45.22.139
-  port: 9028
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 187"
-  server: 120.233.11.136
-  port: 9022
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 188"
-  server: 111.45.22.139
-  port: 9022
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 189"
-  server: 116.129.254.184
-  port: 11908
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 190"
-  server: 111.45.22.139
-  port: 11923
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 191"
-  server: 120.233.11.136
-  port: 11904
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 192"
-  server: 111.45.22.139
-  port: 11933
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 193"
-  server: 120.233.11.136
-  port: 11929
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 194"
-  server: 116.129.254.184
-  port: 11915
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 195"
-  server: 120.233.11.136
-  port: 9014
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 196"
-  server: 111.45.22.139
-  port: 11906
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 197"
-  server: 116.129.254.184
-  port: 11921
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 198"
-  server: 111.45.22.139
-  port: 11904
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 199"
-  server: 120.233.11.136
-  port: 9013
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 200"
-  server: 111.45.22.139
-  port: 11925
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 201"
-  server: 116.129.254.184
-  port: 11905
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 202"
-  server: 111.45.22.139
-  port: 11907
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 203"
-  server: 120.233.11.136
-  port: 9008
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 204"
-  server: 111.45.22.139
-  port: 11927
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 205"
-  server: 111.45.22.139
-  port: 11934
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 206"
-  server: 120.233.11.136
-  port: 11906
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 207"
-  server: 111.45.22.139
-  port: 11926
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 208"
-  server: 120.233.11.136
-  port: 9004
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 209"
-  server: 116.129.254.184
-  port: 11903
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 210"
-  server: 111.45.22.139
-  port: 11919
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 211"
-  server: 116.129.254.184
-  port: 11916
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 212"
-  server: 111.45.22.139
-  port: 11922
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 213"
-  server: 116.129.254.184
-  port: 11902
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 214"
-  server: 116.129.254.184
-  port: 11930
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 215"
-  server: 120.233.11.136
-  port: 11935
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 216"
-  server: 120.233.11.136
-  port: 11907
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 217"
-  server: 111.45.22.139
-  port: 11913
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 218"
-  server: 111.45.22.139
-  port: 11903
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 219"
-  server: 116.129.254.184
-  port: 11901
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 220"
-  server: 111.45.22.139
-  port: 11901
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 221"
-  server: 111.45.22.139
-  port: 11914
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 222"
-  server: 111.45.22.139
-  port: 11931
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 223"
-  server: 111.45.22.139
-  port: 11921
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 224"
-  server: 111.45.22.139
-  port: 11910
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 225"
-  server: 111.45.22.139
-  port: 11932
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 226"
-  server: 111.45.22.139
-  port: 11908
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 227"
-  server: 111.45.22.139
-  port: 11911
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 228"
-  server: 111.45.22.139
-  port: 11935
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 229"
-  server: 116.129.254.184
-  port: 11912
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 230"
-  server: 111.45.22.139
-  port: 11909
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 231"
-  server: 120.233.11.136
-  port: 11927
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 232"
-  server: 120.233.11.136
-  port: 9006
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1E8\U0001F1F3 CN 233"
-  server: 120.233.11.136
-  port: 11915
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1E8\U0001F1F3 CN 234"
-  server: 111.45.22.139
-  port: 11902
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 235"
-  server: 111.45.22.139
-  port: 11916
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 236"
-  server: 111.45.22.139
-  port: 11930
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 237"
-  server: 111.45.22.139
-  port: 11929
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 238"
-  server: 111.45.22.139
-  port: 11912
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 239"
-  server: 120.233.11.136
-  port: 11928
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1E8\U0001F1F3 CN 240"
-  server: 111.45.22.139
-  port: 11905
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-us-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 241"
-  server: 120.233.11.136
-  port: 11931
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1E8\U0001F1F3 CN 242"
-  server: 120.233.11.136
-  port: 11913
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1E8\U0001F1F3 CN 243"
-  server: 120.233.11.136
-  port: 9003
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 244"
-  server: zfd-moble.gatknqh.cn
-  port: 16131
-  type: vmess
-  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: nt2.vpnpools.eu.org
-- name: "\U0001F1E8\U0001F1F3 CN 245"
-  server: 120.233.11.136
-  port: 11922
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1E8\U0001F1F3 CN 246"
-  server: 120.233.11.136
-  port: 11917
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1E8\U0001F1F3 CN 247"
-  server: 120.233.11.136
-  port: 11916
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1E8\U0001F1F3 CN 248"
-  server: 120.233.11.136
-  port: 11926
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 249"
-  server: 120.233.11.136
-  port: 11903
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 250"
-  server: 120.233.11.136
-  port: 11919
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1E8\U0001F1F3 CN 251"
-  server: 120.233.11.136
-  port: 11932
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1E8\U0001F1F3 CN 252"
-  server: 120.233.11.136
-  port: 9005
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 253"
-  server: 120.233.11.136
-  port: 11921
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 254"
-  server: 120.233.11.136
-  port: 11901
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 255"
-  server: 120.233.11.136
-  port: 11912
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 256"
-  server: 120.233.11.136
-  port: 11914
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1E8\U0001F1F3 CN 257"
-  server: 120.233.11.136
-  port: 11908
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 258"
-  server: 120.233.11.136
-  port: 11918
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 259"
-  server: 120.233.11.136
-  port: 11902
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 260"
-  server: 120.233.11.136
-  port: 11930
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 261"
-  server: 120.233.11.136
-  port: 11905
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-hk-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 262"
-  server: 120.233.11.136
-  port: 9037
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-hk-z1.psusercontent.com
-- name: "\U0001F1E8\U0001F1F3 CN 263"
-  server: 120.233.11.136
-  port: 11911
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: pod-tw-z1.psusercontent.com
-- name: "\U0001F1F0\U0001F1F7 KR 264"
-  server: 43.200.177.138
-  port: 42517
-  type: vmess
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 43.200.177.138
-- name: "\U0001F1F0\U0001F1F7 KR 265"
-  server: 146.56.168.154
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 14.72img.xyz
-- name: "\U0001F1F0\U0001F1F7 KR 266"
-  server: 152.70.89.67
-  port: 44631
-  type: vmess
-  uuid: 198d8957-377e-4a06-d9ea-414cc0067de4
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: http
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 152.70.89.67
-- name: "\U0001F1F0\U0001F1F7 KR 267"
-  server: 146.56.189.146
-  port: 443
-  type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  skip-cert-verify: true
-- name: "\U0001F1F0\U0001F1F7 KR 268"
-  server: 132.226.18.130
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 14.72img.xyz
-- name: "\U0001F1F0\U0001F1F7 KR 269"
-  server: 130.162.139.185
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 14.72img.xyz
-- name: "\U0001F1F0\U0001F1F7 KR 270"
-  server: 144.24.72.126
-  port: 443
-  type: trojan
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 TW 271"
-  server: official.seoulcityhall.com.ua
-  port: 8080
-  type: trojan
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 TW 272"
-  server: official.seoulcityhall.com.ua
-  port: 8443
-  type: trojan
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  skip-cert-verify: true
-- name: "\U0001F1EC\U0001F1E7 GB 273"
-  server: 132.145.51.172
-  port: 443
-  type: trojan
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
-  skip-cert-verify: true
-- name: "\U0001F1F0\U0001F1F7 KR 274"
-  server: 130.162.137.210
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 14.72img.xyz
-- name: "\U0001F1E8\U0001F1F3 HK 275"
-  server: 47.242.30.73
-  port: 57194
-  type: vmess
-  uuid: 190f9f72-0144-40c2-862b-8c7fbe7fc34a
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: http
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 47.242.30.73
-- name: "\U0001F1EF\U0001F1F5 JP 276"
-  server: 131.186.46.189
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 14.72img.xyz
-- name: "\U0001F1F0\U0001F1F7 KR 277"
-  server: 131.186.17.60
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 14.72img.xyz
-- name: "\U0001F1EF\U0001F1F5 JP 278"
-  server: 168.138.50.140
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 14.72img.xyz
-- name: "\U0001F1EF\U0001F1F5 JP 279"
-  server: 138.2.37.4
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 14.72img.xyz
-- name: "\U0001F1F0\U0001F1F7 KR 280"
-  server: 152.70.241.18
-  port: 26676
-  type: vmess
-  uuid: ecd274c0-175d-45f7-8276-a3da93786632
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: ah.yd01.paopaocloud.cyou
-- name: "\U0001F1F0\U0001F1F7 KR 281"
-  server: kr05.wangxd.life
-  port: 443
-  type: trojan
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  sni: kr05.wangxd.life
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 282"
-  server: 120.233.11.136
-  port: 9002
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 120.233.11.136
-- name: "\U0001F1F0\U0001F1F7 KR 283"
-  server: kr05.wangxd.life
-  port: 3052
-  type: trojan
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  skip-cert-verify: true
-- name: "\U0001F1F0\U0001F1F7 KR 284"
-  server: 138.2.113.84
-  port: 443
-  type: trojan
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  skip-cert-verify: true
-- name: "\U0001F1F0\U0001F1F7 KR 285"
-  server: 131.186.23.71
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 14.72img.xyz
-- name: "\U0001F1F0\U0001F1F7 KR 286"
-  server: 121.78.213.3
-  port: 443
-  type: trojan
-  password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S
-  sni: httah.freetrade.link
-  skip-cert-verify: true
-- name: "\U0001F1F0\U0001F1F7 KR 287"
-  server: 13.125.5.159
-  port: 43417
-  type: vmess
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 13.125.5.159
-- name: "\U0001F1F0\U0001F1F7 KR 288"
-  server: 54.180.114.77
-  port: 42517
-  type: vmess
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 54.180.114.77
-- name: "\U0001F1F0\U0001F1F7 KR 289"
-  server: 54.180.117.118
-  port: 42517
-  type: vmess
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 54.180.117.118
-- name: "\U0001F1F0\U0001F1F7 KR 290"
-  server: kr1.api-aws.com
-  port: 443
-  type: trojan
-  password: 10f81a15-c7c8-473b-a12a-a09f098b6236
-  skip-cert-verify: true
-- name: "\U0001F1F0\U0001F1F7 KR 291"
-  server: 54.180.152.188
-  port: 42517
-  type: vmess
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 54.180.152.188
-- name: "\U0001F1E8\U0001F1F3 CN 292"
-  server: 43.134.185.190
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 14.72img.xyz
-- name: "\U0001F1F0\U0001F1F7 KR 293"
-  server: 54.180.156.175
-  port: 42517
-  type: vmess
-  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 54.180.156.175
-- name: "\U0001F1E8\U0001F1F3 CN 294"
-  server: 111.45.22.139
-  port: 9010
-  type: vmess
-  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 111.45.22.139
-- name: "\U0001F1F8\U0001F1EC SG 295"
+- name: "\U0001F1F8\U0001F1EC SG 45"
   server: 139.162.45.139
   port: 443
   type: trojan
   password: FLpONjB2Lb
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 296"
-  server: 23.105.199.160
-  port: 23903
+- name: "\U0001F1EF\U0001F1F5 JP 46"
+  server: 138.2.45.243
+  port: 443
+  type: trojan
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 47"
+  server: 129.213.117.66
+  port: 41106
+  type: trojan
+  password: Yaib2g1jy3
+  sni: 1sj.fengcj.xyz
+  skip-cert-verify: true
+- name: "\U0001F1F7\U0001F1FA RU 48"
+  server: ru1.v2rayserv.com
+  port: 80
   type: vmess
-  uuid: 60b6c1a6-6306-4e28-91d9-8d2be2449ae8
+  uuid: bc4f16e3-0b57-4367-8caf-88ee67859920
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: ru1.v2rayserv.com
+- name: "\U0001F1EF\U0001F1F5 JP 49"
+  server: apulnion.com
+  port: 47185
+  type: trojan
+  password: C3U0I9sHEW
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 50"
+  server: us4.czs1000.com
+  port: 4459
+  type: vmess
+  uuid: c69a52c2-4673-4637-87e4-a0603c920f50
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
   network: tcp
-  tls: false
+  tls: true
   ws-opts:
-    path: /path/173418141123
+    path: /
     headers:
-      Host: 23.105.199.160
-- name: "\U0001F1EF\U0001F1F5 JP 297"
-  server: 150.230.97.186
-  port: 33378
-  type: trojan
-  password: Ff3MZ1I0wc
-  skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 298"
-  server: realmjp.vpntransfer.xyz
-  port: 31702
-  type: trojan
-  password: 6aee4e26-9e52-4f59-b710-05992d067d56
-  skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 299"
-  server: jgwdj4.gaox.ml
+      Host: us4.czs1000.com
+- name: "\U0001F1E7\U0001F1F7 BR 51"
+  server: br1.v2rayserv.com
+  port: 443
+  type: vmess
+  uuid: 4c3c4ba1-c614-4719-a92d-22a51fbefa5b
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: br1.v2rayserv.com
+- name: "\U0001F1E9\U0001F1EA DE 52"
+  server: 188.40.251.19
   port: 443
   type: trojan
-  password: c09eb137-bf68-4658-84e0-102d94b74168
+  password: origin
   skip-cert-verify: true
-- name: "\U0001F1EE\U0001F1E9 ID 300"
-  server: id3tr.jagoan.vip
-  port: 443
-  type: trojan
-  password: vvip-periantara
-  skip-cert-verify: true
-- name: "\U0001F1EE\U0001F1F3 IN 301"
-  server: 152.67.162.166
-  port: 443
-  type: trojan
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  skip-cert-verify: true
-- name: "\U0001F1FB\U0001F1F3 VN 302"
-  server: HN5.HT4GVPN.PW
+- name: "\U0001F1FB\U0001F1F3 VN 53"
+  server: 103.98.151.144
   port: 80
   type: vmess
-  uuid: 427af8c5-9a4f-464d-acb4-41e3f933d3ac
+  uuid: 7fd77cee-282f-4f59-8e78-27146725ba89
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
   network: ws
   tls: false
   ws-opts:
-    path: /ht4gvpn.pw
-    headers:
-      Host: dl.kgvn.garenanow.com
-- name: "\U0001F1F8\U0001F1EC SG 303"
-  server: tgunivstar-138-2-70-213.sslip.io
-  port: 80
-  type: vmess
-  uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
-  alterId: 64
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
     path: /
     headers:
-      Host: vn3.thanhhaivpn.name.vn
-- name: "\U0001F1F7\U0001F1FA RU 304"
-  server: 176.119.159.245
-  port: 37672
-  type: vmess
-  uuid: 86b4e35c-1061-47b3-8c6c-811d1853a477
-  alterId: 64
-  cipher: auto
-  skip-cert-vertify: true
-  network: http
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 176.119.159.245
-- name: "\U0001F1EE\U0001F1F3 IN 305"
+      Host: 103.98.151.144
+- name: "\U0001F1E8\U0001F1F3 MO 54"
+  server: 45.64.22.55
+  port: 443
+  type: trojan
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  sni: tenderly.meijireform.com
+  skip-cert-verify: true
+- name: "\U0001F1EE\U0001F1F3 IN 55"
   server: 134.209.150.57
   port: 8081
   type: vmess
@@ -3865,7 +607,838 @@ proxies:
     path: /
     headers:
       Host: 134.209.150.57
-- name: "\U0001F1E9\U0001F1EA DE 306"
+- name: "\U0001F1E9\U0001F1EA DE 56"
+  server: 3.76.75.61
+  port: 8081
+  type: vmess
+  uuid: 7948980d-98d6-44ef-8b36-b44ed1135940
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 3.76.75.61
+- name: "\U0001F1EF\U0001F1F5 JP 57"
+  server: 152.69.197.60
+  port: 1069
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /live
+    headers:
+      Host: 152.69.197.60
+- name: "\U0001F1E9\U0001F1EA DE 58"
+  server: 188.34.159.186
+  port: 35855
+  type: vmess
+  uuid: 97e8fba7-327a-4752-8aca-043858a7e518
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 188.34.159.186
+- name: "\U0001F1F8\U0001F1EC SG 59"
+  server: 18.143.123.35
+  port: 80
+  type: vmess
+  uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 18.143.123.35
+- name: "\U0001F1FA\U0001F1F8 US 60"
+  server: 129.146.133.157
+  port: 51009
+  type: vmess
+  uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 129.146.133.157
+- name: "\U0001F1FA\U0001F1F8 US 61"
+  server: 5.161.114.91
+  port: 26613
+  type: vmess
+  uuid: 2c10a354-ca2d-4db3-d8f6-6f89f5117c9f
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 5.161.114.91
+- name: "\U0001F1EC\U0001F1E7 GB 62"
+  server: 146.19.230.241
+  port: 443
+  type: trojan
+  password: xxoo
+  skip-cert-verify: true
+- name: "\U0001F1F0\U0001F1FF KZ 63"
+  server: kz1.v2rayserv.com
+  port: 80
+  type: vmess
+  uuid: 2e9b8445-2eed-48e6-89f2-f8b20cbb6e33
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: kz1.v2rayserv.com
+- name: "\U0001F1F8\U0001F1EC SG 64"
+  server: 31.72img.xyz
+  port: 443
+  type: trojan
+  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  skip-cert-verify: true
+- name: "\U0001F1F0\U0001F1F7 KR 65"
+  server: 146.56.155.70
+  port: 18050
+  type: vmess
+  uuid: f9771c19-c91c-41b5-9064-8768b51cec6d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 146.56.155.70
+- name: "\U0001F1E8\U0001F1F3 HK 66"
+  server: 128.1.134.126
+  port: 6666
+  type: vmess
+  uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 128.1.134.126
+- name: "\U0001F1E9\U0001F1EA DE 67"
+  server: 150.230.149.55
+  port: 6374
+  type: vmess
+  uuid: 80f25361-877d-46d4-8404-f0dce1faf84f
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 150.230.149.55
+- name: "\U0001F1EF\U0001F1F5 JP 68"
+  server: 150.230.217.213
+  port: 443
+  type: trojan
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  skip-cert-verify: true
+- name: "\U0001F1E9\U0001F1EA DE 69"
+  server: cdn4.qd2is.com
+  port: 58303
+  type: trojan
+  password: RTXXHzp1GI
+  skip-cert-verify: true
+- name: "\U0001F1F8\U0001F1EC SG 70"
+  server: sg5.v2rayserv.com
+  port: 80
+  type: vmess
+  uuid: 02c99c32-0058-4b87-b51a-8f5d6a59bddd
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: sg5.v2rayserv.com
+- name: "\U0001F1E6\U0001F1FA AU 71"
+  server: 139.99.135.182
+  port: 80
+  type: vmess
+  uuid: e7df0582-d168-43af-bfff-90c25af7d085
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: 139.99.135.182
+- name: "\U0001F1FB\U0001F1F3 VN 72"
+  server: 103.147.126.127
+  port: 80
+  type: vmess
+  uuid: c863dd9d-55f2-4615-b1a1-549da098722e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /nkpvpn.site
+    headers:
+      Host: 103.147.126.127
+- name: "\U0001F1E6\U0001F1FA AU 73"
+  server: 152.67.98.30
+  port: 443
+  type: trojan
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 HK 74"
+  server: 165.154.5.235
+  port: 14444
+  type: vmess
+  uuid: 0eb9d2fa-17d1-4276-af80-15323dc1dca5
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 165.154.5.235
+- name: "\U0001F1EE\U0001F1F3 IN 75"
+  server: 152.67.162.166
+  port: 443
+  type: trojan
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  skip-cert-verify: true
+- name: "\U0001F1EC\U0001F1E7 GB 76"
+  server: 132.145.51.172
+  port: 443
+  type: trojan
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 77"
+  server: 23.105.199.160
+  port: 27317
+  type: vmess
+  uuid: 01832c71-50ac-4891-ae37-1dea8f42ae2d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: ah.yd01.paopaocloud.cyou
+- name: "\U0001F1EF\U0001F1F5 JP 78"
+  server: trs16.bolab.net
+  port: 22
+  type: trojan
+  password: 40c89b10235c40321e7a3cef82b53a03
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 79"
+  server: 66.212.20.3
+  port: 443
+  type: vmess
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: v2ray2.ssr-free2.xyz
+- name: "\U0001F1FA\U0001F1F3 UN 80"
+  server: 194.156.99.39
+  port: 443
+  type: trojan
+  password: xxoo
+  skip-cert-verify: true
+- name: "\U0001F1EC\U0001F1E7 GB 81"
+  server: 185.16.206.209
+  port: 443
+  type: trojan
+  password: shefelnak
+  sni: content-provider20.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+- name: "\U0001F1EF\U0001F1F5 JP 82"
+  server: trs12.bolab.net
+  port: 22
+  type: trojan
+  password: 40c89b10235c40321e7a3cef82b53a03
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 83"
+  server: 120.233.11.136
+  port: 9009
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 120.233.11.136
+- name: "\U0001F1F7\U0001F1FA RU 84"
+  server: 194.87.248.27
+  port: 26743
+  type: vmess
+  uuid: 59952a8e-b712-4190-d85e-f9aadd65faa0
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: http
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 194.87.248.27
+- name: "\U0001F1EF\U0001F1F5 JP 85"
+  server: 141.147.151.129
+  port: 443
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 14.72img.xyz
+- name: "\U0001F1EF\U0001F1F5 JP 86"
+  server: 168.138.50.140
+  port: 443
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 14.72img.xyz
+- name: "\U0001F1F0\U0001F1F7 KR 87"
+  server: 144.24.88.101
+  port: 16833
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 144.24.88.101
+- name: "\U0001F1F0\U0001F1F7 KR 88"
+  server: 152.70.89.67
+  port: 44631
+  type: vmess
+  uuid: 198d8957-377e-4a06-d9ea-414cc0067de4
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: http
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.70.89.67
+- name: "\U0001F1EF\U0001F1F5 JP 89"
+  server: jgwdj3.gaox.ml
+  port: 443
+  type: trojan
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  skip-cert-verify: true
+- name: "\U0001F1EE\U0001F1F3 IN 90"
+  server: jgwhdlb3.gaox.ml
+  port: 443
+  type: trojan
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 91"
+  server: 120.233.11.136
+  port: 11929
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: pod-hk-z1.psusercontent.com
+- name: "\U0001F1E8\U0001F1F3 CN 92"
+  server: 120.233.11.136
+  port: 9002
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: pod-tw-g1.psusercontent.com
+- name: "\U0001F1E8\U0001F1F3 CN 93"
+  server: 120.233.11.136
+  port: 11913
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: pod-hk-z1.psusercontent.com
+- name: "\U0001F1E8\U0001F1F3 CN 94"
+  server: 120.233.11.136
+  port: 9006
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: pod-uk-z1.psusercontent.com
+- name: "\U0001F1E8\U0001F1F3 HK 95"
+  server: 47.242.30.73
+  port: 57194
+  type: vmess
+  uuid: 190f9f72-0144-40c2-862b-8c7fbe7fc34a
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: http
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 47.242.30.73
+- name: "\U0001F1E8\U0001F1F3 HK 96"
+  server: 47.243.104.195
+  port: 58944
+  type: vmess
+  uuid: a0f25e25-9c5d-4d96-9051-5481c46e277d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: http
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 47.243.104.195
+- name: "\U0001F1FA\U0001F1F8 US 97"
+  server: 23.105.199.160
+  port: 37584
+  type: vmess
+  uuid: 61914893-393a-4685-fc2d-13328bd8e491
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: ah.yd01.paopaocloud.cyou
+- name: "\U0001F1FA\U0001F1F8 US 98"
+  server: 150.230.41.9
+  port: 23292
+  type: vmess
+  uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /path/173418141123
+    headers:
+      Host: www.17080100.xyz
+- name: "\U0001F1F0\U0001F1F7 KR 99"
+  server: 144.24.72.33
+  port: 443
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 14.72img.xyz
+- name: "\U0001F1EF\U0001F1F5 JP 100"
+  server: 168.138.44.176
+  port: 443
+  type: trojan
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  skip-cert-verify: true
+- name: "\U0001F1F0\U0001F1F7 KR 101"
+  server: 132.226.18.130
+  port: 443
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 14.72img.xyz
+- name: "\U0001F1F0\U0001F1F7 KR 102"
+  server: 131.186.17.60
+  port: 443
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 14.72img.xyz
+- name: "\U0001F1EF\U0001F1F5 JP 103"
+  server: 131.186.46.189
+  port: 443
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 14.72img.xyz
+- name: "\U0001F1EF\U0001F1F5 JP 104"
+  server: 138.2.37.4
+  port: 443
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 14.72img.xyz
+- name: "\U0001F1F0\U0001F1F7 KR 105"
+  server: 152.70.241.18
+  port: 26676
+  type: vmess
+  uuid: ecd274c0-175d-45f7-8276-a3da93786632
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: ah.yd01.paopaocloud.cyou
+- name: "\U0001F1E8\U0001F1F3 CN 106"
+  server: 116.129.254.184
+  port: 9024
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /ray
+    headers:
+      Host: 116.129.254.184
+- name: "\U0001F1E8\U0001F1F3 CN 107"
+  server: 111.45.22.139
+  port: 11923
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 111.45.22.139
+- name: "\U0001F1E8\U0001F1F3 CN 108"
+  server: 111.45.22.139
+  port: 9004
+  type: vmess
+  uuid: 2bb31413-7b35-3eb7-b59a-3f5b11a4e385
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /path/243535322906
+    headers:
+      Host: 111.45.22.139
+- name: "\U0001F1F0\U0001F1F7 KR 109"
+  server: 130.162.139.185
+  port: 443
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 14.72img.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 110"
+  server: 120.233.11.136
+  port: 9004
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /path/243535322906
+    headers:
+      Host: 120.233.11.136
+- name: "\U0001F1E8\U0001F1F3 CN 111"
+  server: 120.233.11.136
+  port: 9003
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 120.233.11.136
+- name: "\U0001F1F8\U0001F1EC SG 112"
+  server: 172.104.162.207
+  port: 41076
+  type: vmess
+  uuid: 6d96416a-004b-4ae0-ae3f-dc80298fad08
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /hkaa0
+    headers:
+      Host: 172.104.162.207
+- name: "\U0001F1EE\U0001F1F3 IN 113"
+  server: 152.67.160.174
+  port: 443
+  type: trojan
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 TW 114"
+  server: official.seoulcityhall.com.ua
+  port: 8443
+  type: trojan
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 115"
+  server: 120.233.11.136
+  port: 11908
+  type: vmess
+  uuid: 2bb31413-7b35-3eb7-b59a-3f5b11a4e385
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /path/243535322906
+    headers:
+      Host: 120.233.11.136
+- name: "\U0001F1E8\U0001F1F3 TW 116"
+  server: official.seoulcitygovernment.com.ua
+  port: 2083
+  type: trojan
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 117"
+  server: 120.233.11.136
+  port: 9039
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 120.233.11.136
+- name: "\U0001F1E8\U0001F1F3 CN 118"
+  server: 120.233.11.136
+  port: 9002
+  type: vmess
+  uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 120.233.11.136
+- name: "\U0001F1E8\U0001F1F3 CN 119"
+  server: 111.45.22.139
+  port: 9002
+  type: vmess
+  uuid: 2bb31413-7b35-3eb7-b59a-3f5b11a4e385
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 111.45.22.139
+- name: "\U0001F1E8\U0001F1F3 CN 120"
+  server: 120.233.11.136
+  port: 9035
+  type: vmess
+  uuid: 2bb31413-7b35-3eb7-b59a-3f5b11a4e385
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: "\uFF20\uFF56\uFF50\uFF4E\uFF48\uFF41\uFF54"
+- name: "\U0001F1E8\U0001F1F3 CN 121"
+  server: 111.45.22.139
+  port: 11913
+  type: vmess
+  uuid: 2bb31413-7b35-3eb7-b59a-3f5b11a4e385
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 111.45.22.139
+- name: "\U0001F1E8\U0001F1F3 CN 122"
+  server: 111.45.22.139
+  port: 9000
+  type: vmess
+  uuid: 2bb31413-7b35-3eb7-b59a-3f5b11a4e385
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 111.45.22.139
+- name: "\U0001F1E8\U0001F1F3 CN 123"
+  server: 111.45.22.139
+  port: 9006
+  type: vmess
+  uuid: 2bb31413-7b35-3eb7-b59a-3f5b11a4e385
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 111.45.22.139
+- name: "\U0001F1E8\U0001F1F3 CN 124"
+  server: 111.45.22.139
+  port: 11909
+  type: vmess
+  uuid: 2bb31413-7b35-3eb7-b59a-3f5b11a4e385
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 111.45.22.139
+- name: "\U0001F1E9\U0001F1EA DE 125"
   server: 167.235.192.0
   port: 25052
   type: vmess
@@ -3879,49 +1452,7 @@ proxies:
     path: /
     headers:
       Host: 167.235.192.0
-- name: "\U0001F1F8\U0001F1EC SG 307"
-  server: 00000000000000000000000000000000000000000000000000000000000035a.rui77.com
-  port: 12356
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 00000000000000000000000000000000000000000000000000000000000035a.rui77.com
-- name: "\U0001F1F8\U0001F1EC SG 308"
-  server: sg-lb.vhax.net
-  port: 80
-  type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /sshkit/Ertusg86/635014638c264/
-    headers:
-      Host: zoom.us
-- name: "\U0001F1F8\U0001F1EC SG 309"
-  server: 172.104.162.207
-  port: 57532
-  type: vmess
-  uuid: 6ea5cb1c-6e8f-43a1-893d-37a1f5a20642
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /hkgzs01
-    headers:
-      Host: 172.104.162.207
-- name: "\U0001F1F8\U0001F1EC SG 310"
+- name: "\U0001F1F8\U0001F1EC SG 126"
   server: 8.219.48.73
   port: 443
   type: vmess
@@ -3935,21 +1466,21 @@ proxies:
     path: /?ed=2048
     headers:
       Host: w1.800876.xyz
-- name: "\U0001F1F8\U0001F1EC SG 311"
-  server: 167.71.218.212
+- name: "\U0001F1F8\U0001F1EC SG 127"
+  server: 8.219.170.170
   port: 443
   type: vmess
-  uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
   network: ws
   tls: true
   ws-opts:
-    path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
+    path: /ray
     headers:
-      Host: 001frg.pages.dev
-- name: "\U0001F1F8\U0001F1EC SG 312"
+      Host: lg30.cfcdn3.xyz
+- name: "\U0001F1F8\U0001F1EC SG 128"
   server: 167.99.73.48
   port: 443
   type: vmess
@@ -3963,21 +1494,21 @@ proxies:
     path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
     headers:
       Host: 003kkou.pages.dev
-- name: "\U0001F1FA\U0001F1F8 US 313"
-  server: 00000000000000000000000000000000000000000000000000000000000040a.rui77.com
-  port: 12356
+- name: "\U0001F1F8\U0001F1EC SG 129"
+  server: 167.71.218.212
+  port: 443
   type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
-  network: tcp
-  tls: false
+  network: ws
+  tls: true
   ws-opts:
-    path: /
+    path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
     headers:
-      Host: 00000000000000000000000000000000000000000000000000000000000040a.rui77.com
-- name: "\U0001F1F3\U0001F1F1 NL 314"
+      Host: 001frg.pages.dev
+- name: "\U0001F1F3\U0001F1F1 NL 130"
   server: nl1.v2rayserv.com
   port: 80
   type: vmess
@@ -3991,156 +1522,148 @@ proxies:
     path: /Danhuang/Jiang
     headers:
       Host: nl1.v2rayserv.com
-- name: "\U0001F1F0\U0001F1F7 KR 315"
-  server: 138.2.122.225
-  port: 80
+- name: "\U0001F1F0\U0001F1F7 KR 131"
+  server: 150.230.249.15
+  port: 46842
   type: vmess
-  uuid: 461aed20-0743-4f13-ee68-43394e875e42
+  uuid: 4530b5ee-ced4-4e64-9285-1867fc5df7f8
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
-  network: ws
+  network: http
   tls: false
   ws-opts:
     path: /
     headers:
-      Host: h1.800876.xyz
-- name: "\U0001F1E8\U0001F1F3 HK 316"
-  server: 219.76.13.180
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
+      Host: 150.230.249.15
+- name: "\U0001F1F0\U0001F1F7 KR 132"
+  server: kr05.wangxd.life
+  port: 3052
+  type: trojan
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  skip-cert-verify: true
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1FA\U0001F1F8 US 1"
-  - "\U0001F1ED\U0001F1FA HU 2"
-  - "\U0001F1FA\U0001F1F8 US 3"
-  - "\U0001F1EC\U0001F1E7 GB 4"
-  - "\U0001F1EC\U0001F1E7 GB 5"
-  - "\U0001F1EB\U0001F1F7 FR 6"
-  - "\U0001F1EC\U0001F1E7 GB 7"
-  - "\U0001F1E9\U0001F1EA DE 8"
-  - "\U0001F1F0\U0001F1F7 KR 9"
+  - "\U0001F1E8\U0001F1F3 CN 2"
+  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E8\U0001F1F3 CN 4"
+  - "\U0001F1E8\U0001F1F3 CN 5"
+  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1E8\U0001F1F3 CN 7"
+  - "\U0001F1EC\U0001F1E7 GB 8"
+  - "\U0001F1EC\U0001F1E7 GB 9"
   - "\U0001F1FA\U0001F1F8 US 10"
-  - "\U0001F1FA\U0001F1F8 US 11"
-  - "\U0001F1E8\U0001F1E6 CA 12"
-  - "\U0001F1F8\U0001F1EC SG 13"
-  - "\U0001F1FA\U0001F1F8 US 14"
-  - "\U0001F1FA\U0001F1F8 US 15"
-  - "\U0001F1F0\U0001F1F7 KR 16"
-  - "\U0001F1F0\U0001F1F7 KR 17"
+  - "\U0001F1EF\U0001F1F5 JP 11"
+  - "\U0001F1E9\U0001F1EA DE 12"
+  - "\U0001F1EB\U0001F1F7 FR 13"
+  - "\U0001F1E9\U0001F1EA DE 14"
+  - "\U0001F1E8\U0001F1F3 CN 15"
+  - "\U0001F1E8\U0001F1F3 CN 16"
+  - "\U0001F1E8\U0001F1F3 CN 17"
   - "\U0001F1FA\U0001F1F8 US 18"
-  - "\U0001F1EF\U0001F1F5 JP 19"
-  - "\U0001F1EC\U0001F1E7 GB 20"
-  - "\U0001F1F3\U0001F1F1 NL 21"
-  - "\U0001F1F8\U0001F1EC SG 22"
-  - "\U0001F1E9\U0001F1EA DE 23"
-  - "\U0001F1F8\U0001F1EC SG 24"
+  - "\U0001F1E8\U0001F1F3 CN 19"
+  - "\U0001F1FA\U0001F1F8 US 20"
+  - "\U0001F1E9\U0001F1EA DE 21"
+  - "\U0001F1EF\U0001F1F5 JP 22"
+  - "\U0001F1EF\U0001F1F5 JP 23"
+  - "\U0001F1E8\U0001F1F3 CN 24"
   - "\U0001F1FA\U0001F1F8 US 25"
-  - "\U0001F1EF\U0001F1F5 JP 26"
-  - "\U0001F1E9\U0001F1EA DE 27"
-  - "\U0001F1E8\U0001F1E6 CA 28"
-  - "\U0001F1E8\U0001F1F3 CN 29"
-  - "\U0001F1FA\U0001F1F8 US 30"
-  - "\U0001F1E9\U0001F1EA DE 31"
-  - "\U0001F1FA\U0001F1F8 US 32"
-  - "\U0001F1EB\U0001F1F7 FR 33"
-  - "\U0001F1E9\U0001F1EA DE 34"
-  - "\U0001F1EF\U0001F1F5 JP 35"
-  - "\U0001F1EB\U0001F1F7 FR 36"
-  - "\U0001F1F3\U0001F1F1 NL 37"
-  - "\U0001F1E8\U0001F1F3 MO 38"
-  - "\U0001F1FA\U0001F1F8 US 39"
-  - "\U0001F1FA\U0001F1F8 US 40"
-  - "\U0001F1FA\U0001F1F8 US 41"
-  - "\U0001F1F8\U0001F1EC SG 42"
-  - "\U0001F1E8\U0001F1F3 HK 43"
   - "\U0001F3F4\U000E0067\U000E006F\U000E006F\U000E0067\U000E006C\U000E0065\U000E007F\
-    \ GOOGLE 44"
-  - "\U0001F1FA\U0001F1F8 US 45"
-  - "\U0001F1FA\U0001F1F8 US 46"
-  - "\U0001F1EC\U0001F1E7 GB 47"
-  - "\U0001F1EF\U0001F1F5 JP 48"
+    \ GOOGLE 26"
+  - "\U0001F1FA\U0001F1F8 US 27"
+  - "\U0001F1EB\U0001F1F7 FR 28"
+  - "\U0001F1EC\U0001F1E7 GB 29"
   - "\U0001F3F4\U000E0067\U000E006F\U000E006F\U000E0067\U000E006C\U000E0065\U000E007F\
-    \ GOOGLE 49"
-  - "\U0001F1E8\U0001F1F3 CN 50"
-  - "\U0001F1FA\U0001F1F8 US 51"
-  - "\U0001F1FA\U0001F1F3 UN 52"
-  - "\U0001F1F3\U0001F1F1 NL 53"
-  - "\U0001F1F8\U0001F1EC SG 54"
-  - "\U0001F1FB\U0001F1F3 VN 55"
+    \ GOOGLE 30"
+  - "\U0001F1FA\U0001F1F8 US 31"
+  - "\U0001F1E8\U0001F1E6 CA 32"
+  - "\U0001F1EF\U0001F1F5 JP 33"
+  - "\U0001F1EB\U0001F1F7 FR 34"
+  - "\U0001F1EC\U0001F1E7 GB 35"
+  - "\U0001F1FA\U0001F1F8 US 36"
+  - "\U0001F1EC\U0001F1E7 GB 37"
+  - "\U0001F1E8\U0001F1E6 CA 38"
+  - "\U0001F1E8\U0001F1F3 CN 39"
+  - "\U0001F1EC\U0001F1E7 GB 40"
+  - "\U0001F1F8\U0001F1EC SG 41"
+  - "\U0001F1F3\U0001F1F1 NL 42"
+  - "\U0001F1EF\U0001F1F5 JP 43"
+  - "\U0001F1EF\U0001F1F5 JP 44"
+  - "\U0001F1F8\U0001F1EC SG 45"
+  - "\U0001F1EF\U0001F1F5 JP 46"
+  - "\U0001F1FA\U0001F1F8 US 47"
+  - "\U0001F1F7\U0001F1FA RU 48"
+  - "\U0001F1EF\U0001F1F5 JP 49"
+  - "\U0001F1FA\U0001F1F8 US 50"
+  - "\U0001F1E7\U0001F1F7 BR 51"
+  - "\U0001F1E9\U0001F1EA DE 52"
+  - "\U0001F1FB\U0001F1F3 VN 53"
+  - "\U0001F1E8\U0001F1F3 MO 54"
+  - "\U0001F1EE\U0001F1F3 IN 55"
   - "\U0001F1E9\U0001F1EA DE 56"
-  - "\U0001F1F0\U0001F1F7 KR 57"
+  - "\U0001F1EF\U0001F1F5 JP 57"
   - "\U0001F1E9\U0001F1EA DE 58"
-  - "\U0001F1FA\U0001F1F8 US 59"
+  - "\U0001F1F8\U0001F1EC SG 59"
   - "\U0001F1FA\U0001F1F8 US 60"
-  - "\U0001F1EF\U0001F1F5 JP 61"
-  - "\U0001F1E8\U0001F1F3 CN 62"
-  - "\U0001F1EC\U0001F1E7 GB 63"
-  - "\U0001F1FA\U0001F1F8 US 64"
-  - "\U0001F1EB\U0001F1F7 FR 65"
-  - "\U0001F1FA\U0001F1F8 US 66"
-  - "\U0001F1EF\U0001F1F5 JP 67"
-  - "\U0001F1E8\U0001F1F3 HK 68"
-  - "\U0001F1E8\U0001F1F3 HK 69"
-  - "\U0001F1EC\U0001F1E7 GB 70"
-  - "\U0001F1EF\U0001F1F5 JP 71"
-  - "\U0001F1EF\U0001F1F5 JP 72"
-  - "\U0001F1EF\U0001F1F5 JP 73"
-  - "\U0001F1F8\U0001F1EC SG 74"
-  - "\U0001F1EC\U0001F1E7 GB 75"
-  - "\U0001F1F8\U0001F1EC SG 76"
+  - "\U0001F1FA\U0001F1F8 US 61"
+  - "\U0001F1EC\U0001F1E7 GB 62"
+  - "\U0001F1F0\U0001F1FF KZ 63"
+  - "\U0001F1F8\U0001F1EC SG 64"
+  - "\U0001F1F0\U0001F1F7 KR 65"
+  - "\U0001F1E8\U0001F1F3 HK 66"
+  - "\U0001F1E9\U0001F1EA DE 67"
+  - "\U0001F1EF\U0001F1F5 JP 68"
+  - "\U0001F1E9\U0001F1EA DE 69"
+  - "\U0001F1F8\U0001F1EC SG 70"
+  - "\U0001F1E6\U0001F1FA AU 71"
+  - "\U0001F1FB\U0001F1F3 VN 72"
+  - "\U0001F1E6\U0001F1FA AU 73"
+  - "\U0001F1E8\U0001F1F3 HK 74"
+  - "\U0001F1EE\U0001F1F3 IN 75"
+  - "\U0001F1EC\U0001F1E7 GB 76"
   - "\U0001F1FA\U0001F1F8 US 77"
-  - "\U0001F1F0\U0001F1F7 KR 78"
-  - "\U0001F1F0\U0001F1FF KZ 79"
-  - "\U0001F1E8\U0001F1F3 CN 80"
-  - "\U0001F1E9\U0001F1EA DE 81"
-  - "\U0001F1E8\U0001F1F3 CN 82"
-  - "\U0001F1E8\U0001F1F3 HK 83"
-  - "\U0001F1EF\U0001F1F5 JP 84"
-  - "\U0001F1F0\U0001F1F7 KR 85"
-  - "\U0001F1F0\U0001F1F7 KR 86"
+  - "\U0001F1EF\U0001F1F5 JP 78"
+  - "\U0001F1FA\U0001F1F8 US 79"
+  - "\U0001F1FA\U0001F1F3 UN 80"
+  - "\U0001F1EC\U0001F1E7 GB 81"
+  - "\U0001F1EF\U0001F1F5 JP 82"
+  - "\U0001F1E8\U0001F1F3 CN 83"
+  - "\U0001F1F7\U0001F1FA RU 84"
+  - "\U0001F1EF\U0001F1F5 JP 85"
+  - "\U0001F1EF\U0001F1F5 JP 86"
   - "\U0001F1F0\U0001F1F7 KR 87"
-  - "\U0001F1EF\U0001F1F5 JP 88"
-  - "\U0001F1EE\U0001F1F3 IN 89"
-  - "\U0001F1E8\U0001F1F3 MO 90"
+  - "\U0001F1F0\U0001F1F7 KR 88"
+  - "\U0001F1EF\U0001F1F5 JP 89"
+  - "\U0001F1EE\U0001F1F3 IN 90"
   - "\U0001F1E8\U0001F1F3 CN 91"
   - "\U0001F1E8\U0001F1F3 CN 92"
   - "\U0001F1E8\U0001F1F3 CN 93"
   - "\U0001F1E8\U0001F1F3 CN 94"
-  - "\U0001F1E8\U0001F1F3 CN 95"
-  - "\U0001F1E8\U0001F1F3 CN 96"
-  - "\U0001F1E8\U0001F1F3 CN 97"
-  - "\U0001F1E8\U0001F1F3 CN 98"
-  - "\U0001F1E8\U0001F1F3 CN 99"
-  - "\U0001F1E8\U0001F1F3 CN 100"
-  - "\U0001F1E8\U0001F1F3 CN 101"
-  - "\U0001F1E8\U0001F1F3 CN 102"
-  - "\U0001F1E8\U0001F1F3 CN 103"
-  - "\U0001F1E8\U0001F1F3 CN 104"
-  - "\U0001F1E8\U0001F1F3 CN 105"
+  - "\U0001F1E8\U0001F1F3 HK 95"
+  - "\U0001F1E8\U0001F1F3 HK 96"
+  - "\U0001F1FA\U0001F1F8 US 97"
+  - "\U0001F1FA\U0001F1F8 US 98"
+  - "\U0001F1F0\U0001F1F7 KR 99"
+  - "\U0001F1EF\U0001F1F5 JP 100"
+  - "\U0001F1F0\U0001F1F7 KR 101"
+  - "\U0001F1F0\U0001F1F7 KR 102"
+  - "\U0001F1EF\U0001F1F5 JP 103"
+  - "\U0001F1EF\U0001F1F5 JP 104"
+  - "\U0001F1F0\U0001F1F7 KR 105"
   - "\U0001F1E8\U0001F1F3 CN 106"
   - "\U0001F1E8\U0001F1F3 CN 107"
   - "\U0001F1E8\U0001F1F3 CN 108"
-  - "\U0001F1E8\U0001F1F3 CN 109"
+  - "\U0001F1F0\U0001F1F7 KR 109"
   - "\U0001F1E8\U0001F1F3 CN 110"
   - "\U0001F1E8\U0001F1F3 CN 111"
-  - "\U0001F1E8\U0001F1F3 CN 112"
-  - "\U0001F1E8\U0001F1F3 CN 113"
-  - "\U0001F1E8\U0001F1F3 CN 114"
+  - "\U0001F1F8\U0001F1EC SG 112"
+  - "\U0001F1EE\U0001F1F3 IN 113"
+  - "\U0001F1E8\U0001F1F3 TW 114"
   - "\U0001F1E8\U0001F1F3 CN 115"
-  - "\U0001F1E8\U0001F1F3 CN 116"
+  - "\U0001F1E8\U0001F1F3 TW 116"
   - "\U0001F1E8\U0001F1F3 CN 117"
   - "\U0001F1E8\U0001F1F3 CN 118"
   - "\U0001F1E8\U0001F1F3 CN 119"
@@ -4149,198 +1672,14 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 122"
   - "\U0001F1E8\U0001F1F3 CN 123"
   - "\U0001F1E8\U0001F1F3 CN 124"
-  - "\U0001F1E8\U0001F1F3 CN 125"
-  - "\U0001F1E8\U0001F1F3 CN 126"
-  - "\U0001F1E8\U0001F1F3 CN 127"
-  - "\U0001F1E8\U0001F1F3 CN 128"
-  - "\U0001F1E8\U0001F1F3 CN 129"
-  - "\U0001F1E8\U0001F1F3 CN 130"
-  - "\U0001F1E8\U0001F1F3 CN 131"
-  - "\U0001F1E8\U0001F1F3 CN 132"
-  - "\U0001F1E8\U0001F1F3 CN 133"
-  - "\U0001F1E8\U0001F1F3 CN 134"
-  - "\U0001F1E8\U0001F1F3 CN 135"
-  - "\U0001F1E8\U0001F1F3 CN 136"
-  - "\U0001F1E8\U0001F1F3 CN 137"
-  - "\U0001F1E8\U0001F1F3 CN 138"
-  - "\U0001F1E8\U0001F1F3 CN 139"
-  - "\U0001F1E8\U0001F1F3 CN 140"
-  - "\U0001F1E8\U0001F1F3 CN 141"
-  - "\U0001F1E8\U0001F1F3 CN 142"
-  - "\U0001F1E8\U0001F1F3 CN 143"
-  - "\U0001F1E8\U0001F1F3 CN 144"
-  - "\U0001F1E8\U0001F1F3 CN 145"
-  - "\U0001F1E8\U0001F1F3 CN 146"
-  - "\U0001F1E8\U0001F1F3 CN 147"
-  - "\U0001F1E8\U0001F1F3 CN 148"
-  - "\U0001F1E8\U0001F1F3 CN 149"
-  - "\U0001F1E8\U0001F1F3 CN 150"
-  - "\U0001F1E8\U0001F1F3 CN 151"
-  - "\U0001F1E8\U0001F1F3 CN 152"
-  - "\U0001F1E8\U0001F1F3 CN 153"
-  - "\U0001F1E8\U0001F1F3 CN 154"
-  - "\U0001F1E8\U0001F1F3 CN 155"
-  - "\U0001F1E8\U0001F1F3 CN 156"
-  - "\U0001F1E8\U0001F1F3 CN 157"
-  - "\U0001F1E8\U0001F1F3 CN 158"
-  - "\U0001F1E8\U0001F1F3 CN 159"
-  - "\U0001F1E8\U0001F1F3 CN 160"
-  - "\U0001F1E8\U0001F1F3 CN 161"
-  - "\U0001F1E8\U0001F1F3 CN 162"
-  - "\U0001F1E8\U0001F1F3 CN 163"
-  - "\U0001F1E8\U0001F1F3 CN 164"
-  - "\U0001F1E8\U0001F1F3 CN 165"
-  - "\U0001F1E8\U0001F1F3 CN 166"
-  - "\U0001F1E8\U0001F1F3 CN 167"
-  - "\U0001F1E8\U0001F1F3 CN 168"
-  - "\U0001F1E8\U0001F1F3 CN 169"
-  - "\U0001F1E8\U0001F1F3 CN 170"
-  - "\U0001F1E8\U0001F1F3 CN 171"
-  - "\U0001F1E8\U0001F1F3 CN 172"
-  - "\U0001F1E8\U0001F1F3 CN 173"
-  - "\U0001F1E8\U0001F1F3 CN 174"
-  - "\U0001F1E8\U0001F1F3 CN 175"
-  - "\U0001F1E8\U0001F1F3 CN 176"
-  - "\U0001F1E8\U0001F1F3 CN 177"
-  - "\U0001F1E8\U0001F1F3 CN 178"
-  - "\U0001F1E8\U0001F1F3 CN 179"
-  - "\U0001F1E8\U0001F1F3 CN 180"
-  - "\U0001F1E8\U0001F1F3 CN 181"
-  - "\U0001F1E8\U0001F1F3 CN 182"
-  - "\U0001F1E8\U0001F1F3 CN 183"
-  - "\U0001F1E8\U0001F1F3 CN 184"
-  - "\U0001F1E8\U0001F1F3 CN 185"
-  - "\U0001F1E8\U0001F1F3 CN 186"
-  - "\U0001F1E8\U0001F1F3 CN 187"
-  - "\U0001F1E8\U0001F1F3 CN 188"
-  - "\U0001F1E8\U0001F1F3 CN 189"
-  - "\U0001F1E8\U0001F1F3 CN 190"
-  - "\U0001F1E8\U0001F1F3 CN 191"
-  - "\U0001F1E8\U0001F1F3 CN 192"
-  - "\U0001F1E8\U0001F1F3 CN 193"
-  - "\U0001F1E8\U0001F1F3 CN 194"
-  - "\U0001F1E8\U0001F1F3 CN 195"
-  - "\U0001F1E8\U0001F1F3 CN 196"
-  - "\U0001F1E8\U0001F1F3 CN 197"
-  - "\U0001F1E8\U0001F1F3 CN 198"
-  - "\U0001F1E8\U0001F1F3 CN 199"
-  - "\U0001F1E8\U0001F1F3 CN 200"
-  - "\U0001F1E8\U0001F1F3 CN 201"
-  - "\U0001F1E8\U0001F1F3 CN 202"
-  - "\U0001F1E8\U0001F1F3 CN 203"
-  - "\U0001F1E8\U0001F1F3 CN 204"
-  - "\U0001F1E8\U0001F1F3 CN 205"
-  - "\U0001F1E8\U0001F1F3 CN 206"
-  - "\U0001F1E8\U0001F1F3 CN 207"
-  - "\U0001F1E8\U0001F1F3 CN 208"
-  - "\U0001F1E8\U0001F1F3 CN 209"
-  - "\U0001F1E8\U0001F1F3 CN 210"
-  - "\U0001F1E8\U0001F1F3 CN 211"
-  - "\U0001F1E8\U0001F1F3 CN 212"
-  - "\U0001F1E8\U0001F1F3 CN 213"
-  - "\U0001F1E8\U0001F1F3 CN 214"
-  - "\U0001F1E8\U0001F1F3 CN 215"
-  - "\U0001F1E8\U0001F1F3 CN 216"
-  - "\U0001F1E8\U0001F1F3 CN 217"
-  - "\U0001F1E8\U0001F1F3 CN 218"
-  - "\U0001F1E8\U0001F1F3 CN 219"
-  - "\U0001F1E8\U0001F1F3 CN 220"
-  - "\U0001F1E8\U0001F1F3 CN 221"
-  - "\U0001F1E8\U0001F1F3 CN 222"
-  - "\U0001F1E8\U0001F1F3 CN 223"
-  - "\U0001F1E8\U0001F1F3 CN 224"
-  - "\U0001F1E8\U0001F1F3 CN 225"
-  - "\U0001F1E8\U0001F1F3 CN 226"
-  - "\U0001F1E8\U0001F1F3 CN 227"
-  - "\U0001F1E8\U0001F1F3 CN 228"
-  - "\U0001F1E8\U0001F1F3 CN 229"
-  - "\U0001F1E8\U0001F1F3 CN 230"
-  - "\U0001F1E8\U0001F1F3 CN 231"
-  - "\U0001F1E8\U0001F1F3 CN 232"
-  - "\U0001F1E8\U0001F1F3 CN 233"
-  - "\U0001F1E8\U0001F1F3 CN 234"
-  - "\U0001F1E8\U0001F1F3 CN 235"
-  - "\U0001F1E8\U0001F1F3 CN 236"
-  - "\U0001F1E8\U0001F1F3 CN 237"
-  - "\U0001F1E8\U0001F1F3 CN 238"
-  - "\U0001F1E8\U0001F1F3 CN 239"
-  - "\U0001F1E8\U0001F1F3 CN 240"
-  - "\U0001F1E8\U0001F1F3 CN 241"
-  - "\U0001F1E8\U0001F1F3 CN 242"
-  - "\U0001F1E8\U0001F1F3 CN 243"
-  - "\U0001F1E8\U0001F1F3 CN 244"
-  - "\U0001F1E8\U0001F1F3 CN 245"
-  - "\U0001F1E8\U0001F1F3 CN 246"
-  - "\U0001F1E8\U0001F1F3 CN 247"
-  - "\U0001F1E8\U0001F1F3 CN 248"
-  - "\U0001F1E8\U0001F1F3 CN 249"
-  - "\U0001F1E8\U0001F1F3 CN 250"
-  - "\U0001F1E8\U0001F1F3 CN 251"
-  - "\U0001F1E8\U0001F1F3 CN 252"
-  - "\U0001F1E8\U0001F1F3 CN 253"
-  - "\U0001F1E8\U0001F1F3 CN 254"
-  - "\U0001F1E8\U0001F1F3 CN 255"
-  - "\U0001F1E8\U0001F1F3 CN 256"
-  - "\U0001F1E8\U0001F1F3 CN 257"
-  - "\U0001F1E8\U0001F1F3 CN 258"
-  - "\U0001F1E8\U0001F1F3 CN 259"
-  - "\U0001F1E8\U0001F1F3 CN 260"
-  - "\U0001F1E8\U0001F1F3 CN 261"
-  - "\U0001F1E8\U0001F1F3 CN 262"
-  - "\U0001F1E8\U0001F1F3 CN 263"
-  - "\U0001F1F0\U0001F1F7 KR 264"
-  - "\U0001F1F0\U0001F1F7 KR 265"
-  - "\U0001F1F0\U0001F1F7 KR 266"
-  - "\U0001F1F0\U0001F1F7 KR 267"
-  - "\U0001F1F0\U0001F1F7 KR 268"
-  - "\U0001F1F0\U0001F1F7 KR 269"
-  - "\U0001F1F0\U0001F1F7 KR 270"
-  - "\U0001F1E8\U0001F1F3 TW 271"
-  - "\U0001F1E8\U0001F1F3 TW 272"
-  - "\U0001F1EC\U0001F1E7 GB 273"
-  - "\U0001F1F0\U0001F1F7 KR 274"
-  - "\U0001F1E8\U0001F1F3 HK 275"
-  - "\U0001F1EF\U0001F1F5 JP 276"
-  - "\U0001F1F0\U0001F1F7 KR 277"
-  - "\U0001F1EF\U0001F1F5 JP 278"
-  - "\U0001F1EF\U0001F1F5 JP 279"
-  - "\U0001F1F0\U0001F1F7 KR 280"
-  - "\U0001F1F0\U0001F1F7 KR 281"
-  - "\U0001F1E8\U0001F1F3 CN 282"
-  - "\U0001F1F0\U0001F1F7 KR 283"
-  - "\U0001F1F0\U0001F1F7 KR 284"
-  - "\U0001F1F0\U0001F1F7 KR 285"
-  - "\U0001F1F0\U0001F1F7 KR 286"
-  - "\U0001F1F0\U0001F1F7 KR 287"
-  - "\U0001F1F0\U0001F1F7 KR 288"
-  - "\U0001F1F0\U0001F1F7 KR 289"
-  - "\U0001F1F0\U0001F1F7 KR 290"
-  - "\U0001F1F0\U0001F1F7 KR 291"
-  - "\U0001F1E8\U0001F1F3 CN 292"
-  - "\U0001F1F0\U0001F1F7 KR 293"
-  - "\U0001F1E8\U0001F1F3 CN 294"
-  - "\U0001F1F8\U0001F1EC SG 295"
-  - "\U0001F1FA\U0001F1F8 US 296"
-  - "\U0001F1EF\U0001F1F5 JP 297"
-  - "\U0001F1EF\U0001F1F5 JP 298"
-  - "\U0001F1EF\U0001F1F5 JP 299"
-  - "\U0001F1EE\U0001F1E9 ID 300"
-  - "\U0001F1EE\U0001F1F3 IN 301"
-  - "\U0001F1FB\U0001F1F3 VN 302"
-  - "\U0001F1F8\U0001F1EC SG 303"
-  - "\U0001F1F7\U0001F1FA RU 304"
-  - "\U0001F1EE\U0001F1F3 IN 305"
-  - "\U0001F1E9\U0001F1EA DE 306"
-  - "\U0001F1F8\U0001F1EC SG 307"
-  - "\U0001F1F8\U0001F1EC SG 308"
-  - "\U0001F1F8\U0001F1EC SG 309"
-  - "\U0001F1F8\U0001F1EC SG 310"
-  - "\U0001F1F8\U0001F1EC SG 311"
-  - "\U0001F1F8\U0001F1EC SG 312"
-  - "\U0001F1FA\U0001F1F8 US 313"
-  - "\U0001F1F3\U0001F1F1 NL 314"
-  - "\U0001F1F0\U0001F1F7 KR 315"
-  - "\U0001F1E8\U0001F1F3 HK 316"
+  - "\U0001F1E9\U0001F1EA DE 125"
+  - "\U0001F1F8\U0001F1EC SG 126"
+  - "\U0001F1F8\U0001F1EC SG 127"
+  - "\U0001F1F8\U0001F1EC SG 128"
+  - "\U0001F1F8\U0001F1EC SG 129"
+  - "\U0001F1F3\U0001F1F1 NL 130"
+  - "\U0001F1F0\U0001F1F7 KR 131"
+  - "\U0001F1F0\U0001F1F7 KR 132"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -4348,123 +1687,123 @@ proxy-groups:
   proxies:
   - automatic
   - "\U0001F1FA\U0001F1F8 US 1"
-  - "\U0001F1ED\U0001F1FA HU 2"
-  - "\U0001F1FA\U0001F1F8 US 3"
-  - "\U0001F1EC\U0001F1E7 GB 4"
-  - "\U0001F1EC\U0001F1E7 GB 5"
-  - "\U0001F1EB\U0001F1F7 FR 6"
-  - "\U0001F1EC\U0001F1E7 GB 7"
-  - "\U0001F1E9\U0001F1EA DE 8"
-  - "\U0001F1F0\U0001F1F7 KR 9"
+  - "\U0001F1E8\U0001F1F3 CN 2"
+  - "\U0001F1E8\U0001F1F3 CN 3"
+  - "\U0001F1E8\U0001F1F3 CN 4"
+  - "\U0001F1E8\U0001F1F3 CN 5"
+  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1E8\U0001F1F3 CN 7"
+  - "\U0001F1EC\U0001F1E7 GB 8"
+  - "\U0001F1EC\U0001F1E7 GB 9"
   - "\U0001F1FA\U0001F1F8 US 10"
-  - "\U0001F1FA\U0001F1F8 US 11"
-  - "\U0001F1E8\U0001F1E6 CA 12"
-  - "\U0001F1F8\U0001F1EC SG 13"
-  - "\U0001F1FA\U0001F1F8 US 14"
-  - "\U0001F1FA\U0001F1F8 US 15"
-  - "\U0001F1F0\U0001F1F7 KR 16"
-  - "\U0001F1F0\U0001F1F7 KR 17"
+  - "\U0001F1EF\U0001F1F5 JP 11"
+  - "\U0001F1E9\U0001F1EA DE 12"
+  - "\U0001F1EB\U0001F1F7 FR 13"
+  - "\U0001F1E9\U0001F1EA DE 14"
+  - "\U0001F1E8\U0001F1F3 CN 15"
+  - "\U0001F1E8\U0001F1F3 CN 16"
+  - "\U0001F1E8\U0001F1F3 CN 17"
   - "\U0001F1FA\U0001F1F8 US 18"
-  - "\U0001F1EF\U0001F1F5 JP 19"
-  - "\U0001F1EC\U0001F1E7 GB 20"
-  - "\U0001F1F3\U0001F1F1 NL 21"
-  - "\U0001F1F8\U0001F1EC SG 22"
-  - "\U0001F1E9\U0001F1EA DE 23"
-  - "\U0001F1F8\U0001F1EC SG 24"
+  - "\U0001F1E8\U0001F1F3 CN 19"
+  - "\U0001F1FA\U0001F1F8 US 20"
+  - "\U0001F1E9\U0001F1EA DE 21"
+  - "\U0001F1EF\U0001F1F5 JP 22"
+  - "\U0001F1EF\U0001F1F5 JP 23"
+  - "\U0001F1E8\U0001F1F3 CN 24"
   - "\U0001F1FA\U0001F1F8 US 25"
-  - "\U0001F1EF\U0001F1F5 JP 26"
-  - "\U0001F1E9\U0001F1EA DE 27"
-  - "\U0001F1E8\U0001F1E6 CA 28"
-  - "\U0001F1E8\U0001F1F3 CN 29"
-  - "\U0001F1FA\U0001F1F8 US 30"
-  - "\U0001F1E9\U0001F1EA DE 31"
-  - "\U0001F1FA\U0001F1F8 US 32"
-  - "\U0001F1EB\U0001F1F7 FR 33"
-  - "\U0001F1E9\U0001F1EA DE 34"
-  - "\U0001F1EF\U0001F1F5 JP 35"
-  - "\U0001F1EB\U0001F1F7 FR 36"
-  - "\U0001F1F3\U0001F1F1 NL 37"
-  - "\U0001F1E8\U0001F1F3 MO 38"
-  - "\U0001F1FA\U0001F1F8 US 39"
-  - "\U0001F1FA\U0001F1F8 US 40"
-  - "\U0001F1FA\U0001F1F8 US 41"
-  - "\U0001F1F8\U0001F1EC SG 42"
-  - "\U0001F1E8\U0001F1F3 HK 43"
   - "\U0001F3F4\U000E0067\U000E006F\U000E006F\U000E0067\U000E006C\U000E0065\U000E007F\
-    \ GOOGLE 44"
-  - "\U0001F1FA\U0001F1F8 US 45"
-  - "\U0001F1FA\U0001F1F8 US 46"
-  - "\U0001F1EC\U0001F1E7 GB 47"
-  - "\U0001F1EF\U0001F1F5 JP 48"
+    \ GOOGLE 26"
+  - "\U0001F1FA\U0001F1F8 US 27"
+  - "\U0001F1EB\U0001F1F7 FR 28"
+  - "\U0001F1EC\U0001F1E7 GB 29"
   - "\U0001F3F4\U000E0067\U000E006F\U000E006F\U000E0067\U000E006C\U000E0065\U000E007F\
-    \ GOOGLE 49"
-  - "\U0001F1E8\U0001F1F3 CN 50"
-  - "\U0001F1FA\U0001F1F8 US 51"
-  - "\U0001F1FA\U0001F1F3 UN 52"
-  - "\U0001F1F3\U0001F1F1 NL 53"
-  - "\U0001F1F8\U0001F1EC SG 54"
-  - "\U0001F1FB\U0001F1F3 VN 55"
+    \ GOOGLE 30"
+  - "\U0001F1FA\U0001F1F8 US 31"
+  - "\U0001F1E8\U0001F1E6 CA 32"
+  - "\U0001F1EF\U0001F1F5 JP 33"
+  - "\U0001F1EB\U0001F1F7 FR 34"
+  - "\U0001F1EC\U0001F1E7 GB 35"
+  - "\U0001F1FA\U0001F1F8 US 36"
+  - "\U0001F1EC\U0001F1E7 GB 37"
+  - "\U0001F1E8\U0001F1E6 CA 38"
+  - "\U0001F1E8\U0001F1F3 CN 39"
+  - "\U0001F1EC\U0001F1E7 GB 40"
+  - "\U0001F1F8\U0001F1EC SG 41"
+  - "\U0001F1F3\U0001F1F1 NL 42"
+  - "\U0001F1EF\U0001F1F5 JP 43"
+  - "\U0001F1EF\U0001F1F5 JP 44"
+  - "\U0001F1F8\U0001F1EC SG 45"
+  - "\U0001F1EF\U0001F1F5 JP 46"
+  - "\U0001F1FA\U0001F1F8 US 47"
+  - "\U0001F1F7\U0001F1FA RU 48"
+  - "\U0001F1EF\U0001F1F5 JP 49"
+  - "\U0001F1FA\U0001F1F8 US 50"
+  - "\U0001F1E7\U0001F1F7 BR 51"
+  - "\U0001F1E9\U0001F1EA DE 52"
+  - "\U0001F1FB\U0001F1F3 VN 53"
+  - "\U0001F1E8\U0001F1F3 MO 54"
+  - "\U0001F1EE\U0001F1F3 IN 55"
   - "\U0001F1E9\U0001F1EA DE 56"
-  - "\U0001F1F0\U0001F1F7 KR 57"
+  - "\U0001F1EF\U0001F1F5 JP 57"
   - "\U0001F1E9\U0001F1EA DE 58"
-  - "\U0001F1FA\U0001F1F8 US 59"
+  - "\U0001F1F8\U0001F1EC SG 59"
   - "\U0001F1FA\U0001F1F8 US 60"
-  - "\U0001F1EF\U0001F1F5 JP 61"
-  - "\U0001F1E8\U0001F1F3 CN 62"
-  - "\U0001F1EC\U0001F1E7 GB 63"
-  - "\U0001F1FA\U0001F1F8 US 64"
-  - "\U0001F1EB\U0001F1F7 FR 65"
-  - "\U0001F1FA\U0001F1F8 US 66"
-  - "\U0001F1EF\U0001F1F5 JP 67"
-  - "\U0001F1E8\U0001F1F3 HK 68"
-  - "\U0001F1E8\U0001F1F3 HK 69"
-  - "\U0001F1EC\U0001F1E7 GB 70"
-  - "\U0001F1EF\U0001F1F5 JP 71"
-  - "\U0001F1EF\U0001F1F5 JP 72"
-  - "\U0001F1EF\U0001F1F5 JP 73"
-  - "\U0001F1F8\U0001F1EC SG 74"
-  - "\U0001F1EC\U0001F1E7 GB 75"
-  - "\U0001F1F8\U0001F1EC SG 76"
+  - "\U0001F1FA\U0001F1F8 US 61"
+  - "\U0001F1EC\U0001F1E7 GB 62"
+  - "\U0001F1F0\U0001F1FF KZ 63"
+  - "\U0001F1F8\U0001F1EC SG 64"
+  - "\U0001F1F0\U0001F1F7 KR 65"
+  - "\U0001F1E8\U0001F1F3 HK 66"
+  - "\U0001F1E9\U0001F1EA DE 67"
+  - "\U0001F1EF\U0001F1F5 JP 68"
+  - "\U0001F1E9\U0001F1EA DE 69"
+  - "\U0001F1F8\U0001F1EC SG 70"
+  - "\U0001F1E6\U0001F1FA AU 71"
+  - "\U0001F1FB\U0001F1F3 VN 72"
+  - "\U0001F1E6\U0001F1FA AU 73"
+  - "\U0001F1E8\U0001F1F3 HK 74"
+  - "\U0001F1EE\U0001F1F3 IN 75"
+  - "\U0001F1EC\U0001F1E7 GB 76"
   - "\U0001F1FA\U0001F1F8 US 77"
-  - "\U0001F1F0\U0001F1F7 KR 78"
-  - "\U0001F1F0\U0001F1FF KZ 79"
-  - "\U0001F1E8\U0001F1F3 CN 80"
-  - "\U0001F1E9\U0001F1EA DE 81"
-  - "\U0001F1E8\U0001F1F3 CN 82"
-  - "\U0001F1E8\U0001F1F3 HK 83"
-  - "\U0001F1EF\U0001F1F5 JP 84"
-  - "\U0001F1F0\U0001F1F7 KR 85"
-  - "\U0001F1F0\U0001F1F7 KR 86"
+  - "\U0001F1EF\U0001F1F5 JP 78"
+  - "\U0001F1FA\U0001F1F8 US 79"
+  - "\U0001F1FA\U0001F1F3 UN 80"
+  - "\U0001F1EC\U0001F1E7 GB 81"
+  - "\U0001F1EF\U0001F1F5 JP 82"
+  - "\U0001F1E8\U0001F1F3 CN 83"
+  - "\U0001F1F7\U0001F1FA RU 84"
+  - "\U0001F1EF\U0001F1F5 JP 85"
+  - "\U0001F1EF\U0001F1F5 JP 86"
   - "\U0001F1F0\U0001F1F7 KR 87"
-  - "\U0001F1EF\U0001F1F5 JP 88"
-  - "\U0001F1EE\U0001F1F3 IN 89"
-  - "\U0001F1E8\U0001F1F3 MO 90"
+  - "\U0001F1F0\U0001F1F7 KR 88"
+  - "\U0001F1EF\U0001F1F5 JP 89"
+  - "\U0001F1EE\U0001F1F3 IN 90"
   - "\U0001F1E8\U0001F1F3 CN 91"
   - "\U0001F1E8\U0001F1F3 CN 92"
   - "\U0001F1E8\U0001F1F3 CN 93"
   - "\U0001F1E8\U0001F1F3 CN 94"
-  - "\U0001F1E8\U0001F1F3 CN 95"
-  - "\U0001F1E8\U0001F1F3 CN 96"
-  - "\U0001F1E8\U0001F1F3 CN 97"
-  - "\U0001F1E8\U0001F1F3 CN 98"
-  - "\U0001F1E8\U0001F1F3 CN 99"
-  - "\U0001F1E8\U0001F1F3 CN 100"
-  - "\U0001F1E8\U0001F1F3 CN 101"
-  - "\U0001F1E8\U0001F1F3 CN 102"
-  - "\U0001F1E8\U0001F1F3 CN 103"
-  - "\U0001F1E8\U0001F1F3 CN 104"
-  - "\U0001F1E8\U0001F1F3 CN 105"
+  - "\U0001F1E8\U0001F1F3 HK 95"
+  - "\U0001F1E8\U0001F1F3 HK 96"
+  - "\U0001F1FA\U0001F1F8 US 97"
+  - "\U0001F1FA\U0001F1F8 US 98"
+  - "\U0001F1F0\U0001F1F7 KR 99"
+  - "\U0001F1EF\U0001F1F5 JP 100"
+  - "\U0001F1F0\U0001F1F7 KR 101"
+  - "\U0001F1F0\U0001F1F7 KR 102"
+  - "\U0001F1EF\U0001F1F5 JP 103"
+  - "\U0001F1EF\U0001F1F5 JP 104"
+  - "\U0001F1F0\U0001F1F7 KR 105"
   - "\U0001F1E8\U0001F1F3 CN 106"
   - "\U0001F1E8\U0001F1F3 CN 107"
   - "\U0001F1E8\U0001F1F3 CN 108"
-  - "\U0001F1E8\U0001F1F3 CN 109"
+  - "\U0001F1F0\U0001F1F7 KR 109"
   - "\U0001F1E8\U0001F1F3 CN 110"
   - "\U0001F1E8\U0001F1F3 CN 111"
-  - "\U0001F1E8\U0001F1F3 CN 112"
-  - "\U0001F1E8\U0001F1F3 CN 113"
-  - "\U0001F1E8\U0001F1F3 CN 114"
+  - "\U0001F1F8\U0001F1EC SG 112"
+  - "\U0001F1EE\U0001F1F3 IN 113"
+  - "\U0001F1E8\U0001F1F3 TW 114"
   - "\U0001F1E8\U0001F1F3 CN 115"
-  - "\U0001F1E8\U0001F1F3 CN 116"
+  - "\U0001F1E8\U0001F1F3 TW 116"
   - "\U0001F1E8\U0001F1F3 CN 117"
   - "\U0001F1E8\U0001F1F3 CN 118"
   - "\U0001F1E8\U0001F1F3 CN 119"
@@ -4473,197 +1812,13 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 122"
   - "\U0001F1E8\U0001F1F3 CN 123"
   - "\U0001F1E8\U0001F1F3 CN 124"
-  - "\U0001F1E8\U0001F1F3 CN 125"
-  - "\U0001F1E8\U0001F1F3 CN 126"
-  - "\U0001F1E8\U0001F1F3 CN 127"
-  - "\U0001F1E8\U0001F1F3 CN 128"
-  - "\U0001F1E8\U0001F1F3 CN 129"
-  - "\U0001F1E8\U0001F1F3 CN 130"
-  - "\U0001F1E8\U0001F1F3 CN 131"
-  - "\U0001F1E8\U0001F1F3 CN 132"
-  - "\U0001F1E8\U0001F1F3 CN 133"
-  - "\U0001F1E8\U0001F1F3 CN 134"
-  - "\U0001F1E8\U0001F1F3 CN 135"
-  - "\U0001F1E8\U0001F1F3 CN 136"
-  - "\U0001F1E8\U0001F1F3 CN 137"
-  - "\U0001F1E8\U0001F1F3 CN 138"
-  - "\U0001F1E8\U0001F1F3 CN 139"
-  - "\U0001F1E8\U0001F1F3 CN 140"
-  - "\U0001F1E8\U0001F1F3 CN 141"
-  - "\U0001F1E8\U0001F1F3 CN 142"
-  - "\U0001F1E8\U0001F1F3 CN 143"
-  - "\U0001F1E8\U0001F1F3 CN 144"
-  - "\U0001F1E8\U0001F1F3 CN 145"
-  - "\U0001F1E8\U0001F1F3 CN 146"
-  - "\U0001F1E8\U0001F1F3 CN 147"
-  - "\U0001F1E8\U0001F1F3 CN 148"
-  - "\U0001F1E8\U0001F1F3 CN 149"
-  - "\U0001F1E8\U0001F1F3 CN 150"
-  - "\U0001F1E8\U0001F1F3 CN 151"
-  - "\U0001F1E8\U0001F1F3 CN 152"
-  - "\U0001F1E8\U0001F1F3 CN 153"
-  - "\U0001F1E8\U0001F1F3 CN 154"
-  - "\U0001F1E8\U0001F1F3 CN 155"
-  - "\U0001F1E8\U0001F1F3 CN 156"
-  - "\U0001F1E8\U0001F1F3 CN 157"
-  - "\U0001F1E8\U0001F1F3 CN 158"
-  - "\U0001F1E8\U0001F1F3 CN 159"
-  - "\U0001F1E8\U0001F1F3 CN 160"
-  - "\U0001F1E8\U0001F1F3 CN 161"
-  - "\U0001F1E8\U0001F1F3 CN 162"
-  - "\U0001F1E8\U0001F1F3 CN 163"
-  - "\U0001F1E8\U0001F1F3 CN 164"
-  - "\U0001F1E8\U0001F1F3 CN 165"
-  - "\U0001F1E8\U0001F1F3 CN 166"
-  - "\U0001F1E8\U0001F1F3 CN 167"
-  - "\U0001F1E8\U0001F1F3 CN 168"
-  - "\U0001F1E8\U0001F1F3 CN 169"
-  - "\U0001F1E8\U0001F1F3 CN 170"
-  - "\U0001F1E8\U0001F1F3 CN 171"
-  - "\U0001F1E8\U0001F1F3 CN 172"
-  - "\U0001F1E8\U0001F1F3 CN 173"
-  - "\U0001F1E8\U0001F1F3 CN 174"
-  - "\U0001F1E8\U0001F1F3 CN 175"
-  - "\U0001F1E8\U0001F1F3 CN 176"
-  - "\U0001F1E8\U0001F1F3 CN 177"
-  - "\U0001F1E8\U0001F1F3 CN 178"
-  - "\U0001F1E8\U0001F1F3 CN 179"
-  - "\U0001F1E8\U0001F1F3 CN 180"
-  - "\U0001F1E8\U0001F1F3 CN 181"
-  - "\U0001F1E8\U0001F1F3 CN 182"
-  - "\U0001F1E8\U0001F1F3 CN 183"
-  - "\U0001F1E8\U0001F1F3 CN 184"
-  - "\U0001F1E8\U0001F1F3 CN 185"
-  - "\U0001F1E8\U0001F1F3 CN 186"
-  - "\U0001F1E8\U0001F1F3 CN 187"
-  - "\U0001F1E8\U0001F1F3 CN 188"
-  - "\U0001F1E8\U0001F1F3 CN 189"
-  - "\U0001F1E8\U0001F1F3 CN 190"
-  - "\U0001F1E8\U0001F1F3 CN 191"
-  - "\U0001F1E8\U0001F1F3 CN 192"
-  - "\U0001F1E8\U0001F1F3 CN 193"
-  - "\U0001F1E8\U0001F1F3 CN 194"
-  - "\U0001F1E8\U0001F1F3 CN 195"
-  - "\U0001F1E8\U0001F1F3 CN 196"
-  - "\U0001F1E8\U0001F1F3 CN 197"
-  - "\U0001F1E8\U0001F1F3 CN 198"
-  - "\U0001F1E8\U0001F1F3 CN 199"
-  - "\U0001F1E8\U0001F1F3 CN 200"
-  - "\U0001F1E8\U0001F1F3 CN 201"
-  - "\U0001F1E8\U0001F1F3 CN 202"
-  - "\U0001F1E8\U0001F1F3 CN 203"
-  - "\U0001F1E8\U0001F1F3 CN 204"
-  - "\U0001F1E8\U0001F1F3 CN 205"
-  - "\U0001F1E8\U0001F1F3 CN 206"
-  - "\U0001F1E8\U0001F1F3 CN 207"
-  - "\U0001F1E8\U0001F1F3 CN 208"
-  - "\U0001F1E8\U0001F1F3 CN 209"
-  - "\U0001F1E8\U0001F1F3 CN 210"
-  - "\U0001F1E8\U0001F1F3 CN 211"
-  - "\U0001F1E8\U0001F1F3 CN 212"
-  - "\U0001F1E8\U0001F1F3 CN 213"
-  - "\U0001F1E8\U0001F1F3 CN 214"
-  - "\U0001F1E8\U0001F1F3 CN 215"
-  - "\U0001F1E8\U0001F1F3 CN 216"
-  - "\U0001F1E8\U0001F1F3 CN 217"
-  - "\U0001F1E8\U0001F1F3 CN 218"
-  - "\U0001F1E8\U0001F1F3 CN 219"
-  - "\U0001F1E8\U0001F1F3 CN 220"
-  - "\U0001F1E8\U0001F1F3 CN 221"
-  - "\U0001F1E8\U0001F1F3 CN 222"
-  - "\U0001F1E8\U0001F1F3 CN 223"
-  - "\U0001F1E8\U0001F1F3 CN 224"
-  - "\U0001F1E8\U0001F1F3 CN 225"
-  - "\U0001F1E8\U0001F1F3 CN 226"
-  - "\U0001F1E8\U0001F1F3 CN 227"
-  - "\U0001F1E8\U0001F1F3 CN 228"
-  - "\U0001F1E8\U0001F1F3 CN 229"
-  - "\U0001F1E8\U0001F1F3 CN 230"
-  - "\U0001F1E8\U0001F1F3 CN 231"
-  - "\U0001F1E8\U0001F1F3 CN 232"
-  - "\U0001F1E8\U0001F1F3 CN 233"
-  - "\U0001F1E8\U0001F1F3 CN 234"
-  - "\U0001F1E8\U0001F1F3 CN 235"
-  - "\U0001F1E8\U0001F1F3 CN 236"
-  - "\U0001F1E8\U0001F1F3 CN 237"
-  - "\U0001F1E8\U0001F1F3 CN 238"
-  - "\U0001F1E8\U0001F1F3 CN 239"
-  - "\U0001F1E8\U0001F1F3 CN 240"
-  - "\U0001F1E8\U0001F1F3 CN 241"
-  - "\U0001F1E8\U0001F1F3 CN 242"
-  - "\U0001F1E8\U0001F1F3 CN 243"
-  - "\U0001F1E8\U0001F1F3 CN 244"
-  - "\U0001F1E8\U0001F1F3 CN 245"
-  - "\U0001F1E8\U0001F1F3 CN 246"
-  - "\U0001F1E8\U0001F1F3 CN 247"
-  - "\U0001F1E8\U0001F1F3 CN 248"
-  - "\U0001F1E8\U0001F1F3 CN 249"
-  - "\U0001F1E8\U0001F1F3 CN 250"
-  - "\U0001F1E8\U0001F1F3 CN 251"
-  - "\U0001F1E8\U0001F1F3 CN 252"
-  - "\U0001F1E8\U0001F1F3 CN 253"
-  - "\U0001F1E8\U0001F1F3 CN 254"
-  - "\U0001F1E8\U0001F1F3 CN 255"
-  - "\U0001F1E8\U0001F1F3 CN 256"
-  - "\U0001F1E8\U0001F1F3 CN 257"
-  - "\U0001F1E8\U0001F1F3 CN 258"
-  - "\U0001F1E8\U0001F1F3 CN 259"
-  - "\U0001F1E8\U0001F1F3 CN 260"
-  - "\U0001F1E8\U0001F1F3 CN 261"
-  - "\U0001F1E8\U0001F1F3 CN 262"
-  - "\U0001F1E8\U0001F1F3 CN 263"
-  - "\U0001F1F0\U0001F1F7 KR 264"
-  - "\U0001F1F0\U0001F1F7 KR 265"
-  - "\U0001F1F0\U0001F1F7 KR 266"
-  - "\U0001F1F0\U0001F1F7 KR 267"
-  - "\U0001F1F0\U0001F1F7 KR 268"
-  - "\U0001F1F0\U0001F1F7 KR 269"
-  - "\U0001F1F0\U0001F1F7 KR 270"
-  - "\U0001F1E8\U0001F1F3 TW 271"
-  - "\U0001F1E8\U0001F1F3 TW 272"
-  - "\U0001F1EC\U0001F1E7 GB 273"
-  - "\U0001F1F0\U0001F1F7 KR 274"
-  - "\U0001F1E8\U0001F1F3 HK 275"
-  - "\U0001F1EF\U0001F1F5 JP 276"
-  - "\U0001F1F0\U0001F1F7 KR 277"
-  - "\U0001F1EF\U0001F1F5 JP 278"
-  - "\U0001F1EF\U0001F1F5 JP 279"
-  - "\U0001F1F0\U0001F1F7 KR 280"
-  - "\U0001F1F0\U0001F1F7 KR 281"
-  - "\U0001F1E8\U0001F1F3 CN 282"
-  - "\U0001F1F0\U0001F1F7 KR 283"
-  - "\U0001F1F0\U0001F1F7 KR 284"
-  - "\U0001F1F0\U0001F1F7 KR 285"
-  - "\U0001F1F0\U0001F1F7 KR 286"
-  - "\U0001F1F0\U0001F1F7 KR 287"
-  - "\U0001F1F0\U0001F1F7 KR 288"
-  - "\U0001F1F0\U0001F1F7 KR 289"
-  - "\U0001F1F0\U0001F1F7 KR 290"
-  - "\U0001F1F0\U0001F1F7 KR 291"
-  - "\U0001F1E8\U0001F1F3 CN 292"
-  - "\U0001F1F0\U0001F1F7 KR 293"
-  - "\U0001F1E8\U0001F1F3 CN 294"
-  - "\U0001F1F8\U0001F1EC SG 295"
-  - "\U0001F1FA\U0001F1F8 US 296"
-  - "\U0001F1EF\U0001F1F5 JP 297"
-  - "\U0001F1EF\U0001F1F5 JP 298"
-  - "\U0001F1EF\U0001F1F5 JP 299"
-  - "\U0001F1EE\U0001F1E9 ID 300"
-  - "\U0001F1EE\U0001F1F3 IN 301"
-  - "\U0001F1FB\U0001F1F3 VN 302"
-  - "\U0001F1F8\U0001F1EC SG 303"
-  - "\U0001F1F7\U0001F1FA RU 304"
-  - "\U0001F1EE\U0001F1F3 IN 305"
-  - "\U0001F1E9\U0001F1EA DE 306"
-  - "\U0001F1F8\U0001F1EC SG 307"
-  - "\U0001F1F8\U0001F1EC SG 308"
-  - "\U0001F1F8\U0001F1EC SG 309"
-  - "\U0001F1F8\U0001F1EC SG 310"
-  - "\U0001F1F8\U0001F1EC SG 311"
-  - "\U0001F1F8\U0001F1EC SG 312"
-  - "\U0001F1FA\U0001F1F8 US 313"
-  - "\U0001F1F3\U0001F1F1 NL 314"
-  - "\U0001F1F0\U0001F1F7 KR 315"
-  - "\U0001F1E8\U0001F1F3 HK 316"
+  - "\U0001F1E9\U0001F1EA DE 125"
+  - "\U0001F1F8\U0001F1EC SG 126"
+  - "\U0001F1F8\U0001F1EC SG 127"
+  - "\U0001F1F8\U0001F1EC SG 128"
+  - "\U0001F1F8\U0001F1EC SG 129"
+  - "\U0001F1F3\U0001F1F1 NL 130"
+  - "\U0001F1F0\U0001F1F7 KR 131"
+  - "\U0001F1F0\U0001F1F7 KR 132"
 rules:
 - "MATCH,\U0001F310 Proxy"
