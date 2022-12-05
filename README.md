@@ -19,26 +19,26 @@
 ## 节点信息
 
 ### 已测速节点
-已测速节点数量: `124`
+已测速节点数量: `77`
 
 ### 所有节点
-合并节点总数: `3169`
+合并节点总数: `3233`
 ### 节点来源
 - [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `11`
-- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `55`
-- [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `14`
-- [mianfeifq/share](https://github.com/mianfeifq/share), 节点数量: `224`
-- [freefq/free](https://github.com/freefq/free), 节点数量: `27`
+- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `150`
+- [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `50`
+- [mianfeifq/share](https://github.com/mianfeifq/share), 节点数量: `187`
+- [freefq/free](https://github.com/freefq/free), 节点数量: `22`
 - [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `90`
 - [vpei/Free-Node-Merge](https://github.com/vpei/Free-Node-Merge), 节点数量: `0`
 - [huwo1/proxy_nodes/](https://bitbucket.org/huwo1/proxy_nodes/), 节点数量: `183`
 - [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `42`
 - [openRunner/clash-freenode](https://github.com/openRunner/clash-freenode), 节点数量: `42`
-- [yu-steven/openit](https://github.com/yu-steven/openit), 节点数量: `5`
+- [yu-steven/openit](https://github.com/yu-steven/openit), 节点数量: `4`
 - [kxswa/k](https://github.com/kxswa/k), 节点数量: `0`
 - [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节点数量: `11`
-- [changfengoss](https://github.com/ronghuaxueleng/get_v2), 节点数量: `7`
-- [anaer/Sub](https://github.com/anaer/Sub), 节点数量: `83`
+- [changfengoss](https://github.com/ronghuaxueleng/get_v2), 节点数量: `11`
+- [anaer/Sub](https://github.com/anaer/Sub), 节点数量: `78`
 - [mianfeifq/share](https://github.com/mianfeifq/share), 节点数量: `0`
 - [free886.herokuapp.com](https://free886.herokuapp.com/), 节点数量: `0`
 - [wxshi.top:9090](http://wxshi.top:9090/), 节点数量: `0`
@@ -47,17 +47,17 @@
 - [sspool.herokuapp.com](http://sspool.herokuapp.com/ ), 节点数量: `0`
 - [hellopool.herokuapp.com](https://hellopool.herokuapp.com/ ), 节点数量: `0`
 - [fq.lonxin.net](https://fq.lonxin.net/), 节点数量: `0`
-- [paimonhub/Paimonnode/](https://github.com/paimonhub/Paimonnode/), 节点数量: `96`
+- [paimonhub/Paimonnode/](https://github.com/paimonhub/Paimonnode/), 节点数量: `202`
 - [wrfree/free](https://github.com/wrfree/free), 节点数量: `51`
 - [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), 节点数量: `40`
-- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `17`
+- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `28`
 - [3wking](http://clash.3wking.com:12580), 节点数量: `0`
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), 节点数量: `3907`
 - [1808.ga](https://1808.ga/), 节点数量: `146`
 - [gitlab.com/univstar1](https://gitlab.com/univstar1/v2ray/), 节点数量: `70`
 - [tmp.3320.eu.org/v2ray/](https://tmp.3320.eu.org/v2ray/v2ray.txt), 节点数量: `0`
 - [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `135`
-- [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `22`
+- [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `17`
 
 ## 仓库文档
 <details>
