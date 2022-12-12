@@ -19,30 +19,30 @@
 ## 节点信息
 
 ### 已测速节点
-已测速节点数量: `84`
+已测速节点数量: `0`
 
 ### 所有节点
-合并节点总数: `2909`
+合并节点总数: `3044`
 ### 节点来源
-- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `139`
+- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `52`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `50`
-- [mianfeifq/share](https://github.com/mianfeifq/share), 节点数量: `224`
-- [freefq/free](https://github.com/freefq/free), 节点数量: `31`
+- [mianfeifq/share](https://github.com/mianfeifq/share), 节点数量: `234`
+- [freefq/free](https://github.com/freefq/free), 节点数量: `34`
 - [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `90`
-- [vpei/Free-Node-Merge](https://github.com/vpei/Free-Node-Merge), 节点数量: `293`
-- [huwo.club](https://github.com/colatiger/v2ray-nodes), 节点数量: `62`
-- [kxswa/k](https://github.com/kxswa/k), 节点数量: `25`
+- [vpei/Free-Node-Merge](https://github.com/vpei/Free-Node-Merge), 节点数量: `381`
+- [huwo.club](https://github.com/colatiger/v2ray-nodes), 节点数量: `70`
+- [kxswa/k](https://github.com/kxswa/k), 节点数量: `30`
 - [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节点数量: `30`
 - [changfengoss](https://github.com/ronghuaxueleng/get_v2), 节点数量: `0`
-- [anaer/Sub](https://github.com/anaer/Sub), 节点数量: `150`
+- [anaer/Sub](https://github.com/anaer/Sub), 节点数量: `138`
 - [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `5`
 - [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), 节点数量: `51`
-- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `29`
+- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `32`
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), 节点数量: `4064`
 - [1808.ga](https://1808.ga/), 节点数量: `203`
-- [gitlab.com/univstar1](https://gitlab.com/univstar1/v2ray/), 节点数量: `54`
-- [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `139`
-- [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `22`
+- [gitlab.com/univstar1](https://gitlab.com/univstar1/v2ray/), 节点数量: `33`
+- [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `142`
+- [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `16`
 
 ## 仓库文档
 <details>
