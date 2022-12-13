@@ -4,7 +4,7 @@ name: liteSpeedtest
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["fetch proxy && check"]
+    workflows: ["fetch"]
     types: [completed]
 #  schedule:
 # 表达式生成  https://crontab.guru/ 
