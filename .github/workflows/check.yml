@@ -50,13 +50,13 @@ jobs:
         gunzip clash-linuxamd64.gz
         chmod +x ./clash-linux-amd64 && ./clash-linuxamd64 & 
 # 执行任务            
-    - name: 执行任务 - 1.clashcheck 
-      run:
-       sudo chmod 777 clash-linuxamd64 && python ./utils/checkclash/main.py
+    #- name: 执行任务 - 1.clashcheck 
+      #run:
+       #sudo chmod 777 clash-linuxamd64 && python ./utils/checkclash/main.py
        
-    - name: 执行任务 - 2.convert to sub 
-      run:
-       python ./utils/convert2sub/convert2sub.py
+    #- name: 执行任务 - 2.convert to sub 
+      #run:
+       #python ./utils/convert2sub/convert2sub.py
        
     - name: 执行任务 - 3.convert to sub 
       run:
@@ -74,6 +74,7 @@ jobs:
         git pull origin main
         git add ./sub
         git add README.md
+        git add outpt.yaml
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') check done "
     - name: 推送更改
       uses:  ad-m/github-push-action@master
