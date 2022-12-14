@@ -721,7 +721,7 @@ class sub_convert():
         print('oh,my god ,all url host are bad,sorry no work!...\n')
         return 'bad url Host'
 if __name__ == '__main__':
-    subscribe = 'https://raw.githubusercontent.com/rxsweet/fetchProxy/main/sub/rx64'
+    subscribe = 'https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1'
     output_path = './output.yml'
     sub_convert.use_urlhost()
     content = sub_convert.convert_remote(subscribe,'clash',sub_convert.use_urlhost())
