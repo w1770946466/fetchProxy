@@ -45,7 +45,7 @@ class sub_merge():
             ids = url_list[index]['id']
             remarks = url_list[index]['remarks']
             if content == 'Url 解析错误':
-                content = sub_convert.main(sub_merge.read_list(sub_list_json)[index]['url'],'url','url')
+                content = sub_convert.main(sub_merge.read_list(sub_list_json)[index]['url'],'url','YAML')
                 if content != 'Url 解析错误':
                     content_list.append(content)
                     print(f'Writing content of {remarks} to {ids:0>2d}.txt\n')
