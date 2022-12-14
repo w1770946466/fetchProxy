@@ -58,12 +58,12 @@ jobs:
       #run:
        #python ./utils/convert2sub/convert2sub.py
        
-    - name: 执行任务 - 3.convert to sub 
+    - name: 执行任务 - 1.convert to sub 
       run:
        python ./utils/convert2sub/sub_convert.py
        
        
-    - name: 执行任务 - 4.update readme
+    - name: 执行任务 - 2.update readme
       run:
        python ./utils/readme_update.py
 # 提交           
@@ -74,7 +74,7 @@ jobs:
         git pull origin main
         git add ./sub
         git add README.md
-        git add outpt.yaml
+        git add outpt.yml
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') check done "
     - name: 推送更改
       uses:  ad-m/github-push-action@master
