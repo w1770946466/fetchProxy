@@ -4,7 +4,7 @@ name: check
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["fetchxxx"]
+    workflows: ["fetch"]
     types: [completed]
 #  schedule:
 # 表达式生成  https://crontab.guru/ 
@@ -57,6 +57,7 @@ jobs:
     - name: 执行任务 - 2.convert to sub 
       run:
        python ./utils/convert2sub/convert2sub.py
+       
     - name: 执行任务 - 3.update readme
       run:
        python ./utils/readme_update.py
