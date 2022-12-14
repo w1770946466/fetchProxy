@@ -41,11 +41,11 @@ class sub_merge():
                 os.remove(f)                # 删除所有的备份
 
         for index in range(len(url_list)):
-            content = sub_convert.convert_remote(url_list[index]['url'],'url','http://127.0.0.1:25500') # 将爬取源url地址爬取的内容存放到content
+            content = sub_convert.convert_remote(url_list[index]['url'],'YAML','http://127.0.0.1:25500') # 将爬取源url地址爬取的内容存放到content
             ids = url_list[index]['id']
             remarks = url_list[index]['remarks']
             if content == 'Url 解析错误':
-                content = sub_convert.main(sub_merge.read_list(sub_list_json)[index]['url'],'url','YAML')
+                content = sub_convert.main(sub_merge.read_list(sub_list_json)[index]['url'],'url','url')
                 if content != 'Url 解析错误':
                     content_list.append(content)
                     print(f'Writing content of {remarks} to {ids:0>2d}.txt\n')
