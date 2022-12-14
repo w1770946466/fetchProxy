@@ -41,7 +41,7 @@ class sub_merge():
                 os.remove(f)                # 删除所有的备份
 
         for index in range(len(url_list)):
-            content = sub_convert.convert_remote(url_list[index]['url'],'YAML','http://127.0.0.1:25500') # 将爬取源url地址爬取的内容存放到content
+            content = sub_convert.convert_remote(url_list[index]['url'],'url','http://127.0.0.1:25500') # 将爬取源url地址爬取的内容存放到content
             ids = url_list[index]['id']
             remarks = url_list[index]['remarks']
             if content == 'Url 解析错误':
