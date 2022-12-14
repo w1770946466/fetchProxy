@@ -696,7 +696,7 @@ class sub_convert():
                 sub_content = 'Url 解析错误'
                 print('Url 解析错误: No nodes were found!\n')
             else:
-                sub_content = sub_convert.makeup(sub_convert.format(resp.text), dup_rm_enabled=False, format_name_enabled=True)
+                sub_content = sub_convert.makeup(sub_convert.format(resp.text), dup_rm_enabled=False, format_name_enabled=False)
 
         return sub_content
 
