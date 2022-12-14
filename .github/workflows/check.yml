@@ -58,7 +58,12 @@ jobs:
       run:
        python ./utils/convert2sub/convert2sub.py
        
-    - name: 执行任务 - 3.update readme
+    - name: 执行任务 - 3.convert to sub 
+      run:
+       python ./utils/convert2sub/sub_convert.py
+       
+       
+    - name: 执行任务 - 4.update readme
       run:
        python ./utils/readme_update.py
 # 提交           
